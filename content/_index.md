@@ -39,7 +39,15 @@ Current estimates for the duration of the required R&D program aim for technical
 
 Piggybacking off of planned upgrades for Fermilab's proton complex, there is an opportunity to build a Fermilab-sited muon collider, bringing the energy frontier back to US soil.
 
-## What's next?
+
+<!-- Trying to include subpage summaries here -->
+{{< list limit=2 title="What's happening?" >}}
+
+## How to get involved?
+
+**The international muon collider community is a rapidly growing group that enthusiastically welcomes new members.**
+
+The best way to get involved is to navigate to our [contact](contact/) page and reach out to someone involved. 
 
 |||
 |-|:-|
