@@ -41,33 +41,12 @@ Piggybacking off of planned upgrades for Fermilab's proton complex, there is an 
 
 
 <!-- Trying to include subpage summaries here -->
-{{< list limit=2 title="What's happening?" >}}
+
+{{< list limit=2 where="Type" value="posts" title="What's happening?" >}}
+
 
 ## How to get involved?
 
 **The international muon collider community is a rapidly growing group that enthusiastically welcomes new members.**
 
 The best way to get involved is to navigate to our [contact](contact/) page and reach out to someone involved. 
-
-|||
-|-|:-|
-| <img src="acc.png" height="200" width="200"> | **Accelerator R&D** <br> Recent progress in overcoming technical challenges posed by the muon's lifetime has generated a great deal of excitement for particle physicists.|
-| <img src="reco.png" height="200" width="200"> | **Reconstruction Software** <br> Great progress has been made towards identifying signals and reject muon beam-induced background, but there's still much more to do. Check out software packages here, and join the meetings hosted by IMCC. |
-| | **Detector R&D** <br> Muon colliders provide unprecedented physics reach, superimposed on a challenging beam-induced background. Precision timing, small feature size, and on-chip intelligence are all required to take advantage of these collisions |
-| <img src="imcc.png" height="200" width="200"> | **The IMCC** <br> The International Muon Collider Collaboration (IMCC) is hosted by CERN and securing resources to complete a Muon Collider Design Study before the next European Strategy Report.|
-
-
-<table>
-<tr>
-<td><img src="acc.png" height="200" width="200"></td>
-<td>**Accelerator R&D**</td>
-</tr>
-<tr>
-<td><img src="reco.png" height="200" width="200"></td>
-<td>**Accelerator R&D**</td>
-</tr>
-<tr>
-<td><img src="imcc.png" height="200" width="200"></td>
-<td>**Accelerator R&D**</td>
-</tr>
-</table>
