@@ -24,8 +24,8 @@ weight = 10
 
 
 [[main]]
-name = "News"
-pageRef = "posts"
+name = "Press"
+pageRef = "press"
 identifier = "8ljasnYPMuWu"
 weight = 15
 
@@ -42,6 +42,15 @@ weight = 20
 name = "Resources"
 weight = 30
 
+[[main]]
+name = "Events"
+pageRef = "events"
+identifier = "iHXcDfZoHo"
+weight = 35
+
+[[main]]
+name = "Resources"
+weight = 30
 
 [[main]]
   name = "Relocation Guide For CERN"

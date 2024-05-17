@@ -3,23 +3,6 @@ title: "US Muon Collider Collaboration"
 description: "US Muon Collider Collaboration (USMCC) Information"
 ---
 
-<!-- 
-<div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">
-  <span class="flex items-center ltr:pr-3 rtl:pl-3 text-primary-400">
-    {{< icon "triangle-exclamation" >}}
-  </span>
-  <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">This page is a proposal for an updated website and is very much still under construction! If you've somehow ended up here, please see <a href="uslua.org">uslua.org</a> for more information.</span>
-  </span>
-</div>
- -->
-
-<!-- ```node
-npx blowfish-tools
-```   -->
-
-<!-- {{< youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" >}} -->
-
 
 ## Why a muon collider? 
 
@@ -40,8 +23,7 @@ Current estimates for the duration of the required R&D program aim for technical
 Piggybacking off of planned upgrades for Fermilab's proton complex, there is an opportunity to build a Fermilab-sited muon collider, bringing the energy frontier back to US soil.
 
 
-<!-- Trying to include subpage summaries here -->
-
+<!-- Including posts summaries here -->
 {{< list limit=5 where="Type" value="posts" title="What's next?" >}}
 
 
