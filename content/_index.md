@@ -42,7 +42,7 @@ Piggybacking off of planned upgrades for Fermilab's proton complex, there is an 
 
 <!-- Trying to include subpage summaries here -->
 
-{{< list limit=2 where="Type" value="posts" title="What's happening?" >}}
+{{< list limit=5 where="Type" value="posts" title="What's next?" >}}
 
 
 ## How to get involved?

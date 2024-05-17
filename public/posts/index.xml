@@ -19,6 +19,26 @@
     </item>
     
     <item>
+      <title>Detector R&amp;D</title>
+      <link>//localhost:1313/posts/detector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/detector/</guid>
+      <description>Beam-induced backgrounds create several detector challenge: high occupancies, high rates, and large radiation doses.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/detector/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Physics Studies</title>
+      <link>//localhost:1313/posts/physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/physics/</guid>
+      <description>Combining energy and precision, a muon collider provides unprecedented physics reach.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/physics/feature.png" />
+    </item>
+    
+    <item>
       <title>Reconstruction Software</title>
       <link>//localhost:1313/posts/reconstruction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -26,6 +46,16 @@
       <guid>//localhost:1313/posts/reconstruction/</guid>
       <description>Great progress has been made towards identifying signals and reject muon beam-induced background, but there&amp;rsquo;s still much more to do.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/reconstruction/feature.png" />
+    </item>
+    
+    <item>
+      <title>The IMCC</title>
+      <link>//localhost:1313/posts/imcc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/imcc/</guid>
+      <description>The International Muon Collider Collaboration (IMCC) is hosted by CERN and securing resources to complete a Muon Collider Design Study before the next European Strategy Report.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/imcc/feature.png" />
     </item>
     
   </channel>
