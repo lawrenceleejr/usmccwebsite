@@ -79,6 +79,16 @@
     </item>
     
     <item>
+      <title>Inaugural US Muon Collider Meeting</title>
+      <link>//localhost:1313/event_items_upcoming/2024-08-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_upcoming/2024-08-07/</guid>
+      <description>August 7-9, 2024 &amp;ndash; Fermilab (Batavia, IL)</description>
+      
+    </item>
+    
+    <item>
       <title>MICE brings muon collider closer to reality</title>
       <link>//localhost:1313/press_items/2020-02-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -89,12 +99,72 @@
     </item>
     
     <item>
-      <title>Inaugural US Muon Collider Meeting</title>
-      <link>//localhost:1313/event_items_upcoming/2024-08-07/</link>
+      <title>IMCC Annual Meeting</title>
+      <link>//localhost:1313/event_items_past/2024-03-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/event_items_upcoming/2024-08-07/</guid>
-      <description>August 7-9, 20204 &amp;ndash; Fermilab https://indico.</description>
+      <guid>//localhost:1313/event_items_past/2024-03-12/</guid>
+      <description>March 12-15, 2024 &amp;ndash; CERN (Geneva, Switzerland)</description>
+      
+    </item>
+    
+    <item>
+      <title>Muon-Ion Collider Workshop</title>
+      <link>//localhost:1313/event_items_past/2023-12-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-12-13/</guid>
+      <description>December 13-15, 2023 &amp;ndash; Rice University (Houston, TX)</description>
+      
+    </item>
+    
+    <item>
+      <title>IMCC Annual Meeting</title>
+      <link>//localhost:1313/event_items_past/2023-06-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-06-19/</guid>
+      <description>June 19-22, 2023 &amp;ndash; IJCLab (Orsay, France)</description>
+      
+    </item>
+    
+    <item>
+      <title>Muon4future</title>
+      <link>//localhost:1313/event_items_past/2023-05-29/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-05-29/</guid>
+      <description>May 29 - June 2, 2023 &amp;ndash; Istituto Veneto di Lettere, Scienze ed Arti (Venice, Italy)</description>
+      
+    </item>
+    
+    <item>
+      <title>KITP Muon Collider Workshop</title>
+      <link>//localhost:1313/event_items_past/2023-02-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-02-27/</guid>
+      <description>February 27 - March 10, 2023 &amp;ndash; UCSB (Santa Barbara, CA)</description>
+      
+    </item>
+    
+    <item>
+      <title>Muon Collider Physics &amp; Detector Workshop</title>
+      <link>//localhost:1313/event_items_past/2022-12-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2022-12-14/</guid>
+      <description>December 14-16, 2022 &amp;ndash; Fermilab (Batavia, IL)</description>
+      
+    </item>
+    
+    <item>
+      <title>IMCC Collaboration Meeting</title>
+      <link>//localhost:1313/event_items_past/2022-10-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2022-10-11/</guid>
+      <description>October 11-14, 2022 &amp;ndash; CERN (Geneva, Switzerland)</description>
       
     </item>
     
@@ -120,31 +190,11 @@
     
     <item>
       <title></title>
-      <link>//localhost:1313/events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/events/</guid>
-      <description>Upcoming Events Inaugural US Muon Collider Meeting August 7-9, 20204 &amp;ndash; Fermilab https://indico.</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
       <link>//localhost:1313/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/join/</guid>
       <description>Joining USLUA USLUA registration is done through CERN e-groups.</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>//localhost:1313/press/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press/</guid>
-      <description>Muon Collider in the news This is Our Muon Shot In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
       
     </item>
     
@@ -159,6 +209,16 @@
     </item>
     
     <item>
+      <title>Common Misconceptions</title>
+      <link>//localhost:1313/misconceptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/misconceptions/</guid>
+      <description>Misconception 1: Neutrinos from Muon decays will induce radiation and hazard to humans and the environment: Truth: The design aims to keep radiation levels at the negligible level.</description>
+      
+    </item>
+    
+    <item>
       <title>Detector R&amp;D</title>
       <link>//localhost:1313/posts/detector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -166,6 +226,26 @@
       <guid>//localhost:1313/posts/detector/</guid>
       <description>Beam-induced backgrounds create several detector challenge: high occupancies, high rates, and large radiation doses.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/detector/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>//localhost:1313/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/events/</guid>
+      <description> Upcoming Events Inaugural US Muon Collider Meeting &amp;#8599; &amp;#8598; August 7-9, 2024 &amp;ndash; Fermilab (Batavia, IL) Past Events IMCC Annual Meeting &amp;#8599; &amp;#8598; March 12-15, 2024 &amp;ndash; CERN (Geneva, Switzerland) Muon-Ion Collider Workshop &amp;#8599; &amp;#8598; December 13-15, 2023 &amp;ndash; Rice University (Houston, TX) IMCC Annual Meeting &amp;#8599; &amp;#8598; June 19-22, 2023 &amp;ndash; IJCLab (Orsay, France) Muon4future &amp;#8599; &amp;#8598; May 29 - June 2, 2023 &amp;ndash; Istituto Veneto di Lettere, Scienze ed Arti (Venice, Italy) KITP Muon Collider Workshop &amp;#8599; &amp;#8598; February 27 - March 10, 2023 &amp;ndash; UCSB (Santa Barbara, CA) Muon Collider Physics &amp; Detector Workshop &amp;#8599; &amp;#8598; December 14-16, 2022 &amp;ndash; Fermilab (Batavia, IL) IMCC Collaboration Meeting &amp;#8599; &amp;#8598; October 11-14, 2022 &amp;ndash; CERN (Geneva, Switzerland) </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/events/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Muon Collider in the News</title>
+      <link>//localhost:1313/press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press/</guid>
+      <description>This is Our Muon Shot &amp;#8599; &amp;#8598; In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
+      
     </item>
     
     <item>
@@ -186,6 +266,26 @@
       <guid>//localhost:1313/posts/reconstruction/</guid>
       <description>Great progress has been made towards identifying signals and reject muon beam-induced background, but there&amp;rsquo;s still much more to do.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/reconstruction/feature.png" />
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>//localhost:1313/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/resources/</guid>
+      <description>Learn More Sketching out a muon collider - CERN Courier</description>
+      
+    </item>
+    
+    <item>
+      <title>Show your support for a Muon Collider</title>
+      <link>//localhost:1313/merch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/merch/</guid>
+      <description>Print out a muon collider poster for your physics department hallway (or anywhere else)!</description>
+      
     </item>
     
     <item>
