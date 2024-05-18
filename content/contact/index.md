@@ -41,5 +41,7 @@ Here's a list of US-based speakers you could consider reaching out to:
 * Nathaniel Craig (UCSB)
 * Tova Holmes (Tennessee)
 * Patrick Meade (Stony Brook)
+* Karri DiPetrillo (Chicago)
+* Isobel Ojalvo (Princeton)
 
-If you'd like to be on this list but aren't, send us an email!
+If you'd like to be on this list but aren't, send us an [email](mailto:muon-collider@googlegroups.com)!
