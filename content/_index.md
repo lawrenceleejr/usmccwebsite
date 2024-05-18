@@ -3,7 +3,6 @@ title: "US Muon Collider Collaboration"
 description: "US Muon Collider Collaboration (USMCC) Information"
 ---
 
-
 ## Why a muon collider? 
 
 **A muon collider is the only near-future technology to allow exploration of the 10 TeV scale and beyond.**

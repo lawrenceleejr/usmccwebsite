@@ -1,5 +1,4 @@
 ## Contact:
-
 Send us an email for more information about the muon collider effort or to get involved: muon-collider@googlegroups.com 
 
 
@@ -36,10 +35,11 @@ Our committee consists of the following experts:
   * Daniel Schulte (CERN), Chris Rogers (RAL), Donatella Lucchesi (INFN), Federico Meloni (DESY)
 
 
-## Want to invite a muon collider speaker to your institute?
+## Invite a muon collider speaker to your institute
 Here's a list of US-based speakers you could consider reaching out to:
 * Sergo Jindariani (Fermilab)
 * Nathaniel Craig (UCSB)
 * Tova Holmes (Tennessee)
+* Patrick Meade (Stony Brook)
 
 If you'd like to be on this list but aren't, send us an email!

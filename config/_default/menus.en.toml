@@ -50,11 +50,11 @@ weight = 50
 #identifier = "8ljnYPMuWu"
 #weight = 10
 
-[[main]]
-  identifier = "twitter"
-  pre = "x-twitter"
-  url = "https://twitter.com/MuonCollider"
-  weight = 9991
+#[[main]]
+#  identifier = "twitter"
+#  pre = "x-twitter"
+#  url = "https://twitter.com/MuonCollider"
+#  weight = 9991
 
 [[footer]]
 none = "none"
