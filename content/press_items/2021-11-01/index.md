@@ -1,7 +1,8 @@
 ---
-title: "Muon Colliders Hold a Key to Unraveling New Physics"
+title: "APS News: Muon Colliders Hold a Key to Unraveling New Physics"
 description: "APS News, November 2021"
-weight: 998
+date: "2021-11-01"
+showDate: true
 externalUrl: https://www.aps.org/publications/apsnews/202111/muon.cfm
 cascade:
   showReadingTime: false

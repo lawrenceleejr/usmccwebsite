@@ -1,7 +1,8 @@
 ---
-title: "The Dream Machine"
+title: "Science: The Dream Machine"
 description: "Science, March 28, 2024"
-weight: 993
+showDate: true
+date: 2024-03-28
 externalUrl: https://www.science.org/content/article/muon-collider-could-revolutionize-particle-physics-if-it-can-be-built
 cascade:
   showReadingTime: false

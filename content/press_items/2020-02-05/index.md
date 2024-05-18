@@ -1,8 +1,9 @@
 ---
-title: "MICE brings muon collider closer to reality"
+title: "Symmetry: MICE brings muon collider closer to reality"
 description: "Symmetry, February 5, 2020"
 externalUrl: https://www.symmetrymagazine.org/article/mice-brings-muon-collider-closer-to-reality
-weight: 999
+date: "2020-02-05"
+showDate: true
 cascade:
   showReadingTime: false
 ---

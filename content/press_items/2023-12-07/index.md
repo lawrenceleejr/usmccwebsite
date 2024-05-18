@@ -1,8 +1,9 @@
 ---
-title: "Particle Physicists Offer a Road Map for the Next Decade"
+title: "New York Times: Particle Physicists Offer a Road Map for the Next Decade"
 description: "New York Times, December 7, 2023"
 externalUrl: https://www.nytimes.com/2023/12/07/science/particle-physics-muon-collider.html
-weight: 995
+showDate: true
+date: 2023-12-07
 cascade:
   showReadingTime: false
 ---

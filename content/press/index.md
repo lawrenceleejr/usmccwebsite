@@ -1,6 +1,6 @@
-
 ---
 title: Muon Collider in the News
+layout: simple
 ---
 
 <!--## Muon Collider in the News-->

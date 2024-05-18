@@ -7,77 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>This is Our Muon Shot</title>
-      <link>//localhost:1313/press_items/2024-04-10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2024-04-10/</guid>
-      <description>In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-04-10/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>The Dream Machine</title>
-      <link>//localhost:1313/press_items/2024-03-28/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2024-03-28/</guid>
-      <description>A muon collider could be much smaller and cheaper than a functionally equivalent proton collider, advocates say.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-28/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Shooting for a Muon Collider</title>
-      <link>//localhost:1313/press_items/2024-03-27/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2024-03-27/</guid>
-      <description>The physics landscape has changed.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-27/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Particle Physicists Offer a Road Map for the Next Decade</title>
-      <link>//localhost:1313/press_items/2023-12-07/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2023-12-07/</guid>
-      <description>A “muon shot” aims to study the basic forces of the cosmos.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-12-07/feature.png" />
-    </item>
-    
-    <item>
-      <title>Particle Physicists Dream of a Muon Collider</title>
-      <link>//localhost:1313/press_items/2023-08-28/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2023-08-28/</guid>
-      <description>Particle physicists are unlikely evangelists, but in papers, at conferences and with T-shirts, stickers and memes, many of them are spreading the good word of a muon collider—a next-generation machine that would smash together muons, the massive cousins of electrons.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-08-28/feature.jpg" />
-    </item>
-    
-    <item>
-      <title>Particle physicists want to build the world’s first muon collider</title>
-      <link>//localhost:1313/press_items/2022-08-08/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2022-08-08/</guid>
-      <description>Momentum is growing to build a particle collider in the United States that smashes muons — heavier cousins of electrons.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2022-08-08/feature.png" />
-    </item>
-    
-    <item>
-      <title>Muon Colliders Hold a Key to Unraveling New Physics</title>
-      <link>//localhost:1313/press_items/2021-11-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2021-11-01/</guid>
-      <description>As the discovery of the Higgs boson approaches its 10-year anniversary, physicists are busy building on its legacy.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2021-11-01/feature.jpg" />
-    </item>
-    
+    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inaugural US Muon Collider Meeting</title>
       <link>//localhost:1313/event_items_upcoming/2024-08-07/</link>
@@ -86,16 +16,6 @@
       <guid>//localhost:1313/event_items_upcoming/2024-08-07/</guid>
       <description>August 7-9, 2024 &amp;ndash; Fermilab (Batavia, IL)</description>
       
-    </item>
-    
-    <item>
-      <title>MICE brings muon collider closer to reality</title>
-      <link>//localhost:1313/press_items/2020-02-05/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/press_items/2020-02-05/</guid>
-      <description>Scientists have announced a breakthrough that could be key to the creation of a powerful new kind of particle collider.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2020-02-05/feature.jpeg" />
     </item>
     
     <item>
@@ -166,6 +86,86 @@
       <guid>//localhost:1313/event_items_past/2022-10-11/</guid>
       <description>October 11-14, 2022 &amp;ndash; CERN (Geneva, Switzerland)</description>
       
+    </item>
+    
+    <item>
+      <title>Symmetry: This is Our Muon Shot</title>
+      <link>//localhost:1313/press_items/2024-04-10/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2024-04-10/</guid>
+      <description>In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-04-10/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Science: The Dream Machine</title>
+      <link>//localhost:1313/press_items/2024-03-28/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2024-03-28/</guid>
+      <description>A muon collider could be much smaller and cheaper than a functionally equivalent proton collider, advocates say.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-28/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>CERN Courier: Shooting for a Muon Collider</title>
+      <link>//localhost:1313/press_items/2024-03-27/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2024-03-27/</guid>
+      <description>The physics landscape has changed.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-27/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>New York Times: Particle Physicists Offer a Road Map for the Next Decade</title>
+      <link>//localhost:1313/press_items/2023-12-07/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2023-12-07/</guid>
+      <description>A “muon shot” aims to study the basic forces of the cosmos.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-12-07/feature.png" />
+    </item>
+    
+    <item>
+      <title>Scientific American: Particle Physicists Dream of a Muon Collider</title>
+      <link>//localhost:1313/press_items/2023-08-28/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2023-08-28/</guid>
+      <description>Particle physicists are unlikely evangelists, but in papers, at conferences and with T-shirts, stickers and memes, many of them are spreading the good word of a muon collider—a next-generation machine that would smash together muons, the massive cousins of electrons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-08-28/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Nature: Particle physicists want to build the world’s first muon collider</title>
+      <link>//localhost:1313/press_items/2022-08-08/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2022-08-08/</guid>
+      <description>Momentum is growing to build a particle collider in the United States that smashes muons — heavier cousins of electrons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2022-08-08/feature.png" />
+    </item>
+    
+    <item>
+      <title>APS News: Muon Colliders Hold a Key to Unraveling New Physics</title>
+      <link>//localhost:1313/press_items/2021-11-01/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2021-11-01/</guid>
+      <description>As the discovery of the Higgs boson approaches its 10-year anniversary, physicists are busy building on its legacy.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2021-11-01/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Symmetry: MICE brings muon collider closer to reality</title>
+      <link>//localhost:1313/press_items/2020-02-05/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2020-02-05/</guid>
+      <description>Scientists have announced a breakthrough that could be key to the creation of a powerful new kind of particle collider.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2020-02-05/feature.jpeg" />
     </item>
     
     <item>
@@ -244,7 +244,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/press/</guid>
-      <description>This is Our Muon Shot &amp;#8599; &amp;#8598; In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
+      <description>Symmetry: This is Our Muon Shot &amp;#8599; &amp;#8598; 10 April 2024 In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
       
     </item>
     

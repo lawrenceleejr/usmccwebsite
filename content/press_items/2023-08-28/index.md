@@ -1,8 +1,9 @@
 ---
-title: "Particle Physicists Dream of a Muon Collider"
+title: "Scientific American: Particle Physicists Dream of a Muon Collider"
 description: "Scientific American, August 28, 2023"
 externalUrl: https://www.scientificamerican.com/article/particle-physicists-dream-of-a-muon-collider/
-weight: 996
+showDate: true
+date: 2023-08-23
 cascade:
   showReadingTime: false
 ---

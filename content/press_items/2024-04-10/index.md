@@ -1,8 +1,9 @@
 ---
-title: "This is Our Muon Shot"
+title: "Symmetry: This is Our Muon Shot"
 description: "Symmetry, April 10, 2024"
-weight: 992
 externalUrl: https://www.symmetrymagazine.org/article/this-is-our-muon-shot
+showDate: true
+date: 2024-04-10
 cascade:
   showReadingTime: false
 ---
