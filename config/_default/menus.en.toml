@@ -58,3 +58,7 @@ weight = 50
 
 [[footer]]
 none = "none"
+
+[[footer]]
+name = "Email us"
+url = "mailto:muon-collider@googlegroups.com"
