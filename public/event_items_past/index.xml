@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event_items_pasts on US Muon Collider Collaboration</title>
+    <link>//localhost:1313/event_items_past/</link>
+    <description>Recent content in Event_items_pasts on US Muon Collider Collaboration</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <atom:link href="//localhost:1313/event_items_past/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inaugural US Muon Collider Meeting</title>
+      <link>//localhost:1313/event_items_past/2024-08-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2024-08-07/</guid>
+      <description>August 7-9, 20204 &amp;ndash; Fermilab</description>
+      
+    </item>
+    
+  </channel>
+</rss>

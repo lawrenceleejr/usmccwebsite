@@ -1,4 +1,6 @@
-<!--## Muon Collider in the News-->
+
+
+<!--## Events-->
 
 {{< figure src="Muon-Collider-Group.jpg" >}}
 
