@@ -24,6 +24,10 @@ title: Resources
 
 [Mark Palmer @ SLAC](https://stanford.zoom.us/rec/play/Ct6wMUaUPUadLWj49M-q7kAoCu2OV_9lZRfQ-CpB97MR0WqfacP-6wioOuB48QXJsCAXrApNTxkZ_uvp.DWZ5SXzo2N-B7i79)
 
+[Patrick Meade @ Toronto](https://youtu.be/6o_p27vAykU?si=Y5OrobqqcLyQ3pBX)
+
+[Karri DiPetrillo @ Sydney CPPC](https://www.youtube.com/watch?v=4bnTRqXPQPI)
+
 ## Papers
 
 [Towards a Muon Collider](https://arxiv.org/abs/2303.08533) - EPJC
