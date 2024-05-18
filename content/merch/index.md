@@ -1,5 +1,6 @@
 ---
 title: "Show your support for a Muon Collider"
+showTableOfContents: false
 ---
 
 Print out a [muon collider poster](https://drive.google.com/file/d/1luxc2P_MLTvUHs6BN1eAIqwWOtGeyOT0/view) for your physics department hallway (or anywhere else)! You can also order our designs on many objects, from shirts, to mugs, to shower curtains.

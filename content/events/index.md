@@ -1,6 +1,8 @@
-
 ---
 title: Events
+showHero: true 
+heroStyle: background
+layoutBackgroundHeaderSpace: false
 ---
 
 
