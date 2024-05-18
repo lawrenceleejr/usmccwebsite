@@ -6,7 +6,7 @@ Print out a [muon collider poster](https://drive.google.com/file/d/1luxc2P_MLTvU
 
 {{< gallery >}}
 	<img src="01.jpg" class="grid-w33" />
-	<img src="02.jpg" class="grid-w33" />
+	<img src="02.png" class="grid-w33" />
 	<img src="03.jpg" class="grid-w33" />
 	<img src="04.jpg" class="grid-w33" />
 	<img src="05.jpg" class="grid-w33" />
