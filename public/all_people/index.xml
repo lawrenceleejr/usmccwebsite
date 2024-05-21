@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All_people on US Muon Collider Collaboration</title>
+    <link>//localhost:1313/all_people/</link>
+    <description>Recent content in All_people on US Muon Collider Collaboration</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <atom:link href="//localhost:1313/all_people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alexander Tuna</title>
+      <link>//localhost:1313/all_people/alexandertuna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/alexandertuna/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/alexandertuna/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Ben Rosser</title>
+      <link>//localhost:1313/all_people/benrosser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/benrosser/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/benrosser/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Karri DiPetrillo</title>
+      <link>//localhost:1313/all_people/karridipetrillo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/karridipetrillo/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/karridipetrillo/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Larry Lee</title>
+      <link>//localhost:1313/all_people/larrylee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/larrylee/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/larrylee/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Leo Rozanov</title>
+      <link>//localhost:1313/all_people/leorozanov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/leorozanov/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/leorozanov/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Micah Hillman</title>
+      <link>//localhost:1313/all_people/micahhillman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/micahhillman/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/micahhillman/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Tova Holmes</title>
+      <link>//localhost:1313/all_people/tovaholmes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/tovaholmes/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tovaholmes/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

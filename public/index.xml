@@ -209,6 +209,26 @@
     </item>
     
     <item>
+      <title>Alexander Tuna</title>
+      <link>//localhost:1313/all_people/alexandertuna/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/alexandertuna/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/alexandertuna/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Ben Rosser</title>
+      <link>//localhost:1313/all_people/benrosser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/benrosser/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/benrosser/featured.jpg" />
+    </item>
+    
+    <item>
       <title>Common Misconceptions</title>
       <link>//localhost:1313/misconceptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -236,6 +256,56 @@
       <guid>//localhost:1313/events/</guid>
       <description> Upcoming Events Inaugural US Muon Collider Meeting &amp;#8599; &amp;#8598; August 7-9, 2024 &amp;ndash; Fermilab (Batavia, IL) Past Events IMCC Annual Meeting &amp;#8599; &amp;#8598; March 12-15, 2024 &amp;ndash; CERN (Geneva, Switzerland) Muon-Ion Collider Workshop &amp;#8599; &amp;#8598; December 13-15, 2023 &amp;ndash; Rice University (Houston, TX) IMCC Annual Meeting &amp;#8599; &amp;#8598; June 19-22, 2023 &amp;ndash; IJCLab (Orsay, France) Muon4future &amp;#8599; &amp;#8598; May 29 - June 2, 2023 &amp;ndash; Istituto Veneto di Lettere, Scienze ed Arti (Venice, Italy) KITP Muon Collider Workshop &amp;#8599; &amp;#8598; February 27 - March 10, 2023 &amp;ndash; UCSB (Santa Barbara, CA) Muon Collider Physics &amp; Detector Workshop &amp;#8599; &amp;#8598; December 14-16, 2022 &amp;ndash; Fermilab (Batavia, IL) IMCC Collaboration Meeting &amp;#8599; &amp;#8598; October 11-14, 2022 &amp;ndash; CERN (Geneva, Switzerland) </description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/events/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Karri DiPetrillo</title>
+      <link>//localhost:1313/all_people/karridipetrillo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/karridipetrillo/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/karridipetrillo/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Larry Lee</title>
+      <link>//localhost:1313/all_people/larrylee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/larrylee/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/larrylee/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Leo Rozanov</title>
+      <link>//localhost:1313/all_people/leorozanov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/leorozanov/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/leorozanov/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Meet the people working on a Muon Collider</title>
+      <link>//localhost:1313/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/people/</guid>
+      <description> University of Chicago Ben Rosser &amp;#8599; &amp;#8598; Postdoc, Experiment Karri DiPetrillo &amp;#8599; &amp;#8598; Assistant Professor, Experiment Leo Rozanov &amp;#8599; &amp;#8598; Undergrad, Experiment University of Tennessee, Knoxville Alexander Tuna &amp;#8599; &amp;#8598; Postdoc, Experiment Larry Lee &amp;#8599; &amp;#8598; Assistant Professor, Experiment Micah Hillman &amp;#8599; &amp;#8598; Undergrad, Experiment Tova Holmes &amp;#8599; &amp;#8598; Assistant Professor, Experiment </description>
+      
+    </item>
+    
+    <item>
+      <title>Micah Hillman</title>
+      <link>//localhost:1313/all_people/micahhillman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/micahhillman/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/micahhillman/featured.jpg" />
     </item>
     
     <item>
@@ -296,6 +366,16 @@
       <guid>//localhost:1313/posts/imcc/</guid>
       <description>The International Muon Collider Collaboration (IMCC) is hosted by CERN and securing resources to complete a Muon Collider Design Study before the next European Strategy Report.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/imcc/feature.png" />
+    </item>
+    
+    <item>
+      <title>Tova Holmes</title>
+      <link>//localhost:1313/all_people/tovaholmes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/tovaholmes/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tovaholmes/featured.jpg" />
     </item>
     
   </channel>
