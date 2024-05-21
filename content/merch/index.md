@@ -9,13 +9,13 @@ Print out a [muon collider poster](https://drive.google.com/file/d/1luxc2P_MLTvU
 All muon collider merchandise can be purchased via [Redbubble](https://www.redbubble.com/people/muon-collider/explore?asc=u&page=1&sortOrder=recent).
 
 {{< gallery >}}
-	<img src="01.jpg" class="grid-w33" />
-	<img src="02.png" class="grid-w33" />
-	<img src="03.jpg" class="grid-w33" />
-	<img src="04.jpg" class="grid-w33" />
-	<img src="05.jpg" class="grid-w33" />
-	<img src="06.jpg" class="grid-w33" />
-	<img src="07.png" class="grid-w33" />
-	<img src="08.png" class="grid-w33" />
+	<img src="01.jpg" class="grid-w25" />
+	<img src="02.png" class="grid-w25" />
+	<img src="03.jpg" class="grid-w25" />
+	<img src="04.jpg" class="grid-w25" />
+	<img src="05.jpg" class="grid-w25" />
+	<img src="06.jpg" class="grid-w25" />
+	<img src="07.png" class="grid-w25" />
+	<img src="08.png" class="grid-w25" />
 {{< /gallery >}}
 
