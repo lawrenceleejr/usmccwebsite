@@ -9,13 +9,23 @@
     
     <atom:link href="//localhost:1313/all_people/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Abhishikth Mallampalli</title>
+      <link>//localhost:1313/all_people/abhishikthmallampalli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/abhishikthmallampalli/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/abhishikthmallampalli/featured.png" />
+    </item>
+    
+    <item>
       <title>Alexander Tuna</title>
       <link>//localhost:1313/all_people/alexandertuna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/all_people/alexandertuna/</guid>
       <description>Postdoc, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/alexandertuna/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/alexandertuna/featured.png" />
     </item>
     
     <item>
@@ -25,7 +35,7 @@
       
       <guid>//localhost:1313/all_people/benrosser/</guid>
       <description>Postdoc, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/benrosser/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/benrosser/featured.png" />
     </item>
     
     <item>
@@ -35,7 +45,17 @@
       
       <guid>//localhost:1313/all_people/karridipetrillo/</guid>
       <description>Assistant Professor, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/karridipetrillo/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/karridipetrillo/feature_KarriDiPetrillo.jpg" />
+    </item>
+    
+    <item>
+      <title>Kevin  Black</title>
+      <link>//localhost:1313/all_people/kevin-black/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/kevin-black/</guid>
+      <description>Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevin-black/feature_Kevin%20Black.jpeg" />
     </item>
     
     <item>
@@ -45,7 +65,7 @@
       
       <guid>//localhost:1313/all_people/larrylee/</guid>
       <description>Assistant Professor, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/larrylee/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/larrylee/feature_LarryLee.jpg" />
     </item>
     
     <item>
@@ -55,7 +75,7 @@
       
       <guid>//localhost:1313/all_people/leorozanov/</guid>
       <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/leorozanov/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/leorozanov/featured.png" />
     </item>
     
     <item>
@@ -65,7 +85,67 @@
       
       <guid>//localhost:1313/all_people/micahhillman/</guid>
       <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/micahhillman/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/micahhillman/featured.png" />
+    </item>
+    
+    <item>
+      <title>Patrick Meade</title>
+      <link>//localhost:1313/all_people/patrickmeade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/patrickmeade/</guid>
+      <description>Professor, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/patrickmeade/feature_PatrickMeade.jpg" />
+    </item>
+    
+    <item>
+      <title>Ruaa Alharthy</title>
+      <link>//localhost:1313/all_people/ruaaalharthy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/ruaaalharthy/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/ruaaalharthy/feature_RuaaAlharthy.jpg" />
+    </item>
+    
+    <item>
+      <title>Saketh Parella</title>
+      <link>//localhost:1313/all_people/sakethparella/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/sakethparella/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sakethparella/featured.png" />
+    </item>
+    
+    <item>
+      <title>Shivani Lomte</title>
+      <link>//localhost:1313/all_people/shivanilomte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/shivanilomte/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/shivanilomte/feature_ShivaniLomte.jpg" />
+    </item>
+    
+    <item>
+      <title>Simone Pagan Griso</title>
+      <link>//localhost:1313/all_people/simonepagan-griso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/simonepagan-griso/</guid>
+      <description>Senior Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/simonepagan-griso/featured.png" />
+    </item>
+    
+    <item>
+      <title>Sridhara Dasu</title>
+      <link>//localhost:1313/all_people/sridharadasu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/sridharadasu/</guid>
+      <description>Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sridharadasu/feature_SridharaDasu.jpg" />
     </item>
     
     <item>
@@ -75,7 +155,7 @@
       
       <guid>//localhost:1313/all_people/tovaholmes/</guid>
       <description>Assistant Professor, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tovaholmes/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tovaholmes/feature_TovaHolmes.jpg" />
     </item>
     
   </channel>

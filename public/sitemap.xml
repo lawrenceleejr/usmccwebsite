@@ -110,7 +110,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:parella@wisc.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/merch/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:spagangriso@lbl.gov</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
