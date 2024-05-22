@@ -204,7 +204,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/all_people/abdollahmohammadi/</guid>
-      <description>Scientist , Experiment</description>
+      <description>Scientist, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/abdollahmohammadi/featured.png" />
     </item>
     
@@ -279,6 +279,16 @@
     </item>
     
     <item>
+      <title>Devlin Jenkins</title>
+      <link>//localhost:1313/all_people/devlinjenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/devlinjenkins/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/devlinjenkins/featured.png" />
+    </item>
+    
+    <item>
       <title>Events</title>
       <link>//localhost:1313/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -296,6 +306,16 @@
       <guid>//localhost:1313/all_people/isobelojalvo/</guid>
       <description>Assistant Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/isobelojalvo/featured.png" />
+    </item>
+    
+    <item>
+      <title>Kane Huang</title>
+      <link>//localhost:1313/all_people/kanehuang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/kanehuang/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kanehuang/featured.png" />
     </item>
     
     <item>
@@ -339,12 +359,52 @@
     </item>
     
     <item>
+      <title>Luciano Ristori</title>
+      <link>//localhost:1313/all_people/lucianoristori/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/lucianoristori/</guid>
+      <description>Senior Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/lucianoristori/featured.png" />
+    </item>
+    
+    <item>
+      <title>Luke Carpenter</title>
+      <link>//localhost:1313/all_people/lukecarpenter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/lukecarpenter/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/lukecarpenter/featured.png" />
+    </item>
+    
+    <item>
+      <title>Mark Palmer</title>
+      <link>//localhost:1313/all_people/markpalmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/markpalmer/</guid>
+      <description>Senior Scientist, Accelerator</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/markpalmer/featured.png" />
+    </item>
+    
+    <item>
+      <title>Martin Kwok</title>
+      <link>//localhost:1313/all_people/martinkwok/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/martinkwok/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/martinkwok/featured.png" />
+    </item>
+    
+    <item>
       <title>Meet the US people working on a Muon Collider</title>
       <link>//localhost:1313/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/people/</guid>
-      <description> University of Wisconsin - Madison Abdollah Mohammadi Scientist , Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Daniel Ally Graduate Student, Experiment Larry Lee Assistant Professor, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso Senior Scientist, Experiment Stony Brook University Patrick Meade Professor, Theory Princeton University Isobel Ojalvo Assistant Professor, Experiment Fermilab Sergo Jindariani Senior Scientist, Experiment </description>
+      <description> University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Sergo Jindariani Senior Scientist, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso Senior Scientist, Experiment Stony Brook University Patrick Meade Professor, Theory Princeton University Isobel Ojalvo Assistant Professor, Experiment Brookhaven National Laboratory Mark Palmer Senior Scientist, Accelerator </description>
       
     </item>
     
@@ -366,6 +426,16 @@
       <guid>//localhost:1313/press/</guid>
       <description>Symmetry: This is Our Muon Shot &amp;#8599; &amp;#8598; 10 April 2024 In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
       
+    </item>
+    
+    <item>
+      <title>Noah Virani</title>
+      <link>//localhost:1313/all_people/noahvirani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/noahvirani/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/noahvirani/featured.png" />
     </item>
     
     <item>
@@ -416,6 +486,16 @@
       <guid>//localhost:1313/all_people/ruaaalharthy/</guid>
       <description>Graduate Student, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/ruaaalharthy/feature_RuaaAlharthy.jpg" />
+    </item>
+    
+    <item>
+      <title>Ryan Michaud</title>
+      <link>//localhost:1313/all_people/ryanmichaud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/ryanmichaud/</guid>
+      <description>Undergrad, Accelerator</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/ryanmichaud/featured.png" />
     </item>
     
     <item>
@@ -476,6 +556,16 @@
       <guid>//localhost:1313/all_people/sridharadasu/</guid>
       <description>Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sridharadasu/feature_SridharaDasu.jpg" />
+    </item>
+    
+    <item>
+      <title>Tate Flicker</title>
+      <link>//localhost:1313/all_people/tateflicker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/tateflicker/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tateflicker/featured.png" />
     </item>
     
     <item>

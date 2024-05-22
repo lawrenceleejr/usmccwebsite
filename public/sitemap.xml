@@ -60,6 +60,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:djenki32@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/event_items_past/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -75,7 +80,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:kanhuang@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/ailto:lrozanov@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:lcarpen9@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ww.linkedin.com/in/mark-palmer-97957449</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -91,6 +111,11 @@
   </url>
   <url>
     <loc>//localhost:1313/press/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:noahvirani@uchicago.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -115,6 +140,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:ryanmichaud@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/ailto:parella@wisc.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -126,6 +156,11 @@
   </url>
   <url>
     <loc>//localhost:1313/ailto:spagangriso@lbl.gov</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:tateflicker@uchicago.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
