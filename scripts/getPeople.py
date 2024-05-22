@@ -20,9 +20,9 @@ def getInstTag(inst):
     result = re.sub('[\W_]+', '', inst)
     return result
 
-# Get data and list of institutes
+# Get data and list of institutes and sort by size
 df = pd.read_csv(url)
-institutions = sorted(df["institution"].unique())
+institutions = df['institution'].value_counts().index.tolist()
 
 # Remove everything if hard_reset
 if hard_reset:
@@ -66,10 +66,11 @@ output_file = f"{target_dir}/index.md"
 with open(output_file, "w") as f:
     f.write("---\n")
     f.write("title: Meet the people working on a Muon Collider\n")
-    f.write("layout: simple\n")
+    #f.write("layout: simple\n")
     f.write("---\n")
 
     for inst in institutions:
         f.write("\n\n")
-        f.write(f'{{{{< people limit=20 title="{inst}" cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
+        f.write(f"## {inst}\n")
+        f.write(f'{{{{< people limit=20 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
 

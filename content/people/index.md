@@ -1,19 +1,23 @@
 ---
 title: Meet the people working on a Muon Collider
-layout: simple
 ---
 
 
-{{< people limit=20 title="Lawrence Berkeley National Laboratory" cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
+## University of Wisconsin - Madison
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofwisconsinmadison" >}}
 
 
-{{< people limit=20 title="Stony Brook University" cardView=true where="Type" value="stonybrookuniversity" >}}
+## University of Tennessee, Knoxville
+{{< people limit=20 title=" " cardView=true where="Type" value="universityoftennesseeknoxville" >}}
 
 
-{{< people limit=20 title="University of Chicago" cardView=true where="Type" value="universityofchicago" >}}
+## University of Chicago
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofchicago" >}}
 
 
-{{< people limit=20 title="University of Tennessee, Knoxville" cardView=true where="Type" value="universityoftennesseeknoxville" >}}
+## Lawrence Berkeley National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
 
 
-{{< people limit=20 title="University of Wisconsin - Madison" cardView=true where="Type" value="universityofwisconsinmadison" >}}
+## Stony Brook University
+{{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
