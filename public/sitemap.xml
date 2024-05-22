@@ -50,6 +50,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:dally@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/posts/detector/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

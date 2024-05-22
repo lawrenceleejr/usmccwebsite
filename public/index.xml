@@ -199,6 +199,16 @@
     </item>
     
     <item>
+      <title>Abdollah Mohammadi</title>
+      <link>//localhost:1313/all_people/abdollahmohammadi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/abdollahmohammadi/</guid>
+      <description>Scientist , Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/abdollahmohammadi/featured.png" />
+    </item>
+    
+    <item>
       <title>Abhishikth Mallampalli</title>
       <link>//localhost:1313/all_people/abhishikthmallampalli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -246,6 +256,16 @@
       <guid>//localhost:1313/misconceptions/</guid>
       <description>Misconception 1: Neutrinos from Muon decays will induce radiation and hazard to humans and the environment: Truth: The design aims to keep radiation levels at the negligible level.</description>
       
+    </item>
+    
+    <item>
+      <title>Daniel Ally</title>
+      <link>//localhost:1313/all_people/danielally/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/danielally/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielally/featured.png" />
     </item>
     
     <item>
@@ -314,7 +334,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/people/</guid>
-      <description> University of Wisconsin - Madison Abhishikth Mallampalli &amp;#8599; &amp;#8598; Graduate Student, Experiment Kevin Black &amp;#8599; &amp;#8598; Professor, Experiment Ruaa Alharthy &amp;#8599; &amp;#8598; Graduate Student, Experiment Saketh Parella &amp;#8599; &amp;#8598; Undergrad, Experiment Shivani Lomte &amp;#8599; &amp;#8598; Graduate Student, Experiment Sridhara Dasu &amp;#8599; &amp;#8598; Professor, Experiment University of Tennessee, Knoxville Alexander Tuna &amp;#8599; &amp;#8598; Postdoc, Experiment Larry Lee &amp;#8599; &amp;#8598; Assistant Professor, Experiment Micah Hillman &amp;#8599; &amp;#8598; Undergrad, Experiment Tova Holmes &amp;#8599; &amp;#8598; Assistant Professor, Experiment University of Chicago Ben Rosser &amp;#8599; &amp;#8598; Postdoc, Experiment Karri DiPetrillo &amp;#8599; &amp;#8598; Assistant Professor, Experiment Leo Rozanov &amp;#8599; &amp;#8598; Undergrad, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso &amp;#8599; &amp;#8598; Senior Scientist, Experiment Stony Brook University Patrick Meade &amp;#8599; &amp;#8598; Professor, Theory </description>
+      <description> University of Wisconsin - Madison Abdollah Mohammadi &amp;#8599; &amp;#8598; Scientist , Experiment Abhishikth Mallampalli &amp;#8599; &amp;#8598; Graduate Student, Experiment Kevin Black &amp;#8599; &amp;#8598; Professor, Experiment Ruaa Alharthy &amp;#8599; &amp;#8598; Graduate Student, Experiment Saketh Parella &amp;#8599; &amp;#8598; Undergrad, Experiment Shivani Lomte &amp;#8599; &amp;#8598; Graduate Student, Experiment Sridhara Dasu &amp;#8599; &amp;#8598; Professor, Experiment University of Tennessee, Knoxville Alexander Tuna &amp;#8599; &amp;#8598; Postdoc, Experiment Daniel Ally &amp;#8599; &amp;#8598; Graduate Student, Experiment Larry Lee &amp;#8599; &amp;#8598; Assistant Professor, Experiment Micah Hillman &amp;#8599; &amp;#8598; Undergrad, Experiment Tova Holmes &amp;#8599; &amp;#8598; Assistant Professor, Experiment University of Chicago Ben Rosser &amp;#8599; &amp;#8598; Postdoc, Experiment Karri DiPetrillo &amp;#8599; &amp;#8598; Assistant Professor, Experiment Leo Rozanov &amp;#8599; &amp;#8598; Undergrad, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso &amp;#8599; &amp;#8598; Senior Scientist, Experiment Stony Brook University Patrick Meade &amp;#8599; &amp;#8598; Professor, Theory </description>
       
     </item>
     

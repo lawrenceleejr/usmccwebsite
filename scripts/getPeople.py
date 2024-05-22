@@ -33,20 +33,34 @@ if hard_reset:
 for i, entry in df.iterrows():
 
     # Put data in paths based on the person's name
-    fname = f"{entry['first']}{entry['last']}"
+    fname = f"{entry['first']}{entry['last']}".replace(" ","")
     person_path = f"{data_dir}{fname}/"
     if not os.path.exists(person_path): os.mkdir(person_path)
+    print("Adding", fname)
 
     # Try to access photo from spreadsheet if it's not already there
     if not os.path.exists(f"{person_path}/feature_{fname}.*"):
         got_photo = False
-        if type(entry["photo"]) == type(""):
-            extension = entry["photo"].split(".")[-1]
-            if extension in ["png", "jpg", "jpeg"]:
-                wget.download(entry["photo"], out=f"{data_dir}{fname}/feature_{fname}.{extension}")
-                got_photo = True
-                if os.path.exists(f"{person_path}featured.png"):
-                    os.remove(f"{person_path}featured.png")
+
+        # Start by just checking the saved photos directory
+        photos = glob.glob(f"saved_photos/{fname}*")
+        if len(photos)>0:
+            shutil.copy(photos[0], f"{person_path}featured.png")
+            got_photo = True
+
+        # If there's nothing there, use the spreadsheet
+        if not got_photo:
+            if type(entry["photo"]) == type(""):
+                extension = entry["photo"].split(".")[-1]
+                if extension in ["png", "jpg", "jpeg"]:
+                    try:
+                        wget.download(entry["photo"], out=f"{data_dir}{fname}/feature_{fname}.{extension}")
+                        got_photo = True
+                        if os.path.exists(f"{person_path}featured.png"):
+                            os.remove(f"{person_path}featured.png")
+                    except:
+                        print("Failed to retrieve image for", fname)
+
         # If this fails, copy the default photo to their path
         if not got_photo:
             shutil.copy("featured.png", f"{person_path}featured.png")
