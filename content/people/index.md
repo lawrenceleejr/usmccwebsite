@@ -1,5 +1,5 @@
 ---
-title: Meet the people working on a Muon Collider
+title: Meet the US people working on a Muon Collider
 ---
 
 

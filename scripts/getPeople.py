@@ -65,7 +65,7 @@ for i, entry in df.iterrows():
 output_file = f"{target_dir}/index.md"
 with open(output_file, "w") as f:
     f.write("---\n")
-    f.write("title: Meet the people working on a Muon Collider\n")
+    f.write("title: Meet the US people working on a Muon Collider\n")
     #f.write("layout: simple\n")
     f.write("---\n")
 
