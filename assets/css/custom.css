@@ -1,3 +1,22 @@
 .gap-people {
   gap:0.5rem
 }
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-3 {
+    grid-template-columns:repeat(3, minmax(0, 1fr))
+  }
+
+    .sm\:thumbnail_card {
+    height: 150px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+}
+
+@media (min-width: 853px) {
+  .md\:grid-cols-4 {
+    grid-template-columns:repeat(4, minmax(0, 1fr))
+  }
+}

@@ -289,6 +289,16 @@
     </item>
     
     <item>
+      <title>Isobel Ojalvo</title>
+      <link>//localhost:1313/all_people/isobelojalvo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/isobelojalvo/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/isobelojalvo/featured.png" />
+    </item>
+    
+    <item>
       <title>Karri DiPetrillo</title>
       <link>//localhost:1313/all_people/karridipetrillo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -300,12 +310,12 @@
     
     <item>
       <title>Kevin  Black</title>
-      <link>//localhost:1313/all_people/kevin-black/</link>
+      <link>//localhost:1313/all_people/kevinblack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/kevin-black/</guid>
+      <guid>//localhost:1313/all_people/kevinblack/</guid>
       <description>Professor, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevin-black/feature_Kevin%20Black.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinblack/feature_KevinBlack.jpeg" />
     </item>
     
     <item>
@@ -334,7 +344,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/people/</guid>
-      <description> University of Wisconsin - Madison Abdollah Mohammadi &amp;#8599; &amp;#8598; Scientist , Experiment Abhishikth Mallampalli &amp;#8599; &amp;#8598; Graduate Student, Experiment Kevin Black &amp;#8599; &amp;#8598; Professor, Experiment Ruaa Alharthy &amp;#8599; &amp;#8598; Graduate Student, Experiment Saketh Parella &amp;#8599; &amp;#8598; Undergrad, Experiment Shivani Lomte &amp;#8599; &amp;#8598; Graduate Student, Experiment Sridhara Dasu &amp;#8599; &amp;#8598; Professor, Experiment University of Tennessee, Knoxville Alexander Tuna &amp;#8599; &amp;#8598; Postdoc, Experiment Daniel Ally &amp;#8599; &amp;#8598; Graduate Student, Experiment Larry Lee &amp;#8599; &amp;#8598; Assistant Professor, Experiment Micah Hillman &amp;#8599; &amp;#8598; Undergrad, Experiment Tova Holmes &amp;#8599; &amp;#8598; Assistant Professor, Experiment University of Chicago Ben Rosser &amp;#8599; &amp;#8598; Postdoc, Experiment Karri DiPetrillo &amp;#8599; &amp;#8598; Assistant Professor, Experiment Leo Rozanov &amp;#8599; &amp;#8598; Undergrad, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso &amp;#8599; &amp;#8598; Senior Scientist, Experiment Stony Brook University Patrick Meade &amp;#8599; &amp;#8598; Professor, Theory </description>
+      <description> University of Wisconsin - Madison Abdollah Mohammadi Scientist , Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Daniel Ally Graduate Student, Experiment Larry Lee Assistant Professor, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso Senior Scientist, Experiment Stony Brook University Patrick Meade Professor, Theory Princeton University Isobel Ojalvo Assistant Professor, Experiment Fermilab Sergo Jindariani Senior Scientist, Experiment </description>
       
     </item>
     
@@ -419,6 +429,16 @@
     </item>
     
     <item>
+      <title>Sergo  Jindariani</title>
+      <link>//localhost:1313/all_people/sergojindariani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/sergojindariani/</guid>
+      <description>Senior Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sergojindariani/featured.png" />
+    </item>
+    
+    <item>
       <title>Shivani Lomte</title>
       <link>//localhost:1313/all_people/shivanilomte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -440,12 +460,12 @@
     
     <item>
       <title>Simone Pagan Griso</title>
-      <link>//localhost:1313/all_people/simonepagan-griso/</link>
+      <link>//localhost:1313/all_people/simonepagangriso/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/simonepagan-griso/</guid>
+      <guid>//localhost:1313/all_people/simonepagangriso/</guid>
       <description>Senior Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/simonepagan-griso/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/simonepagangriso/featured.png" />
     </item>
     
     <item>

@@ -59,6 +59,16 @@
     </item>
     
     <item>
+      <title>Isobel Ojalvo</title>
+      <link>//localhost:1313/all_people/isobelojalvo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/isobelojalvo/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/isobelojalvo/featured.png" />
+    </item>
+    
+    <item>
       <title>Karri DiPetrillo</title>
       <link>//localhost:1313/all_people/karridipetrillo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,12 +80,12 @@
     
     <item>
       <title>Kevin  Black</title>
-      <link>//localhost:1313/all_people/kevin-black/</link>
+      <link>//localhost:1313/all_people/kevinblack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/kevin-black/</guid>
+      <guid>//localhost:1313/all_people/kevinblack/</guid>
       <description>Professor, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevin-black/feature_Kevin%20Black.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinblack/feature_KevinBlack.jpeg" />
     </item>
     
     <item>
@@ -139,6 +149,16 @@
     </item>
     
     <item>
+      <title>Sergo  Jindariani</title>
+      <link>//localhost:1313/all_people/sergojindariani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/sergojindariani/</guid>
+      <description>Senior Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sergojindariani/featured.png" />
+    </item>
+    
+    <item>
       <title>Shivani Lomte</title>
       <link>//localhost:1313/all_people/shivanilomte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -150,12 +170,12 @@
     
     <item>
       <title>Simone Pagan Griso</title>
-      <link>//localhost:1313/all_people/simonepagan-griso/</link>
+      <link>//localhost:1313/all_people/simonepagangriso/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/simonepagan-griso/</guid>
+      <guid>//localhost:1313/all_people/simonepagangriso/</guid>
       <description>Senior Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/simonepagan-griso/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/simonepagangriso/featured.png" />
     </item>
     
     <item>

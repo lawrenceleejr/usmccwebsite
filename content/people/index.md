@@ -21,3 +21,11 @@ title: Meet the US people working on a Muon Collider
 
 ## Stony Brook University
 {{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
+
+
+## Princeton University
+{{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
+
+
+## Fermilab
+{{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
