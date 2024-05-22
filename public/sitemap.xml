@@ -45,6 +45,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:cbell73@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/misconceptions/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

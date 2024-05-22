@@ -49,6 +49,16 @@
     </item>
     
     <item>
+      <title>Charles Bell</title>
+      <link>//localhost:1313/all_people/charlesbell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/charlesbell/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/charlesbell/feature_CharlesBell.png" />
+    </item>
+    
+    <item>
       <title>Daniel Ally</title>
       <link>//localhost:1313/all_people/danielally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -249,6 +249,16 @@
     </item>
     
     <item>
+      <title>Charles Bell</title>
+      <link>//localhost:1313/all_people/charlesbell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/charlesbell/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/charlesbell/feature_CharlesBell.png" />
+    </item>
+    
+    <item>
       <title>Common Misconceptions</title>
       <link>//localhost:1313/misconceptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -404,7 +414,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/people/</guid>
-      <description> University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Sergo Jindariani Senior Scientist, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso Senior Scientist, Experiment Stony Brook University Patrick Meade Professor, Theory Princeton University Isobel Ojalvo Assistant Professor, Experiment Brookhaven National Laboratory Mark Palmer Senior Scientist, Accelerator </description>
+      <description> University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Charles Bell Undergrad, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Sergo Jindariani Senior Scientist, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso Senior Scientist, Experiment Stony Brook University Patrick Meade Professor, Theory Princeton University Isobel Ojalvo Assistant Professor, Experiment Brookhaven National Laboratory Mark Palmer Senior Scientist, Accelerator </description>
       
     </item>
     
