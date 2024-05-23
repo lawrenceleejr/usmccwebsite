@@ -15,7 +15,7 @@
       
       <guid>//localhost:1313/press_items/2024-04-10/</guid>
       <description>In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-04-10/feature.jpg" />
+      
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       
       <guid>//localhost:1313/press_items/2024-03-28/</guid>
       <description>A muon collider could be much smaller and cheaper than a functionally equivalent proton collider, advocates say.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-28/feature.jpg" />
+      
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       
       <guid>//localhost:1313/press_items/2024-03-27/</guid>
       <description>The physics landscape has changed.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-27/feature.jpg" />
+      
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       
       <guid>//localhost:1313/press_items/2023-12-07/</guid>
       <description>A “muon shot” aims to study the basic forces of the cosmos.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-12-07/feature.png" />
+      
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       
       <guid>//localhost:1313/press_items/2023-08-28/</guid>
       <description>Particle physicists are unlikely evangelists, but in papers, at conferences and with T-shirts, stickers and memes, many of them are spreading the good word of a muon collider—a next-generation machine that would smash together muons, the massive cousins of electrons.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-08-28/feature.jpg" />
+      
     </item>
     
     <item>
@@ -65,7 +65,7 @@
       
       <guid>//localhost:1313/press_items/2022-08-08/</guid>
       <description>Momentum is growing to build a particle collider in the United States that smashes muons — heavier cousins of electrons.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2022-08-08/feature.png" />
+      
     </item>
     
     <item>
@@ -75,7 +75,7 @@
       
       <guid>//localhost:1313/press_items/2021-11-01/</guid>
       <description>As the discovery of the Higgs boson approaches its 10-year anniversary, physicists are busy building on its legacy.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2021-11-01/feature.jpg" />
+      
     </item>
     
     <item>
@@ -85,7 +85,7 @@
       
       <guid>//localhost:1313/press_items/2020-02-05/</guid>
       <description>Scientists have announced a breakthrough that could be key to the creation of a powerful new kind of particle collider.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2020-02-05/feature.jpeg" />
+      
     </item>
     
   </channel>
