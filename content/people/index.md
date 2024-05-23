@@ -19,6 +19,10 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
 
+## Brookhaven National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
+
+
 ## Lawrence Berkeley National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
 
@@ -31,10 +35,6 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
 
-## Brookhaven National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
-
-
 ## Argonne National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}
 
@@ -45,3 +45,11 @@ title: Meet the US people working on a Muon Collider
 
 ## MIT
 {{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
+
+
+## University of Florida
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
+
+
+## Harvard University
+{{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}

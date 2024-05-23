@@ -15,7 +15,7 @@
       
       <guid>//localhost:1313/posts/accelerator/</guid>
       <description>Recent progress in overcoming technical challenges posed by the muon&amp;rsquo;s lifetime has generated a great deal of excitement for particle physicists.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/accelerator/feature.png" />
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       
       <guid>//localhost:1313/posts/detector/</guid>
       <description>Beam-induced backgrounds create several detector challenge: high occupancies, high rates, and large radiation doses.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/detector/feature.jpg" />
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       
       <guid>//localhost:1313/posts/physics/</guid>
       <description>Combining energy and precision, a muon collider provides unprecedented physics reach.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/physics/feature.png" />
     </item>
     
     <item>
@@ -45,7 +45,7 @@
       
       <guid>//localhost:1313/posts/reconstruction/</guid>
       <description>Great progress has been made towards identifying signals and reject muon beam-induced background, but there&amp;rsquo;s still much more to do.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/reconstruction/feature.png" />
     </item>
     
     <item>
@@ -55,7 +55,7 @@
       
       <guid>//localhost:1313/posts/imcc/</guid>
       <description>The International Muon Collider Collaboration (IMCC) is hosted by CERN and securing resources to complete a Muon Collider Design Study before the next European Strategy Report.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/imcc/feature.png" />
     </item>
     
   </channel>
