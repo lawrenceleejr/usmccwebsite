@@ -3,6 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>//localhost:1313/press_items/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/about/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/contact/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/join/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/accelerator/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/all_people/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -13,7 +45,92 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:ccesar@mit.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:cbell73@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/misconceptions/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:dally@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:danielfu@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/detector/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:djenki32@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/event_items_past/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/event_items_upcoming/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/events/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:jsberg@bnl.gov</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:john.dervan@cern.ch</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:kanhuang@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:kileykennedy@princeton.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/ailto:lrozanov@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:lcarpen9@vols.utk.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ww.linkedin.com/in/mark-palmer-97957449</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/people/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -23,12 +140,62 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/press/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:noahvirani@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/physics/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/reconstruction/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/resources/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:ryanmichaud@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:parella@wisc.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/merch/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/ailto:spagangriso@lbl.gov</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>//localhost:1313/ailto:tateflicker@uchicago.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/imcc/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

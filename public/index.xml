@@ -9,6 +9,226 @@
     
     <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Inaugural US Muon Collider Meeting</title>
+      <link>//localhost:1313/event_items_upcoming/2024-08-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_upcoming/2024-08-07/</guid>
+      <description>August 7-9, 2024 &amp;ndash; Fermilab (Batavia, IL)</description>
+      
+    </item>
+    
+    <item>
+      <title>IMCC Annual Meeting</title>
+      <link>//localhost:1313/event_items_past/2024-03-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2024-03-12/</guid>
+      <description>March 12-15, 2024 &amp;ndash; CERN (Geneva, Switzerland)</description>
+      
+    </item>
+    
+    <item>
+      <title>Muon-Ion Collider Workshop</title>
+      <link>//localhost:1313/event_items_past/2023-12-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-12-13/</guid>
+      <description>December 13-15, 2023 &amp;ndash; Rice University (Houston, TX)</description>
+      
+    </item>
+    
+    <item>
+      <title>IMCC Annual Meeting</title>
+      <link>//localhost:1313/event_items_past/2023-06-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-06-19/</guid>
+      <description>June 19-22, 2023 &amp;ndash; IJCLab (Orsay, France)</description>
+      
+    </item>
+    
+    <item>
+      <title>Muon4future</title>
+      <link>//localhost:1313/event_items_past/2023-05-29/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-05-29/</guid>
+      <description>May 29 - June 2, 2023 &amp;ndash; Istituto Veneto di Lettere, Scienze ed Arti (Venice, Italy)</description>
+      
+    </item>
+    
+    <item>
+      <title>KITP Muon Collider Workshop</title>
+      <link>//localhost:1313/event_items_past/2023-02-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2023-02-27/</guid>
+      <description>February 27 - March 10, 2023 &amp;ndash; UCSB (Santa Barbara, CA)</description>
+      
+    </item>
+    
+    <item>
+      <title>Muon Collider Physics &amp; Detector Workshop</title>
+      <link>//localhost:1313/event_items_past/2022-12-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2022-12-14/</guid>
+      <description>December 14-16, 2022 &amp;ndash; Fermilab (Batavia, IL)</description>
+      
+    </item>
+    
+    <item>
+      <title>IMCC Collaboration Meeting</title>
+      <link>//localhost:1313/event_items_past/2022-10-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/event_items_past/2022-10-11/</guid>
+      <description>October 11-14, 2022 &amp;ndash; CERN (Geneva, Switzerland)</description>
+      
+    </item>
+    
+    <item>
+      <title>Symmetry: This is Our Muon Shot</title>
+      <link>//localhost:1313/press_items/2024-04-10/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2024-04-10/</guid>
+      <description>In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-04-10/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Science: The Dream Machine</title>
+      <link>//localhost:1313/press_items/2024-03-28/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2024-03-28/</guid>
+      <description>A muon collider could be much smaller and cheaper than a functionally equivalent proton collider, advocates say.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-28/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>CERN Courier: Shooting for a Muon Collider</title>
+      <link>//localhost:1313/press_items/2024-03-27/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2024-03-27/</guid>
+      <description>The physics landscape has changed.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2024-03-27/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>New York Times: Particle Physicists Offer a Road Map for the Next Decade</title>
+      <link>//localhost:1313/press_items/2023-12-07/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2023-12-07/</guid>
+      <description>A “muon shot” aims to study the basic forces of the cosmos.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-12-07/feature.png" />
+    </item>
+    
+    <item>
+      <title>Scientific American: Particle Physicists Dream of a Muon Collider</title>
+      <link>//localhost:1313/press_items/2023-08-28/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2023-08-28/</guid>
+      <description>Particle physicists are unlikely evangelists, but in papers, at conferences and with T-shirts, stickers and memes, many of them are spreading the good word of a muon collider—a next-generation machine that would smash together muons, the massive cousins of electrons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2023-08-28/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Nature: Particle physicists want to build the world’s first muon collider</title>
+      <link>//localhost:1313/press_items/2022-08-08/</link>
+      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2022-08-08/</guid>
+      <description>Momentum is growing to build a particle collider in the United States that smashes muons — heavier cousins of electrons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2022-08-08/feature.png" />
+    </item>
+    
+    <item>
+      <title>APS News: Muon Colliders Hold a Key to Unraveling New Physics</title>
+      <link>//localhost:1313/press_items/2021-11-01/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2021-11-01/</guid>
+      <description>As the discovery of the Higgs boson approaches its 10-year anniversary, physicists are busy building on its legacy.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2021-11-01/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Symmetry: MICE brings muon collider closer to reality</title>
+      <link>//localhost:1313/press_items/2020-02-05/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press_items/2020-02-05/</guid>
+      <description>Scientists have announced a breakthrough that could be key to the creation of a powerful new kind of particle collider.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/press_items/2020-02-05/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/about/</guid>
+      <description>About US LUA Executive Committee The members of the current Executive Committee are (with term dates):</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/contact/</guid>
+      <description>Contact: Send us an email for more information about the muon collider effort or to get involved: muon-collider@googlegroups.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/join/</guid>
+      <description>Joining USLUA USLUA registration is done through CERN e-groups.</description>
+      
+    </item>
+    
+    <item>
+      <title>Abdollah Mohammadi</title>
+      <link>//localhost:1313/all_people/abdollahmohammadi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/abdollahmohammadi/</guid>
+      <description>Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/abdollahmohammadi/featured.png" />
+    </item>
+    
+    <item>
+      <title>Abhishikth Mallampalli</title>
+      <link>//localhost:1313/all_people/abhishikthmallampalli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/abhishikthmallampalli/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/abhishikthmallampalli/featured.png" />
+    </item>
+    
+    <item>
+      <title>Accelerator R&amp;D</title>
+      <link>//localhost:1313/posts/accelerator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/accelerator/</guid>
+      <description>Recent progress in overcoming technical challenges posed by the muon&amp;rsquo;s lifetime has generated a great deal of excitement for particle physicists.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/accelerator/feature.png" />
+    </item>
+    
+    <item>
       <title>Alexander Tuna</title>
       <link>//localhost:1313/all_people/alexandertuna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,6 +249,136 @@
     </item>
     
     <item>
+      <title>Cari Cesarotti</title>
+      <link>//localhost:1313/all_people/caricesarotti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/caricesarotti/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/caricesarotti/featured.png" />
+    </item>
+    
+    <item>
+      <title>Charles Bell</title>
+      <link>//localhost:1313/all_people/charlesbell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/charlesbell/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/charlesbell/feature_CharlesBell.png" />
+    </item>
+    
+    <item>
+      <title>Common Misconceptions</title>
+      <link>//localhost:1313/misconceptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/misconceptions/</guid>
+      <description>Misconception 1: Neutrinos from Muon decays will induce radiation and hazard to humans and the environment: Truth: The design aims to keep radiation levels at the negligible level.</description>
+      
+    </item>
+    
+    <item>
+      <title>Daniel Ally</title>
+      <link>//localhost:1313/all_people/danielally/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/danielally/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielally/featured.png" />
+    </item>
+    
+    <item>
+      <title>Daniel Fu</title>
+      <link>//localhost:1313/all_people/danielfu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/danielfu/</guid>
+      <description>Undergrad, Accelerator</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielfu/featured.png" />
+    </item>
+    
+    <item>
+      <title>Detector R&amp;D</title>
+      <link>//localhost:1313/posts/detector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/detector/</guid>
+      <description>Beam-induced backgrounds create several detector challenge: high occupancies, high rates, and large radiation doses.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/detector/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Devlin Jenkins</title>
+      <link>//localhost:1313/all_people/devlinjenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/devlinjenkins/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/devlinjenkins/featured.png" />
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>//localhost:1313/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/events/</guid>
+      <description> Upcoming Events Inaugural US Muon Collider Meeting &amp;#8599; &amp;#8598; August 7-9, 2024 &amp;ndash; Fermilab (Batavia, IL) Past Events IMCC Annual Meeting &amp;#8599; &amp;#8598; March 12-15, 2024 &amp;ndash; CERN (Geneva, Switzerland) Muon-Ion Collider Workshop &amp;#8599; &amp;#8598; December 13-15, 2023 &amp;ndash; Rice University (Houston, TX) IMCC Annual Meeting &amp;#8599; &amp;#8598; June 19-22, 2023 &amp;ndash; IJCLab (Orsay, France) Muon4future &amp;#8599; &amp;#8598; May 29 - June 2, 2023 &amp;ndash; Istituto Veneto di Lettere, Scienze ed Arti (Venice, Italy) KITP Muon Collider Workshop &amp;#8599; &amp;#8598; February 27 - March 10, 2023 &amp;ndash; UCSB (Santa Barbara, CA) Muon Collider Physics &amp; Detector Workshop &amp;#8599; &amp;#8598; December 14-16, 2022 &amp;ndash; Fermilab (Batavia, IL) IMCC Collaboration Meeting &amp;#8599; &amp;#8598; October 11-14, 2022 &amp;ndash; CERN (Geneva, Switzerland) </description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/events/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Isobel Ojalvo</title>
+      <link>//localhost:1313/all_people/isobelojalvo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/isobelojalvo/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/isobelojalvo/featured.png" />
+    </item>
+    
+    <item>
+      <title>J. Scott Berg</title>
+      <link>//localhost:1313/all_people/j.scottberg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/j.scottberg/</guid>
+      <description>Senior Scientist, Accelerator</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/j.scottberg/featured.png" />
+    </item>
+    
+    <item>
+      <title>John Dervan</title>
+      <link>//localhost:1313/all_people/johndervan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/johndervan/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/johndervan/featured.png" />
+    </item>
+    
+    <item>
+      <title>Kane Huang</title>
+      <link>//localhost:1313/all_people/kanehuang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/kanehuang/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kanehuang/featured.png" />
+    </item>
+    
+    <item>
+      <title>Karri DiPetrillo</title>
+      <link>//localhost:1313/all_people/karridipetrillo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/karridipetrillo/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/karridipetrillo/feature_KarriDiPetrillo.jpg" />
+    </item>
+    
+    <item>
       <title>Kevin  Black</title>
       <link>//localhost:1313/all_people/kevinblack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,6 +386,26 @@
       <guid>//localhost:1313/all_people/kevinblack/</guid>
       <description>Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinblack/feature_KevinBlack.jpeg" />
+    </item>
+    
+    <item>
+      <title>Kevin  Pedro</title>
+      <link>//localhost:1313/all_people/kevinpedro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/kevinpedro/</guid>
+      <description>Associate Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinpedro/featured.png" />
+    </item>
+    
+    <item>
+      <title>Kiley Kennedy</title>
+      <link>//localhost:1313/all_people/kileykennedy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/kileykennedy/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kileykennedy/featured.png" />
     </item>
     
     <item>
@@ -59,6 +429,56 @@
     </item>
     
     <item>
+      <title>Luciano Ristori</title>
+      <link>//localhost:1313/all_people/lucianoristori/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/lucianoristori/</guid>
+      <description>Senior Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/lucianoristori/featured.png" />
+    </item>
+    
+    <item>
+      <title>Luke Carpenter</title>
+      <link>//localhost:1313/all_people/lukecarpenter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/lukecarpenter/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/lukecarpenter/featured.png" />
+    </item>
+    
+    <item>
+      <title>Mark Palmer</title>
+      <link>//localhost:1313/all_people/markpalmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/markpalmer/</guid>
+      <description>Senior Scientist, Accelerator</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/markpalmer/featured.png" />
+    </item>
+    
+    <item>
+      <title>Martin Kwok</title>
+      <link>//localhost:1313/all_people/martinkwok/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/martinkwok/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/martinkwok/featured.png" />
+    </item>
+    
+    <item>
+      <title>Meet the US people working on a Muon Collider</title>
+      <link>//localhost:1313/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/people/</guid>
+      <description>University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Charles Bell Undergrad, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Daniel Fu Undergrad, Accelerator Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Kevin Pedro Associate Scientist, Experiment Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Sergo Jindariani Senior Scientist, Experiment Princeton University Isobel Ojalvo Assistant Professor, Experiment Kiley Kennedy Postdoc, Experiment Brookhaven National Laboratory J.</description>
+      
+    </item>
+    
+    <item>
       <title>Micah Hillman</title>
       <link>//localhost:1313/all_people/micahhillman/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -66,6 +486,146 @@
       <guid>//localhost:1313/all_people/micahhillman/</guid>
       <description>Undergrad, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/micahhillman/featured.png" />
+    </item>
+    
+    <item>
+      <title>Muon Collider in the News</title>
+      <link>//localhost:1313/press/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/press/</guid>
+      <description>Symmetry: This is Our Muon Shot &amp;#8599; &amp;#8598; 10 April 2024 In December, the Particle Physics Project Prioritization Panel, called P5, released its recommendations for the future of the field, based on the input from the Snowmass process.</description>
+      
+    </item>
+    
+    <item>
+      <title>Noah Virani</title>
+      <link>//localhost:1313/all_people/noahvirani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/noahvirani/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/noahvirani/featured.png" />
+    </item>
+    
+    <item>
+      <title>Patrick Meade</title>
+      <link>//localhost:1313/all_people/patrickmeade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/patrickmeade/</guid>
+      <description>Professor, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/patrickmeade/feature_PatrickMeade.jpg" />
+    </item>
+    
+    <item>
+      <title>Philip Chang</title>
+      <link>//localhost:1313/all_people/philipchang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/philipchang/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/philipchang/featured.png" />
+    </item>
+    
+    <item>
+      <title>Physics Studies</title>
+      <link>//localhost:1313/posts/physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/physics/</guid>
+      <description>Combining energy and precision, a muon collider provides unprecedented physics reach.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/physics/feature.png" />
+    </item>
+    
+    <item>
+      <title>Reconstruction Software</title>
+      <link>//localhost:1313/posts/reconstruction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/reconstruction/</guid>
+      <description>Great progress has been made towards identifying signals and reject muon beam-induced background, but there&amp;rsquo;s still much more to do.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/reconstruction/feature.png" />
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>//localhost:1313/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/resources/</guid>
+      <description>Learn More Sketching out a muon collider - CERN Courier</description>
+      
+    </item>
+    
+    <item>
+      <title>Ruaa Alharthy</title>
+      <link>//localhost:1313/all_people/ruaaalharthy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/ruaaalharthy/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/ruaaalharthy/feature_RuaaAlharthy.jpg" />
+    </item>
+    
+    <item>
+      <title>Ryan Michaud</title>
+      <link>//localhost:1313/all_people/ryanmichaud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/ryanmichaud/</guid>
+      <description>Undergrad, Accelerator</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/ryanmichaud/featured.png" />
+    </item>
+    
+    <item>
+      <title>Saketh Parella</title>
+      <link>//localhost:1313/all_people/sakethparella/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/sakethparella/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sakethparella/featured.png" />
+    </item>
+    
+    <item>
+      <title>Samuel Homiller</title>
+      <link>//localhost:1313/all_people/samuelhomiller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/samuelhomiller/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/samuelhomiller/feature_SamuelHomiller.jpg" />
+    </item>
+    
+    <item>
+      <title>Sergo  Jindariani</title>
+      <link>//localhost:1313/all_people/sergojindariani/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/sergojindariani/</guid>
+      <description>Senior Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sergojindariani/featured.png" />
+    </item>
+    
+    <item>
+      <title>Shivani Lomte</title>
+      <link>//localhost:1313/all_people/shivanilomte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/shivanilomte/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/shivanilomte/feature_ShivaniLomte.jpg" />
+    </item>
+    
+    <item>
+      <title>Show your support for a Muon Collider</title>
+      <link>//localhost:1313/merch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/merch/</guid>
+      <description>Print out a muon collider poster for your physics department hallway (or anywhere else)!</description>
+      
     </item>
     
     <item>
@@ -86,6 +646,46 @@
       <guid>//localhost:1313/all_people/sridharadasu/</guid>
       <description>Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sridharadasu/feature_SridharaDasu.jpg" />
+    </item>
+    
+    <item>
+      <title>Tate Flicker</title>
+      <link>//localhost:1313/all_people/tateflicker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/tateflicker/</guid>
+      <description>Undergrad, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tateflicker/featured.png" />
+    </item>
+    
+    <item>
+      <title>The IMCC</title>
+      <link>//localhost:1313/posts/imcc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/imcc/</guid>
+      <description>The International Muon Collider Collaboration (IMCC) is hosted by CERN and securing resources to complete a Muon Collider Design Study before the next European Strategy Report.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/imcc/feature.png" />
+    </item>
+    
+    <item>
+      <title>Tova Holmes</title>
+      <link>//localhost:1313/all_people/tovaholmes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/tovaholmes/</guid>
+      <description>Assistant Professor, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tovaholmes/feature_TovaHolmes.jpg" />
+    </item>
+    
+    <item>
+      <title>Walter Hopkins</title>
+      <link>//localhost:1313/all_people/walterhopkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/walterhopkins/</guid>
+      <description>Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/walterhopkins/featured.png" />
     </item>
     
   </channel>

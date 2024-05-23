@@ -19,6 +19,10 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
 
+## Princeton University
+{{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
+
+
 ## Brookhaven National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
@@ -29,10 +33,6 @@ title: Meet the US people working on a Muon Collider
 
 ## Stony Brook University
 {{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
-
-
-## Princeton University
-{{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
 
 ## Argonne National Laboratory
