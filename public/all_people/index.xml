@@ -49,16 +49,6 @@
     </item>
     
     <item>
-      <title>Charles Bell</title>
-      <link>//localhost:1313/all_people/charlesbell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/charlesbell/</guid>
-      <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/charlesbell/feature_CharlesBell.png" />
-    </item>
-    
-    <item>
       <title>Daniel Ally</title>
       <link>//localhost:1313/all_people/danielally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -66,16 +56,6 @@
       <guid>//localhost:1313/all_people/danielally/</guid>
       <description>Graduate Student, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielally/featured.png" />
-    </item>
-    
-    <item>
-      <title>Daniel Fu</title>
-      <link>//localhost:1313/all_people/danielfu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/danielfu/</guid>
-      <description>Undergrad, Accelerator</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielfu/featured.png" />
     </item>
     
     <item>
@@ -96,16 +76,6 @@
       <guid>//localhost:1313/all_people/isobelojalvo/</guid>
       <description>Assistant Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/isobelojalvo/featured.png" />
-    </item>
-    
-    <item>
-      <title>John Dervan</title>
-      <link>//localhost:1313/all_people/johndervan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/johndervan/</guid>
-      <description>Graduate Student, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/johndervan/featured.png" />
     </item>
     
     <item>
@@ -136,16 +106,6 @@
       <guid>//localhost:1313/all_people/kevinblack/</guid>
       <description>Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinblack/feature_KevinBlack.jpeg" />
-    </item>
-    
-    <item>
-      <title>Kevin  Pedro</title>
-      <link>//localhost:1313/all_people/kevinpedro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/kevinpedro/</guid>
-      <description>Associate Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinpedro/featured.png" />
     </item>
     
     <item>
@@ -326,16 +286,6 @@
       <guid>//localhost:1313/all_people/tovaholmes/</guid>
       <description>Assistant Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tovaholmes/feature_TovaHolmes.jpg" />
-    </item>
-    
-    <item>
-      <title>Walter Hopkins</title>
-      <link>//localhost:1313/all_people/walterhopkins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/walterhopkins/</guid>
-      <description>Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/walterhopkins/featured.png" />
     </item>
     
   </channel>

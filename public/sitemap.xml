@@ -45,22 +45,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/ailto:cbell73@vols.utk.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>//localhost:1313/misconceptions/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/ailto:dally@vols.utk.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:danielfu@uchicago.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -86,11 +76,6 @@
   </url>
   <url>
     <loc>//localhost:1313/events/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:john.dervan@cern.ch</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

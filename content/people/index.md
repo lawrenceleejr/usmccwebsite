@@ -41,3 +41,7 @@ title: Meet the US people working on a Muon Collider
 
 ## Northeastern University
 {{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
+
+
+## MIT
+{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
