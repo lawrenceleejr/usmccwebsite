@@ -33,3 +33,11 @@ title: Meet the US people working on a Muon Collider
 
 ## Brookhaven National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
+
+
+## Argonne National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}
+
+
+## Northeastern University
+{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}

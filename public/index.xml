@@ -279,6 +279,16 @@
     </item>
     
     <item>
+      <title>Daniel Fu</title>
+      <link>//localhost:1313/all_people/danielfu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/danielfu/</guid>
+      <description>Undergrad, Accelerator</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielfu/featured.png" />
+    </item>
+    
+    <item>
       <title>Detector R&amp;D</title>
       <link>//localhost:1313/posts/detector/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -319,6 +329,16 @@
     </item>
     
     <item>
+      <title>John Dervan</title>
+      <link>//localhost:1313/all_people/johndervan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/johndervan/</guid>
+      <description>Graduate Student, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/johndervan/featured.png" />
+    </item>
+    
+    <item>
       <title>Kane Huang</title>
       <link>//localhost:1313/all_people/kanehuang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -346,6 +366,16 @@
       <guid>//localhost:1313/all_people/kevinblack/</guid>
       <description>Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinblack/feature_KevinBlack.jpeg" />
+    </item>
+    
+    <item>
+      <title>Kevin  Pedro</title>
+      <link>//localhost:1313/all_people/kevinpedro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/kevinpedro/</guid>
+      <description>Associate Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinpedro/featured.png" />
     </item>
     
     <item>
@@ -414,7 +444,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/people/</guid>
-      <description> University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Charles Bell Undergrad, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Sergo Jindariani Senior Scientist, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso Senior Scientist, Experiment Stony Brook University Patrick Meade Professor, Theory Princeton University Isobel Ojalvo Assistant Professor, Experiment Brookhaven National Laboratory Mark Palmer Senior Scientist, Accelerator </description>
+      <description> University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Charles Bell Undergrad, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Daniel Fu Undergrad, Accelerator Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Kevin Pedro Associate Scientist, Experiment Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Sergo Jindariani Senior Scientist, Experiment Lawrence Berkeley National Laboratory Simone Pagan Griso Senior Scientist, Experiment Stony Brook University Patrick Meade Professor, Theory Princeton University Isobel Ojalvo Assistant Professor, Experiment Brookhaven National Laboratory Mark Palmer Senior Scientist, Accelerator Argonne National Laboratory Walter Hopkins Scientist, Experiment Northeastern University John Dervan Graduate Student, Experiment </description>
       
     </item>
     
@@ -596,6 +626,16 @@
       <guid>//localhost:1313/all_people/tovaholmes/</guid>
       <description>Assistant Professor, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tovaholmes/feature_TovaHolmes.jpg" />
+    </item>
+    
+    <item>
+      <title>Walter Hopkins</title>
+      <link>//localhost:1313/all_people/walterhopkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/walterhopkins/</guid>
+      <description>Scientist, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/walterhopkins/featured.png" />
     </item>
     
   </channel>
