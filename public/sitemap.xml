@@ -8,67 +8,27 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/ailto:ccesar@mit.edu</loc>
+    <loc>//localhost:1313/ailto:jsberg@bnl.gov</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/ailto:cbell73@vols.utk.edu</loc>
+    <loc>//localhost:1313/ailto:kileykennedy@princeton.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/ailto:dally@vols.utk.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:danielfu@uchicago.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:djenki32@vols.utk.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:john.dervan@cern.ch</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:kanhuang@uchicago.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:lcarpen9@vols.utk.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ww.linkedin.com/in/mark-palmer-97957449</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:noahvirani@uchicago.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:ryanmichaud@uchicago.edu</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/ailto:tateflicker@uchicago.edu</loc>
+    <loc>//localhost:1313/ailto:rbgarg@stanford.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:zliuphys@umn.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,6 +1,6 @@
 ---
 title: Dasgupta Arnab
-externalUrl: nan
+externalUrl: mailto:arnabdasgupta@protonmail.ch
 summary: Postdoc, Theory
 type: universityofpittsburgh
 ---

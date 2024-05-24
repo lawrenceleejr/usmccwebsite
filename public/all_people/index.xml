@@ -9,213 +9,73 @@
     
     <atom:link href="//localhost:1313/all_people/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Abdollah Mohammadi</title>
-      <link>//localhost:1313/all_people/abdollahmohammadi/</link>
+      <title>J. Scott Berg</title>
+      <link>//localhost:1313/all_people/j.scottberg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/abdollahmohammadi/</guid>
-      <description>Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/abdollahmohammadi/featured.png" />
-    </item>
-    
-    <item>
-      <title>Cari Cesarotti</title>
-      <link>//localhost:1313/all_people/caricesarotti/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/caricesarotti/</guid>
-      <description>Postdoc, Theory</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/caricesarotti/featured.png" />
-    </item>
-    
-    <item>
-      <title>Charles Bell</title>
-      <link>//localhost:1313/all_people/charlesbell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/charlesbell/</guid>
-      <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/charlesbell/feature_CharlesBell.png" />
-    </item>
-    
-    <item>
-      <title>Daniel Ally</title>
-      <link>//localhost:1313/all_people/danielally/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/danielally/</guid>
-      <description>Graduate Student, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielally/featured.png" />
-    </item>
-    
-    <item>
-      <title>Daniel Fu</title>
-      <link>//localhost:1313/all_people/danielfu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/danielfu/</guid>
-      <description>Undergrad, Accelerator</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/danielfu/featured.png" />
-    </item>
-    
-    <item>
-      <title>Devlin Jenkins</title>
-      <link>//localhost:1313/all_people/devlinjenkins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/devlinjenkins/</guid>
-      <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/devlinjenkins/featured.png" />
-    </item>
-    
-    <item>
-      <title>Isobel Ojalvo</title>
-      <link>//localhost:1313/all_people/isobelojalvo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/isobelojalvo/</guid>
-      <description>Assistant Professor, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/isobelojalvo/featured.png" />
-    </item>
-    
-    <item>
-      <title>John Dervan</title>
-      <link>//localhost:1313/all_people/johndervan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/johndervan/</guid>
-      <description>Graduate Student, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/johndervan/featured.png" />
-    </item>
-    
-    <item>
-      <title>Kane Huang</title>
-      <link>//localhost:1313/all_people/kanehuang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/kanehuang/</guid>
-      <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kanehuang/featured.png" />
-    </item>
-    
-    <item>
-      <title>Kevin  Pedro</title>
-      <link>//localhost:1313/all_people/kevinpedro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/kevinpedro/</guid>
-      <description>Associate Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kevinpedro/featured.png" />
-    </item>
-    
-    <item>
-      <title>Luciano Ristori</title>
-      <link>//localhost:1313/all_people/lucianoristori/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/lucianoristori/</guid>
-      <description>Senior Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/lucianoristori/featured.png" />
-    </item>
-    
-    <item>
-      <title>Luke Carpenter</title>
-      <link>//localhost:1313/all_people/lukecarpenter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/lukecarpenter/</guid>
-      <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/lukecarpenter/featured.png" />
-    </item>
-    
-    <item>
-      <title>Mark Palmer</title>
-      <link>//localhost:1313/all_people/markpalmer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/markpalmer/</guid>
+      <guid>//localhost:1313/all_people/j.scottberg/</guid>
       <description>Senior Scientist, Accelerator</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/markpalmer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/j.scottberg/featured.png" />
     </item>
     
     <item>
-      <title>Martin Kwok</title>
-      <link>//localhost:1313/all_people/martinkwok/</link>
+      <title>Kiley Kennedy</title>
+      <link>//localhost:1313/all_people/kileykennedy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/martinkwok/</guid>
+      <guid>//localhost:1313/all_people/kileykennedy/</guid>
       <description>Postdoc, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/martinkwok/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/kileykennedy/featured.png" />
     </item>
     
     <item>
-      <title>Noah Virani</title>
-      <link>//localhost:1313/all_people/noahvirani/</link>
+      <title>Pouya Asadi</title>
+      <link>//localhost:1313/all_people/pouyaasadi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/noahvirani/</guid>
-      <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/noahvirani/featured.png" />
+      <guid>//localhost:1313/all_people/pouyaasadi/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/pouyaasadi/featured.png" />
     </item>
     
     <item>
-      <title>Patrick Meade</title>
-      <link>//localhost:1313/all_people/patrickmeade/</link>
+      <title>Rocky Bala Garg</title>
+      <link>//localhost:1313/all_people/rockybalagarg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/patrickmeade/</guid>
-      <description>Professor, Theory</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/patrickmeade/feature_PatrickMeade.jpg" />
+      <guid>//localhost:1313/all_people/rockybalagarg/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/rockybalagarg/featured.png" />
     </item>
     
     <item>
-      <title>Philip Chang</title>
-      <link>//localhost:1313/all_people/philipchang/</link>
+      <title>Rodolfo Capdevilla</title>
+      <link>//localhost:1313/all_people/rodolfocapdevilla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/philipchang/</guid>
-      <description>Assistant Professor, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/philipchang/featured.png" />
+      <guid>//localhost:1313/all_people/rodolfocapdevilla/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/rodolfocapdevilla/feature_RodolfoCapdevilla.png" />
     </item>
     
     <item>
-      <title>Ryan Michaud</title>
-      <link>//localhost:1313/all_people/ryanmichaud/</link>
+      <title>Samuel Homiller</title>
+      <link>//localhost:1313/all_people/samuelhomiller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/ryanmichaud/</guid>
-      <description>Undergrad, Accelerator</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/ryanmichaud/featured.png" />
+      <guid>//localhost:1313/all_people/samuelhomiller/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/samuelhomiller/feature_SamuelHomiller.jpg" />
     </item>
     
     <item>
-      <title>Sergo  Jindariani</title>
-      <link>//localhost:1313/all_people/sergojindariani/</link>
+      <title>Zhen Liu</title>
+      <link>//localhost:1313/all_people/zhenliu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/all_people/sergojindariani/</guid>
-      <description>Senior Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/sergojindariani/featured.png" />
-    </item>
-    
-    <item>
-      <title>Tate Flicker</title>
-      <link>//localhost:1313/all_people/tateflicker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/tateflicker/</guid>
-      <description>Undergrad, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/tateflicker/featured.png" />
-    </item>
-    
-    <item>
-      <title>Walter Hopkins</title>
-      <link>//localhost:1313/all_people/walterhopkins/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/all_people/walterhopkins/</guid>
-      <description>Scientist, Experiment</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/walterhopkins/featured.png" />
+      <guid>//localhost:1313/all_people/zhenliu/</guid>
+      <description>Assistant Professor, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/zhenliu/featured.png" />
     </item>
     
   </channel>

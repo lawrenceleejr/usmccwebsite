@@ -77,3 +77,6 @@ title: Meet the US people working on a Muon Collider
 
 ## Michigan State University
 {{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
+
+
+If you're working towards a muon collider but aren't included on this list, [reach out to us](mailto:muon-collider@googlegroups.com).
