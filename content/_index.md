@@ -30,4 +30,4 @@ Piggybacking off of planned upgrades for Fermilab's proton complex, there is an 
 
 **The international muon collider community is a rapidly growing group that enthusiastically welcomes new members.**
 
-The best way to get involved is to navigate to our [contact](contact/) page and reach out to someone involved. 
+The best way to get involved is to navigate to our [contact](contact/) page and reach out to the coordination mailing list, the co-chairs, or the person there who's most closely aligned with your interests. 

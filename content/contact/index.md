@@ -1,5 +1,5 @@
 ## Contact:
-Send us an email for more information about the muon collider effort or to get involved: muon-collider@googlegroups.com 
+Send us an [email](mailto:muon-collider@googlegroups.com ) for more information about the muon collider effort or to get involved.
 
 
 ## The US Muon Collider Coordinating Committee 
