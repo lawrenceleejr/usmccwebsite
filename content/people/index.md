@@ -27,41 +27,49 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
-## Lawrence Berkeley National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
-
-
-## Stony Brook University
-{{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
-
-
-## Argonne National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}
-
-
-## Northeastern University
-{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
-
-
-## MIT
-{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
-
-
-## University of Florida
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
-
-
 ## Harvard University
 {{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
 
 
-## Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+## Yale University
+{{< people limit=20 title=" " cardView=true where="Type" value="yaleuniversity" >}}
+
+
+## University of Oregon
+{{< people limit=20 title=" " cardView=true where="Type" value="universityoforegon" >}}
 
 
 ## University of Minnesota
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
 
 
-## University of Oregon
-{{< people limit=20 title=" " cardView=true where="Type" value="universityoforegon" >}}
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+
+
+## Northeastern University
+{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
+
+
+## University of Florida
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
+
+
+## MIT
+{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
+
+
+## Argonne National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}
+
+
+## Stony Brook University
+{{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
+
+
+## Lawrence Berkeley National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
+
+
+## University of Pittsburgh
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofpittsburgh" >}}
