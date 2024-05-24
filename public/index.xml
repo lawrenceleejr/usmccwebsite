@@ -474,7 +474,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/people/</guid>
-      <description>University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Charles Bell Undergrad, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Daniel Fu Undergrad, Accelerator Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Kevin Pedro Associate Scientist, Experiment Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Sergo Jindariani Senior Scientist, Experiment Princeton University Isobel Ojalvo Assistant Professor, Experiment Kiley Kennedy Postdoc, Experiment Brookhaven National Laboratory J.</description>
+      <description>University of Tennessee, Knoxville Alexander Tuna Postdoc, Experiment Charles Bell Undergrad, Experiment Daniel Ally Graduate Student, Experiment Devlin Jenkins Undergrad, Experiment Larry Lee Assistant Professor, Experiment Luke Carpenter Undergrad, Experiment Micah Hillman Undergrad, Experiment Tova Holmes Assistant Professor, Experiment University of Chicago Ben Rosser Postdoc, Experiment Daniel Fu Undergrad, Accelerator Kane Huang Undergrad, Experiment Karri DiPetrillo Assistant Professor, Experiment Leo Rozanov Undergrad, Experiment Noah Virani Undergrad, Experiment Ryan Michaud Undergrad, Accelerator Tate Flicker Undergrad, Experiment University of Wisconsin - Madison Abdollah Mohammadi Scientist, Experiment Abhishikth Mallampalli Graduate Student, Experiment Kevin Black Professor, Experiment Ruaa Alharthy Graduate Student, Experiment Saketh Parella Undergrad, Experiment Shivani Lomte Graduate Student, Experiment Sridhara Dasu Professor, Experiment Fermilab Kevin Pedro Associate Scientist, Experiment Luciano Ristori Senior Scientist, Experiment Martin Kwok Postdoc, Experiment Rodolfo Capdevilla Postdoc, Theory Sergo Jindariani Senior Scientist, Experiment Princeton University Isobel Ojalvo Assistant Professor, Experiment Kiley Kennedy Postdoc, Experiment Brookhaven National Laboratory J.</description>
       
     </item>
     
@@ -539,6 +539,16 @@
     </item>
     
     <item>
+      <title>Pouya Asadi</title>
+      <link>//localhost:1313/all_people/pouyaasadi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/pouyaasadi/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/pouyaasadi/featured.png" />
+    </item>
+    
+    <item>
       <title>Reconstruction Software</title>
       <link>//localhost:1313/posts/reconstruction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -556,6 +566,26 @@
       <guid>//localhost:1313/resources/</guid>
       <description>Learn More Sketching out a muon collider - CERN Courier</description>
       
+    </item>
+    
+    <item>
+      <title>Rocky Bala Garg</title>
+      <link>//localhost:1313/all_people/rockybalagarg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/rockybalagarg/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/rockybalagarg/featured.png" />
+    </item>
+    
+    <item>
+      <title>Rodolfo Capdevilla</title>
+      <link>//localhost:1313/all_people/rodolfocapdevilla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/rodolfocapdevilla/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/rodolfocapdevilla/feature_RodolfoCapdevilla.png" />
     </item>
     
     <item>
@@ -686,6 +716,16 @@
       <guid>//localhost:1313/all_people/walterhopkins/</guid>
       <description>Scientist, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/walterhopkins/featured.png" />
+    </item>
+    
+    <item>
+      <title>Zhen Liu</title>
+      <link>//localhost:1313/all_people/zhenliu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/zhenliu/</guid>
+      <description>Assistant Professor, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/zhenliu/featured.png" />
     </item>
     
   </channel>

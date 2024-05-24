@@ -279,6 +279,36 @@
     </item>
     
     <item>
+      <title>Pouya Asadi</title>
+      <link>//localhost:1313/all_people/pouyaasadi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/pouyaasadi/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/pouyaasadi/featured.png" />
+    </item>
+    
+    <item>
+      <title>Rocky Bala Garg</title>
+      <link>//localhost:1313/all_people/rockybalagarg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/rockybalagarg/</guid>
+      <description>Postdoc, Experiment</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/rockybalagarg/featured.png" />
+    </item>
+    
+    <item>
+      <title>Rodolfo Capdevilla</title>
+      <link>//localhost:1313/all_people/rodolfocapdevilla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/rodolfocapdevilla/</guid>
+      <description>Postdoc, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/rodolfocapdevilla/feature_RodolfoCapdevilla.png" />
+    </item>
+    
+    <item>
       <title>Ruaa Alharthy</title>
       <link>//localhost:1313/all_people/ruaaalharthy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -386,6 +416,16 @@
       <guid>//localhost:1313/all_people/walterhopkins/</guid>
       <description>Scientist, Experiment</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/walterhopkins/featured.png" />
+    </item>
+    
+    <item>
+      <title>Zhen Liu</title>
+      <link>//localhost:1313/all_people/zhenliu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/all_people/zhenliu/</guid>
+      <description>Assistant Professor, Theory</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/all_people/zhenliu/featured.png" />
     </item>
     
   </channel>

@@ -170,6 +170,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/ailto:rbgarg@stanford.edu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/ailto:ryanmichaud@uchicago.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -196,6 +201,11 @@
   </url>
   <url>
     <loc>//localhost:1313/posts/imcc/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/ailto:zliuphys@umn.edu</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

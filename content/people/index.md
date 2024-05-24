@@ -53,3 +53,15 @@ title: Meet the US people working on a Muon Collider
 
 ## Harvard University
 {{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
+
+
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+
+
+## University of Minnesota
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
+
+
+## University of Oregon
+{{< people limit=20 title=" " cardView=true where="Type" value="universityoforegon" >}}
