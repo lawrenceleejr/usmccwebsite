@@ -19,6 +19,10 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
 
+## University of Pittsburgh
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofpittsburgh" >}}
+
+
 ## Princeton University
 {{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
@@ -71,5 +75,5 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
 
 
-## University of Pittsburgh
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofpittsburgh" >}}
+## Michigan State University
+{{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
