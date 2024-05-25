@@ -42,57 +42,32 @@ pageRef = "press"
 weight = 10
 
 [[main]]
-name = "People"
-pageRef = "people"
-weight = 11
-
-[[main]]
-name = "Contact"
-pageRef = "contact"
-weight = 20
-
-[[main]]
 name = "Events"
 pageRef = "events"
-weight = 30
+weight = 20
 
 [[main]]
 name = "Resources"
 pageRef = "resources"
+weight = 30
+
+[[main]]
+name = "Contact"
+pageRef = "contact"
 weight = 40
+
+[[main]]
+name = "People"
+pageRef = "people"
+weight = 50
 
 [[main]]
 name = "Merch"
 pageRef = "merch"
-weight = 50
+weight = 60
 
-
-#[[main]]
-#name = "About Us"
-#weight = 10
-
-#[[main]]
-#name = "US Particle Physics"
-#pageRef = "us-particle-physics"
-#parent = "About Us"
-#identifier = "YDEoepkydb"
-#weight = 2
-
-#[[main]]
-#name = "Executive Committee"
-#parent = "About Us"
-#pageRef = "about"
-#identifier = "8ljnYPMuWu"
-#weight = 10
-
-#[[main]]
-#  identifier = "twitter"
-#  pre = "x-twitter"
-#  url = "https://twitter.com/MuonCollider"
-#  weight = 9991
-
-[[footer]]
-none = "none"
+#[[footer]]
+#none = "none"
 
 [[footer]]
 name = "Email us"
