@@ -1,4 +1,11 @@
-## Contact:
+---
+title: Contact
+#showHero: true 
+#heroStyle: background
+#layoutBackgroundHeaderSpace: false
+#layout: simple
+---
+
 Send us an [email](mailto:muon-collider@googlegroups.com ) for more information about the muon collider effort or to get involved. See also our [people](/people) page for a (work-in-progress) list of people currently involved.
 
 
