@@ -2,9 +2,39 @@
 none = "none"
 
 [[main]]
-name = "Home"
+name = "About"
 pageRef = "/_index"
 weight = 1
+
+[[main]]
+name = "Accelerator R&D"
+parent = "About"
+pageRef = "posts/accelerator"
+weight = 2
+
+[[main]]
+name = "Detector R&D"
+parent = "About"
+pageRef = "posts/detector"
+weight = 3
+
+[[main]]
+name = "Physics Case"
+parent = "About"
+pageRef = "posts/physics"
+weight = 4
+
+[[main]]
+name = "Dedicated Software"
+parent = "About"
+pageRef = "posts/reconstruction"
+weight = 5
+
+[[main]]
+name = "IMCC"
+parent = "About"
+pageRef = "posts/imcc"
+weight = 6
 
 [[main]]
 name = "Press"
