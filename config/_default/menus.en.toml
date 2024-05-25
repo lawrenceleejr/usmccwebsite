@@ -42,6 +42,11 @@ pageRef = "press"
 weight = 10
 
 [[main]]
+name = "People"
+pageRef = "people"
+weight = 11
+
+[[main]]
 name = "Contact"
 pageRef = "contact"
 weight = 20
