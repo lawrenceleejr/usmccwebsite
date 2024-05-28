@@ -31,8 +31,16 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
-## Harvard University
-{{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+
+
+## University of California, Santa Barbara
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasantabarbara" >}}
+
+
+## Michigan State University
+{{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
 
 
 ## Yale University
@@ -47,20 +55,20 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
 
 
-## Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+## MIT
+{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
 
 
-## Northeastern University
-{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
+## Harvard University
+{{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
 
 
 ## University of Florida
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
 
 
-## MIT
-{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
+## Northeastern University
+{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
 
 
 ## Argonne National Laboratory
@@ -75,8 +83,8 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
 
 
-## Michigan State University
-{{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
+## Rice University
+{{< people limit=20 title=" " cardView=true where="Type" value="riceuniversity" >}}
 
 
 If you're working towards a muon collider but aren't included on this list, [reach out to us](mailto:muon-collider@googlegroups.com).
