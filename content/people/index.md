@@ -35,16 +35,16 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
+## Northern Illinois University
+{{< people limit=20 title=" " cardView=true where="Type" value="northernillinoisuniversity" >}}
+
+
 ## Yale University
 {{< people limit=20 title=" " cardView=true where="Type" value="yaleuniversity" >}}
 
 
 ## SLAC National Accelerator Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="slacnationalacceleratorlaboratory" >}}
-
-
-## Northern Illinois University
-{{< people limit=20 title=" " cardView=true where="Type" value="northernillinoisuniversity" >}}
 
 
 ## Old Dominion University
