@@ -1,6 +1,6 @@
 ---
 title: Tianhuan  Luo
-externalUrl: nan
+externalUrl: mailto:tluo@lbl.gov
 summary: Research Scientist, Accelerator
 type: lawrenceberkeleynationallaboratory
 ---

@@ -7,16 +7,16 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityoftennesseeknoxville" >}}
 
 
+## Fermilab
+{{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
+
+
 ## University of Chicago
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofchicago" >}}
 
 
 ## University of Wisconsin - Madison
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofwisconsinmadison" >}}
-
-
-## Fermilab
-{{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
 
 ## University of Pittsburgh
@@ -35,12 +35,12 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+
+
 ## Yale University
 {{< people limit=20 title=" " cardView=true where="Type" value="yaleuniversity" >}}
-
-
-## SLAC National Accelerator Laboratory, Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="slacnationalacceleratorlaboratorystanforduniversity" >}}
 
 
 ## Northern Illinois University
@@ -73,10 +73,6 @@ title: Meet the US people working on a Muon Collider
 
 ## University of Minnesota
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
-
-
-## Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
 
 
 ## University of Florida

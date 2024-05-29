@@ -1,6 +1,6 @@
 ---
 title: Jeffrey Eldred
-externalUrl: nan
+externalUrl: mailto:jseldred@fnal.gov
 summary: Scientist, Accelerator
 type: fermilab
 ---

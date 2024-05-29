@@ -1,6 +1,6 @@
 ---
 title: Xueying Lu
-externalUrl: nan
+externalUrl: mailto:xylu@niu.edu
 summary: Assistant Professor (joint with ANL), Accelerator
 type: northernillinoisuniversity
 ---
