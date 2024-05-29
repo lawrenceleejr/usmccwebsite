@@ -23,6 +23,10 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofpittsburgh" >}}
 
 
+## Lawrence Berkeley National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
+
+
 ## Princeton University
 {{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
@@ -31,8 +35,24 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
-## Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+## Yale University
+{{< people limit=20 title=" " cardView=true where="Type" value="yaleuniversity" >}}
+
+
+## SLAC National Accelerator Laboratory, Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="slacnationalacceleratorlaboratorystanforduniversity" >}}
+
+
+## Northern Illinois University
+{{< people limit=20 title=" " cardView=true where="Type" value="northernillinoisuniversity" >}}
+
+
+## Old Dominion University
+{{< people limit=20 title=" " cardView=true where="Type" value="olddominionuniversity" >}}
+
+
+## Rice University
+{{< people limit=20 title=" " cardView=true where="Type" value="riceuniversity" >}}
 
 
 ## University of California, Santa Barbara
@@ -43,8 +63,8 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
 
 
-## Yale University
-{{< people limit=20 title=" " cardView=true where="Type" value="yaleuniversity" >}}
+## Harvard University
+{{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
 
 
 ## University of Oregon
@@ -55,16 +75,16 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
 
 
-## MIT
-{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
-
-
-## Harvard University
-{{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
 
 
 ## University of Florida
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
+
+
+## MIT
+{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
 
 
 ## Northeastern University
@@ -79,12 +99,8 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
 
 
-## Lawrence Berkeley National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
-
-
-## Rice University
-{{< people limit=20 title=" " cardView=true where="Type" value="riceuniversity" >}}
+## ORNL
+{{< people limit=20 title=" " cardView=true where="Type" value="ornl" >}}
 
 
 If you're working towards a muon collider but aren't included on this list, [reach out to us](mailto:muon-collider@googlegroups.com).
