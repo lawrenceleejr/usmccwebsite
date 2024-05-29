@@ -35,12 +35,12 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
-## Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
-
-
 ## Yale University
 {{< people limit=20 title=" " cardView=true where="Type" value="yaleuniversity" >}}
+
+
+## SLAC National Accelerator Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="slacnationalacceleratorlaboratory" >}}
 
 
 ## Northern Illinois University
@@ -73,6 +73,10 @@ title: Meet the US people working on a Muon Collider
 
 ## University of Minnesota
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
+
+
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
 
 
 ## University of Florida
