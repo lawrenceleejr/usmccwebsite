@@ -5,7 +5,7 @@ cascade:
   showReadingTime: false
 ---
 
-**Great progress has been made towards identifying signals and reject muon beam-induced background, but there's still much more to do. Check out software packages [here](https://github.com/MuonColliderSoft), and join the [meetings](https://indico.cern.ch/category/18214/) hosted by IMCC.**
+**Great progress has been made towards identifying signals and rejecting muon beam-induced background, but there's still much more to do. Check out software packages [here](https://github.com/MuonColliderSoft), and join the [meetings](https://indico.cern.ch/category/18214/) hosted by IMCC.**
 
 ## Software and Simulation Needs
 
