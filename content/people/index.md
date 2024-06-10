@@ -3,12 +3,12 @@ title: Meet the US people working on a Muon Collider
 ---
 
 
-## University of Tennessee, Knoxville
-{{< people limit=20 title=" " cardView=true where="Type" value="universityoftennesseeknoxville" >}}
-
-
 ## Fermilab
 {{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
+
+
+## University of Tennessee, Knoxville
+{{< people limit=20 title=" " cardView=true where="Type" value="universityoftennesseeknoxville" >}}
 
 
 ## University of Chicago
