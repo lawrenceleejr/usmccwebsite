@@ -23,6 +23,10 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofpittsburgh" >}}
 
 
+## Stony Brook University
+{{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
+
+
 ## Lawrence Berkeley National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="lawrenceberkeleynationallaboratory" >}}
 
@@ -93,10 +97,6 @@ title: Meet the US people working on a Muon Collider
 
 ## Argonne National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}
-
-
-## Stony Brook University
-{{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
 
 
 ## ORNL
