@@ -55,6 +55,7 @@ for i, entry in df.iterrows():
                 if extension in ["png", "jpg", "jpeg"]:
                     try:
                         wget.download(entry["photo"], out=f"{data_dir}{fname}/feature_{fname}.{extension}")
+                        shutil.copy(f"{data_dir}{fname}/feature_{fname}.{extension}", f"saved_photos/{fname}.{extension}")
                         got_photo = True
                         if os.path.exists(f"{person_path}featured.png"):
                             os.remove(f"{person_path}featured.png")
