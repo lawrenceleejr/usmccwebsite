@@ -86,6 +86,7 @@ with open(output_file, "w") as f:
 
     for inst in institutions:
         f.write("\n\n")
+        #print(inst, "...")
         f.write(f"## {inst}\n")
         f.write(f'{{{{< people limit=20 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
 
