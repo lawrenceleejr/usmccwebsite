@@ -3,12 +3,12 @@ title: Meet the US people working on a Muon Collider
 ---
 
 
-## Fermilab
-{{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
-
-
 ## University of Chicago
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofchicago" >}}
+
+
+## Fermilab
+{{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
 
 ## University of Wisconsin, Madison
@@ -27,8 +27,8 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofpittsburgh" >}}
 
 
-## University of Illinois, Urbana-Champaign
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofillinoisurbanachampaign" >}}
+## Princeton University
+{{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
 
 ## Northern Illinois University
@@ -39,12 +39,12 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
 
 
+## University of Illinois, Urbana-Champaign
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofillinoisurbanachampaign" >}}
+
+
 ## Brookhaven National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
-
-
-## Princeton University
-{{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
 
 ## Stony Brook University
