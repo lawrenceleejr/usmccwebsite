@@ -3,12 +3,12 @@ title: Meet the US people working on a Muon Collider
 ---
 
 
-## University of Chicago
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofchicago" >}}
-
-
 ## Fermilab
 {{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
+
+
+## University of Chicago
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofchicago" >}}
 
 
 ## University of Wisconsin, Madison
@@ -31,60 +31,64 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
 
-## Northern Illinois University
-{{< people limit=20 title=" " cardView=true where="Type" value="northernillinoisuniversity" >}}
-
-
-## Northeastern University
-{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
-
-
-## University of Illinois, Urbana-Champaign
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofillinoisurbanachampaign" >}}
+## Stony Brook University
+{{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
 
 
 ## Brookhaven National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
-## Stony Brook University
-{{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
+## University of Illinois, Urbana-Champaign
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofillinoisurbanachampaign" >}}
 
 
-## Harvard University
-{{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
+## Northeastern University
+{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
 
 
-## University of Oregon
-{{< people limit=20 title=" " cardView=true where="Type" value="universityoforegon" >}}
+## Northern Illinois University
+{{< people limit=20 title=" " cardView=true where="Type" value="northernillinoisuniversity" >}}
 
 
-## Michigan State University
-{{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
+## University of Minnesota
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
 
 
 ## University of California, Santa Barbara
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasantabarbara" >}}
 
 
-## University of California, San Diego
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasandiego" >}}
+## Michigan State University
+{{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
 
 
-## Columbia University
-{{< people limit=20 title=" " cardView=true where="Type" value="columbiauniversity" >}}
+## Northwestern
+{{< people limit=20 title=" " cardView=true where="Type" value="northwestern" >}}
+
+
+## University of Oregon
+{{< people limit=20 title=" " cardView=true where="Type" value="universityoforegon" >}}
+
+
+## Harvard University
+{{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
 
 
 ## Muons, Inc.
 {{< people limit=20 title=" " cardView=true where="Type" value="muonsinc" >}}
 
 
+## Columbia University
+{{< people limit=20 title=" " cardView=true where="Type" value="columbiauniversity" >}}
+
+
+## University of California, San Diego
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasandiego" >}}
+
+
 ## Johns Hopkins
 {{< people limit=20 title=" " cardView=true where="Type" value="johnshopkins" >}}
-
-
-## Northwestern
-{{< people limit=20 title=" " cardView=true where="Type" value="northwestern" >}}
 
 
 ## University of Arizona
@@ -133,10 +137,6 @@ title: Meet the US people working on a Muon Collider
 
 ## Old Dominion University
 {{< people limit=20 title=" " cardView=true where="Type" value="olddominionuniversity" >}}
-
-
-## University of Minnesota
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
 
 
 ## Stanford University
