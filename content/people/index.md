@@ -3,12 +3,12 @@ title: Meet the US people working on a Muon Collider
 ---
 
 
-## Fermilab
-{{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
-
-
 ## University of Chicago
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofchicago" >}}
+
+
+## Fermilab
+{{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
 
 ## University of Wisconsin, Madison
