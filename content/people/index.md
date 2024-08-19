@@ -39,12 +39,12 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
-## University of Illinois, Urbana-Champaign
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofillinoisurbanachampaign" >}}
-
-
 ## Northeastern University
 {{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
+
+
+## University of Illinois, Urbana-Champaign
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofillinoisurbanachampaign" >}}
 
 
 ## Northern Illinois University
@@ -55,6 +55,10 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
 
 
+## Northwestern
+{{< people limit=20 title=" " cardView=true where="Type" value="northwestern" >}}
+
+
 ## University of California, Santa Barbara
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasantabarbara" >}}
 
@@ -63,8 +67,8 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
 
 
-## Northwestern
-{{< people limit=20 title=" " cardView=true where="Type" value="northwestern" >}}
+## University of California, Los Angeles
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofcalifornialosangeles" >}}
 
 
 ## University of Oregon
@@ -73,6 +77,34 @@ title: Meet the US people working on a Muon Collider
 
 ## Harvard University
 {{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
+
+
+## MIT
+{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
+
+
+## University of Iowa
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofiowa" >}}
+
+
+## Wichita State University 
+{{< people limit=20 title=" " cardView=true where="Type" value="wichitastateuniversity" >}}
+
+
+## University of California Davis
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniadavis" >}}
+
+
+## Particle Beam Lasers, Inc.
+{{< people limit=20 title=" " cardView=true where="Type" value="particlebeamlasersinc" >}}
+
+
+## Johns Hopkins
+{{< people limit=20 title=" " cardView=true where="Type" value="johnshopkins" >}}
+
+
+## Argonne National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}
 
 
 ## Muons, Inc.
@@ -87,32 +119,16 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasandiego" >}}
 
 
-## Johns Hopkins
-{{< people limit=20 title=" " cardView=true where="Type" value="johnshopkins" >}}
-
-
-## University of Arizona
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofarizona" >}}
-
-
-## Particle Beam Lasers, Inc.
-{{< people limit=20 title=" " cardView=true where="Type" value="particlebeamlasersinc" >}}
-
-
-## University of California Davis
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniadavis" >}}
-
-
-## Wichita State University 
-{{< people limit=20 title=" " cardView=true where="Type" value="wichitastateuniversity" >}}
-
-
 ## Illinois Institute of Technology
 {{< people limit=20 title=" " cardView=true where="Type" value="illinoisinstituteoftechnology" >}}
 
 
-## Rice University
-{{< people limit=20 title=" " cardView=true where="Type" value="riceuniversity" >}}
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
+
+
+## University of Arizona
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofarizona" >}}
 
 
 ## University of Oklahoma
@@ -135,28 +151,16 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="slacnationalacceleratorlaboratory" >}}
 
 
-## Old Dominion University
-{{< people limit=20 title=" " cardView=true where="Type" value="olddominionuniversity" >}}
-
-
-## Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
-
-
 ## University of Florida
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
 
 
-## MIT
-{{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
+## Rice University
+{{< people limit=20 title=" " cardView=true where="Type" value="riceuniversity" >}}
 
 
-## Argonne National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}
-
-
-## University of Iowa
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofiowa" >}}
+## Old Dominion University
+{{< people limit=20 title=" " cardView=true where="Type" value="olddominionuniversity" >}}
 
 
 If you're working towards a muon collider but aren't included on this list, [reach out to us](mailto:muon-collider@googlegroups.com).
