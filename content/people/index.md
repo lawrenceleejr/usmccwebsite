@@ -31,6 +31,10 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="princetonuniversity" >}}
 
 
+## University of Minnesota
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
+
+
 ## Stony Brook University
 {{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
 
@@ -49,10 +53,6 @@ title: Meet the US people working on a Muon Collider
 
 ## Northern Illinois University
 {{< people limit=20 title=" " cardView=true where="Type" value="northernillinoisuniversity" >}}
-
-
-## University of Minnesota
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofminnesota" >}}
 
 
 ## Northwestern
