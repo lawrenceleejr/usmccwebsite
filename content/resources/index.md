@@ -30,6 +30,8 @@ title: Resources
 
 ## Papers
 
+[Interim report for the International Muon Collider Collaboration](https://arxiv.org/abs/2407.12450)
+
 [Towards a Muon Collider](https://arxiv.org/abs/2303.08533) - EPJC
 
 [Muon Collider Forum Report](https://arxiv.org/abs/2209.01318) - Snowmass Whitepaper
