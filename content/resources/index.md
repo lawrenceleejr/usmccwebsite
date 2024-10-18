@@ -40,11 +40,9 @@ title: Resources
 
 ## Software
 
-[June 2023 Software Tutorial](https://indico.cern.ch/event/1277924/)
+[Detector Simulation Tutorial](https://mcd-wiki.web.cern.ch/software/tutorials/fermilab2024/)
 
-[December 2022 Software Tutorial at Fermilab (git)](https://indico.fnal.gov/event/56615/timetable/)
-
-[Muon Collider Detector and Physics Wiki](https://mcdwiki.docs.cern.ch/)
+[Muon Collider Detector and Physics Wiki](https://mcd-wiki.web.cern.ch/)
 
 ## Letters to P5 and NAS
 
