@@ -11,12 +11,12 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
 
-## University of Wisconsin, Madison
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofwisconsinmadison" >}}
-
-
 ## University of Tennessee, Knoxville
 {{< people limit=20 title=" " cardView=true where="Type" value="universityoftennesseeknoxville" >}}
+
+
+## University of Wisconsin, Madison
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofwisconsinmadison" >}}
 
 
 ## Lawrence Berkeley National Laboratory
