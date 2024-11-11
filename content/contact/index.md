@@ -51,5 +51,6 @@ Here's a list of US-based speakers you could consider reaching out to:
 * Karri DiPetrillo (Chicago)
 * Isobel Ojalvo (Princeton)
 * Kevin Black (Wisconsin)
+* Lawrence Lee (Tennessee)
 
 If you'd like to be on this list but aren't, send us an [email](mailto:muon-collider@googlegroups.com)!
