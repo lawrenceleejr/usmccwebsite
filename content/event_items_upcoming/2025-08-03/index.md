@@ -10,7 +10,7 @@ cascade:
 
 {{< figure src="poster_sess.jpg" >}}
 
-The Muon Accelerator School will run from August 3-8 in Chicago, IL. This opportunity is aimed at physicists and accelerator specialists looking to understand the big Muon Collider picture and get involved in Muon Collider research.
+The Muon Accelerator School will run from August 3-6 in Chicago, IL. This opportunity is aimed at physicists and accelerator specialists looking to understand the big Muon Collider picture and get involved in Muon Collider research.
 
 The accelerator school will be followed by [the 2nd Annual US Muon Collider Collaboration meeting](/event_items_upcoming/2025-08-07/).
 
