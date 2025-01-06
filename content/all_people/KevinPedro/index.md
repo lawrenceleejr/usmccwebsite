@@ -1,6 +1,6 @@
 ---
 title: Kevin  Pedro
 externalUrl: http://kjplanet.com/kjp/index.html
-summary: Associate Scientist, Experiment
+summary: Scientist, Experiment
 type: fermilab
 ---
