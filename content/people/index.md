@@ -47,20 +47,20 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="yaleuniversity" >}}
 
 
-## Northeastern University
-{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
-
-
 ## Stony Brook University
 {{< people limit=20 title=" " cardView=true where="Type" value="stonybrookuniversity" >}}
+
+
+## Northeastern University
+{{< people limit=20 title=" " cardView=true where="Type" value="northeasternuniversity" >}}
 
 
 ## Brookhaven National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="brookhavennationallaboratory" >}}
 
 
-## Northwestern
-{{< people limit=20 title=" " cardView=true where="Type" value="northwestern" >}}
+## Stanford University
+{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
 
 
 ## University of California, Los Angeles
@@ -83,8 +83,12 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="harvarduniversity" >}}
 
 
-## University of Florida
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
+## Northwestern
+{{< people limit=20 title=" " cardView=true where="Type" value="northwestern" >}}
+
+
+## Johns Hopkins
+{{< people limit=20 title=" " cardView=true where="Type" value="johnshopkins" >}}
 
 
 ## Columbia University
@@ -95,28 +99,28 @@ title: Meet the US people working on a Muon Collider
 {{< people limit=20 title=" " cardView=true where="Type" value="muonsinc" >}}
 
 
-## University of California Davis
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniadavis" >}}
-
-
-## Johns Hopkins
-{{< people limit=20 title=" " cardView=true where="Type" value="johnshopkins" >}}
+## University of Florida
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
 
 
 ## Particle Beam Lasers, Inc.
 {{< people limit=20 title=" " cardView=true where="Type" value="particlebeamlasersinc" >}}
 
 
-## Wichita State University 
-{{< people limit=20 title=" " cardView=true where="Type" value="wichitastateuniversity" >}}
+## University of California Davis
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniadavis" >}}
+
+
+## University of California, San Diego
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasandiego" >}}
 
 
 ## University of Iowa
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofiowa" >}}
 
 
-## University of California, San Diego
-{{< people limit=20 title=" " cardView=true where="Type" value="universityofcaliforniasandiego" >}}
+## Wichita State University 
+{{< people limit=20 title=" " cardView=true where="Type" value="wichitastateuniversity" >}}
 
 
 ## University of Oklahoma
@@ -157,10 +161,6 @@ title: Meet the US people working on a Muon Collider
 
 ## MIT
 {{< people limit=20 title=" " cardView=true where="Type" value="mit" >}}
-
-
-## Stanford University
-{{< people limit=20 title=" " cardView=true where="Type" value="stanforduniversity" >}}
 
 
 ## Old Dominion University
