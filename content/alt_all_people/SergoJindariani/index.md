@@ -1,0 +1,6 @@
+---
+title: Sergo Jindariani
+externalUrl: https://orcid.org/0009-0000-7046-6533
+summary: Lab Scientist, Experimental Particle Physics
+type: altfermilab
+---

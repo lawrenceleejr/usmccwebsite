@@ -1,0 +1,6 @@
+---
+title: Andrzej Novak
+externalUrl: https://orcid.org/0000-0002-0389-5896
+summary: Postdoc, Experimental Particle Physics
+type: altmassachusettsinstituteoftechnology
+---
