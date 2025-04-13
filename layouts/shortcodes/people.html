@@ -10,17 +10,17 @@
 
 {{ if $cardView | default false}}
 
-<section class="w-full grid gap-people sm:grid-cols-3 md:grid-cols-4">
+<section class="w-full grid gap-people sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5">
     {{ if $where }}
         {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
             {{ if not (eq .RelPermalink $parent) }}
-                {{ partial "article-link/card.html" . }}
+                {{ partial "article-link/people-card.html" . }}
             {{ end }}
         {{end}}
     {{ else }}
         {{ range .Site.RegularPages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
-                {{ partial "article-link/card.html" . }}
+                {{ partial "article-link/people-card.html" . }}
             {{ end }}
         {{end}}
     {{ end }}
@@ -32,13 +32,13 @@
     {{ if $where }}
         {{ range ( where .Site.RegularPages $where $value | first $limit ) }}
             {{ if not (eq .RelPermalink $parent) }}
-                {{ partial "article-link/simple.html" . }}
+                {{ partial "article-link/people-card.html" . }}
             {{ end }}
         {{end}}
     {{ else }}
         {{ range .Site.RegularPages | first $limit }}
             {{ if not (eq .RelPermalink $parent) }}
-                {{ partial "article-link/simple.html" . }}
+                {{ partial "article-link/people-card.html" . }}
             {{ end }}
         {{end}}
     {{ end }}

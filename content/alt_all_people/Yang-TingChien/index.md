@@ -1,6 +1,6 @@
 ---
 title: Yang-Ting Chien
 externalUrl: https://orcid.org/nan
-summary: Faculty, Theoretical Particle Physics
+summary: Faculty, Theory
 type: altgeorgiastateuniversity
 ---

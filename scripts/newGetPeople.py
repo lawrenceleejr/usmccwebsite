@@ -24,6 +24,14 @@ def getOrcidURL(entry):
         orcid = "https://orcid.org/"+str(orcid)
     return orcid
 
+# Get area for web
+def getArea(entry):
+    form_area = entry['Area(s) of Expertise']
+    if form_area == "Experimental Particle Physics": return "Experiment"
+    if form_area == "Theoretical Particle Physics": return "Theory"
+    if form_area == "Accelerator Physics": return "Accelerator"
+    return form_area
+
 # Make alphanumeric tags to ID institutes
 def getInstTag(inst):
     inst = inst.lower()
@@ -82,7 +90,7 @@ for i, entry in df.iterrows():
         f.write("---\n")
         f.write(f"title: {entry['First Name']} {entry['Last Name']}\n")
         f.write(f"externalUrl: {getOrcidURL(entry)}\n")
-        f.write(f"summary: {entry['Position']}, {entry['Area(s) of Expertise']}\n")
+        f.write(f"summary: {entry['Position']}, {getArea(entry)}\n")
         f.write(f"type: {getInstTag(entry['Primary Affiliation'])}\n")
         #f.write("showHero: true\n")
         f.write("---\n")
@@ -99,7 +107,7 @@ with open(output_file, "w") as f:
         f.write("\n\n")
         #print(inst, "...")
         f.write(f"## {inst}\n")
-        f.write(f'{{{{< people limit=20 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
+        f.write(f'{{{{< alt-people limit=20 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
 
     f.write("\n\nIf you're working towards a muon collider but aren't included on this list, [reach out to us](mailto:muon-collider@googlegroups.com).")
 
