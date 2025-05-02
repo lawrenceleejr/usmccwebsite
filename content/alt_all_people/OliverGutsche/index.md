@@ -1,0 +1,6 @@
+---
+title: Oliver Gutsche
+externalUrl: https://orcid.org/0000-0002-8015-9622
+summary: Lab Scientist, Experimental Particle Physics, Scientific Computing
+type: altfermilab
+---
