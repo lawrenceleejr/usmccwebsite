@@ -1,6 +1,6 @@
 ---
 title: Andrei Afanasev
 externalUrl: https://orcid.org/nan
-summary: Faculty, Theoretical Particle Physics, Accelerator Physics
+summary: Faculty, Theory, Accelerator
 type: altgeorgewashingtonuniversity
 ---

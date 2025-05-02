@@ -1,6 +1,6 @@
 ---
 title: Ryan Simeon
 externalUrl: https://orcid.org/nan
-summary: Graduate Student, Experiment
+summary: Grad Student, Experiment
 type: altuniversityofwisconsinmadison
 ---

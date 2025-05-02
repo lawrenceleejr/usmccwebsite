@@ -1,6 +1,6 @@
 ---
 title: Prateek  Rao
 externalUrl: https://orcid.org/nan
-summary: Undergraduate Student, Accelerator
+summary: Undergrad, Accelerator
 type: altuniversityofwisconsinmadison
 ---

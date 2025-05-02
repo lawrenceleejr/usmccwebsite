@@ -33,10 +33,21 @@ def getOrcidURL(entry):
 # Get area for web
 def getArea(entry):
     form_area = entry['Area(s) of Expertise']
-    if form_area == "Experimental Particle Physics": return "Experiment"
-    if form_area == "Theoretical Particle Physics": return "Theory"
-    if form_area == "Accelerator Physics": return "Accelerator"
-    return form_area
+    output_area = ""
+    for val in form_area.split(", "):
+        if not output_area == "":
+            output_area += ", "
+        if val == "Experimental Particle Physics": output_area += "Experiment"
+        elif val == "Theoretical Particle Physics": output_area += "Theory"
+        elif val == "Accelerator Physics": output_area += "Accelerator"
+        else: output_area += val
+    return output_area
+
+def getPosition(entry):
+    form_position = entry['Position']
+    if form_position == "Graduate Student": return "Grad Student"
+    if form_position == "Undergraduate Student": return "Undergrad"
+    return form_position
 
 # Make alphanumeric tags to ID institutes
 def getInstTag(inst):
@@ -110,7 +121,7 @@ for i, entry in df.iterrows():
         f.write("---\n")
         f.write(f"title: {entry['First Name']} {entry['Last Name']}\n")
         f.write(f"externalUrl: {getOrcidURL(entry)}\n")
-        f.write(f"summary: {entry['Position']}, {getArea(entry)}\n")
+        f.write(f"summary: {getPosition(entry)}, {getArea(entry)}\n")
         f.write(f"type: {getInstTag(entry['Primary Affiliation'])}\n")
         #f.write("showHero: true\n")
         f.write("---\n")
@@ -123,11 +134,12 @@ with open(output_file, "w") as f:
     #f.write("layout: simple\n")
     f.write("---\n")
 
+    f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).")
     for inst in institutions:
         f.write("\n\n")
         #print(inst, "...")
         f.write(f"## {inst}\n")
         f.write(f'{{{{< people limit=20 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
+    f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).")
 
-    f.write("\n\nIf you're working towards a muon collider but aren't included on this list, [reach out to us](mailto:muon-collider@googlegroups.com).")
 

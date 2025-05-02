@@ -3,6 +3,8 @@ title: Meet the members of the US Muon Collider Collaboration
 ---
 
 
+If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).
+
 ## Fermilab
 {{< people limit=20 title=" " cardView=true where="Type" value="altfermilab" >}}
 
@@ -35,24 +37,36 @@ title: Meet the members of the US Muon Collider Collaboration
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofflorida" >}}
 
 
-## Argonne National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="altargonnenationallaboratory" >}}
-
-
-## Brown University
-{{< people limit=20 title=" " cardView=true where="Type" value="altbrownuniversity" >}}
-
-
-## Northeastern University
-{{< people limit=20 title=" " cardView=true where="Type" value="altnortheasternuniversity" >}}
-
-
 ## Indiana University
 {{< people limit=20 title=" " cardView=true where="Type" value="altindianauniversity" >}}
 
 
 ## UC Santa Barbara
 {{< people limit=20 title=" " cardView=true where="Type" value="altucsantabarbara" >}}
+
+
+## Argonne National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="altargonnenationallaboratory" >}}
+
+
+## Northeastern University
+{{< people limit=20 title=" " cardView=true where="Type" value="altnortheasternuniversity" >}}
+
+
+## Brown University
+{{< people limit=20 title=" " cardView=true where="Type" value="altbrownuniversity" >}}
+
+
+## UCLA
+{{< people limit=20 title=" " cardView=true where="Type" value="altucla" >}}
+
+
+## Yale University
+{{< people limit=20 title=" " cardView=true where="Type" value="altyaleuniversity" >}}
+
+
+## UC Berkeley
+{{< people limit=20 title=" " cardView=true where="Type" value="altucberkeley" >}}
 
 
 ## University of Iowa
@@ -63,16 +77,8 @@ title: Meet the members of the US Muon Collider Collaboration
 {{< people limit=20 title=" " cardView=true where="Type" value="altnorthernillinoisuniversity" >}}
 
 
-## UC Berkeley
-{{< people limit=20 title=" " cardView=true where="Type" value="altucberkeley" >}}
-
-
 ## University at Buffalo
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityatbuffalo" >}}
-
-
-## UCLA
-{{< people limit=20 title=" " cardView=true where="Type" value="altucla" >}}
 
 
 ## Texas A&M University
@@ -83,12 +89,36 @@ title: Meet the members of the US Muon Collider Collaboration
 {{< people limit=20 title=" " cardView=true where="Type" value="altslacnationalacceleratorlaboratory" >}}
 
 
-## University of Kansas
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofkansas" >}}
+## Michigan State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altmichiganstateuniversity" >}}
 
 
-## Baylor University
-{{< people limit=20 title=" " cardView=true where="Type" value="altbayloruniversity" >}}
+## Harvard University
+{{< people limit=20 title=" " cardView=true where="Type" value="altharvarduniversity" >}}
+
+
+## Florida State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altfloridastateuniversity" >}}
+
+
+## Rice University
+{{< people limit=20 title=" " cardView=true where="Type" value="altriceuniversity" >}}
+
+
+## University of Illinois at Urbana-Champaign
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofillinoisaturbanachampaign" >}}
+
+
+## California Institute of Technology
+{{< people limit=20 title=" " cardView=true where="Type" value="altcaliforniainstituteoftechnology" >}}
+
+
+## Massachusetts Institute of Technology
+{{< people limit=20 title=" " cardView=true where="Type" value="altmassachusettsinstituteoftechnology" >}}
+
+
+## UC Santa Cruz
+{{< people limit=20 title=" " cardView=true where="Type" value="altucsantacruz" >}}
 
 
 ## University of Pennsylvania
@@ -103,140 +133,108 @@ title: Meet the members of the US Muon Collider Collaboration
 {{< people limit=20 title=" " cardView=true where="Type" value="altucirvine" >}}
 
 
-## Michigan State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altmichiganstateuniversity" >}}
-
-
-## Massachusetts Institute of Technology
-{{< people limit=20 title=" " cardView=true where="Type" value="altmassachusettsinstituteoftechnology" >}}
-
-
 ## Southern Methodist University
 {{< people limit=20 title=" " cardView=true where="Type" value="altsouthernmethodistuniversity" >}}
 
 
-## Harvard University
-{{< people limit=20 title=" " cardView=true where="Type" value="altharvarduniversity" >}}
+## University of Kansas
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofkansas" >}}
 
 
-## California Institute of Technology
-{{< people limit=20 title=" " cardView=true where="Type" value="altcaliforniainstituteoftechnology" >}}
+## Baylor University
+{{< people limit=20 title=" " cardView=true where="Type" value="altbayloruniversity" >}}
 
 
 ## UC San Diego
 {{< people limit=20 title=" " cardView=true where="Type" value="altucsandiego" >}}
 
 
-## University of Illinois at Urbana-Champaign
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofillinoisaturbanachampaign" >}}
-
-
-## Rice University
-{{< people limit=20 title=" " cardView=true where="Type" value="altriceuniversity" >}}
-
-
-## Yale University
-{{< people limit=20 title=" " cardView=true where="Type" value="altyaleuniversity" >}}
+## Stony Brook University
+{{< people limit=20 title=" " cardView=true where="Type" value="altstonybrookuniversity" >}}
 
 
 ## University of Notre Dame
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofnotredame" >}}
 
 
-## Florida State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altfloridastateuniversity" >}}
-
-
-## Stony Brook University
-{{< people limit=20 title=" " cardView=true where="Type" value="altstonybrookuniversity" >}}
-
-
-## UC Santa Cruz
-{{< people limit=20 title=" " cardView=true where="Type" value="altucsantacruz" >}}
-
-
-## University of Mississippi
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofmississippi" >}}
-
-
 ## JLab
 {{< people limit=20 title=" " cardView=true where="Type" value="altjlab" >}}
-
-
-## Texas Tech University
-{{< people limit=20 title=" " cardView=true where="Type" value="alttexastechuniversity" >}}
 
 
 ## George Washington University
 {{< people limit=20 title=" " cardView=true where="Type" value="altgeorgewashingtonuniversity" >}}
 
 
-## University of Minnesota
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofminnesota" >}}
-
-
-## Arizona State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altarizonastateuniversity" >}}
-
-
-## Particle Beam Lasers, Inc.
-{{< people limit=20 title=" " cardView=true where="Type" value="altparticlebeamlasersinc" >}}
-
-
-## University of New Mexico
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofnewmexico" >}}
-
-
-## University of Oklahoma 
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofoklahoma" >}}
-
-
-## Illinois Institute of Technology
-{{< people limit=20 title=" " cardView=true where="Type" value="altillinoisinstituteoftechnology" >}}
-
-
-## Boston University
-{{< people limit=20 title=" " cardView=true where="Type" value="altbostonuniversity" >}}
-
-
-## Idaho State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altidahostateuniversity" >}}
-
-
-## Lafayette College
-{{< people limit=20 title=" " cardView=true where="Type" value="altlafayettecollege" >}}
-
-
-## Lawrence Livermore National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="altlawrencelivermorenationallaboratory" >}}
+## Texas Tech University
+{{< people limit=20 title=" " cardView=true where="Type" value="alttexastechuniversity" >}}
 
 
 ## University of Texas at Arlington
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityoftexasatarlington" >}}
 
 
+## Lawrence Livermore National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="altlawrencelivermorenationallaboratory" >}}
+
+
+## Lafayette College
+{{< people limit=20 title=" " cardView=true where="Type" value="altlafayettecollege" >}}
+
+
+## University of Mississippi
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofmississippi" >}}
+
+
+## University of Oklahoma 
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofoklahoma" >}}
+
+
 ## University of Arizona
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofarizona" >}}
 
 
-## University of Padua
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofpadua" >}}
+## Idaho State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altidahostateuniversity" >}}
 
 
-## Yale University 
-{{< people limit=20 title=" " cardView=true where="Type" value="altyaleuniversity" >}}
+## Boston University
+{{< people limit=20 title=" " cardView=true where="Type" value="altbostonuniversity" >}}
 
 
-## University of Illinois Chicago
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofillinoischicago" >}}
+## Illinois Institute of Technology
+{{< people limit=20 title=" " cardView=true where="Type" value="altillinoisinstituteoftechnology" >}}
+
+
+## University of Minnesota
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofminnesota" >}}
+
+
+## University of New Mexico
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofnewmexico" >}}
 
 
 ## Georgia State University
 {{< people limit=20 title=" " cardView=true where="Type" value="altgeorgiastateuniversity" >}}
 
 
-## POSTECH
-{{< people limit=20 title=" " cardView=true where="Type" value="altpostech" >}}
+## University of Padua
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofpadua" >}}
+
+
+## Particle Beam Lasers, Inc.
+{{< people limit=20 title=" " cardView=true where="Type" value="altparticlebeamlasersinc" >}}
+
+
+## University of Michigan
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofmichigan" >}}
+
+
+## Arizona State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altarizonastateuniversity" >}}
+
+
+## Carver Scientific LLC
+{{< people limit=20 title=" " cardView=true where="Type" value="altcarverscientificllc" >}}
 
 
 ## Northeastern Univeristy
@@ -247,28 +245,24 @@ title: Meet the members of the US Muon Collider Collaboration
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofwashington" >}}
 
 
-## Columbia University
-{{< people limit=20 title=" " cardView=true where="Type" value="altcolumbiauniversity" >}}
-
-
 ## Purdue University Northwest
 {{< people limit=20 title=" " cardView=true where="Type" value="altpurdueuniversitynorthwest" >}}
 
 
-## Fermilab 
-{{< people limit=20 title=" " cardView=true where="Type" value="altfermilab" >}}
+## Columbia University
+{{< people limit=20 title=" " cardView=true where="Type" value="altcolumbiauniversity" >}}
 
 
 ## Stanford University
 {{< people limit=20 title=" " cardView=true where="Type" value="altstanforduniversity" >}}
 
 
+## University of Illinois Chicago
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofillinoischicago" >}}
+
+
 ## Oklahoma State University
 {{< people limit=20 title=" " cardView=true where="Type" value="altoklahomastateuniversity" >}}
-
-
-## University of Michigan
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofmichigan" >}}
 
 
 ## University of Pittsburgh
@@ -287,8 +281,8 @@ title: Meet the members of the US Muon Collider Collaboration
 {{< people limit=20 title=" " cardView=true where="Type" value="altoakridgenationallaboratory" >}}
 
 
-## Carver Scientific LLC
-{{< people limit=20 title=" " cardView=true where="Type" value="altcarverscientificllc" >}}
+## POSTECH
+{{< people limit=20 title=" " cardView=true where="Type" value="altpostech" >}}
 
 
 ## Virginia Tech
@@ -307,4 +301,4 @@ title: Meet the members of the US Muon Collider Collaboration
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofcincinnati" >}}
 
 
-If you're working towards a muon collider but aren't included on this list, [reach out to us](mailto:muon-collider@googlegroups.com).
+If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).

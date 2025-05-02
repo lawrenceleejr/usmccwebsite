@@ -1,6 +1,6 @@
 ---
 title: Devlin Jenkins
 externalUrl: https://orcid.org/nan
-summary: Undergraduate Student, Experiment
+summary: Undergrad, Experiment
 type: altuniversityoftennesseeknoxville
 ---

@@ -1,6 +1,6 @@
 ---
 title: Caroline Riggall
 externalUrl: https://orcid.org/nan
-summary: Graduate Student, Accelerator
+summary: Grad Student, Accelerator
 type: altuniversityoftennesseeknoxville
 ---
