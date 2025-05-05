@@ -41,92 +41,88 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fn
 {{< people limit=20 title=" " cardView=true where="Type" value="altindianauniversity" >}}
 
 
-## UC Santa Barbara
-{{< people limit=20 title=" " cardView=true where="Type" value="altucsantabarbara" >}}
-
-
 ## Argonne National Laboratory
 {{< people limit=20 title=" " cardView=true where="Type" value="altargonnenationallaboratory" >}}
 
 
-## Northeastern University
-{{< people limit=20 title=" " cardView=true where="Type" value="altnortheasternuniversity" >}}
+## UC Santa Barbara
+{{< people limit=20 title=" " cardView=true where="Type" value="altucsantabarbara" >}}
 
 
 ## Brown University
 {{< people limit=20 title=" " cardView=true where="Type" value="altbrownuniversity" >}}
 
 
-## UCLA
-{{< people limit=20 title=" " cardView=true where="Type" value="altucla" >}}
+## Northeastern University
+{{< people limit=20 title=" " cardView=true where="Type" value="altnortheasternuniversity" >}}
 
 
 ## Yale University
 {{< people limit=20 title=" " cardView=true where="Type" value="altyaleuniversity" >}}
 
 
-## UC Berkeley
-{{< people limit=20 title=" " cardView=true where="Type" value="altucberkeley" >}}
-
-
 ## University of Iowa
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofiowa" >}}
 
 
-## Northern Illinois University
-{{< people limit=20 title=" " cardView=true where="Type" value="altnorthernillinoisuniversity" >}}
-
-
-## University at Buffalo
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityatbuffalo" >}}
+## UC Berkeley
+{{< people limit=20 title=" " cardView=true where="Type" value="altucberkeley" >}}
 
 
 ## Texas A&M University
 {{< people limit=20 title=" " cardView=true where="Type" value="alttexasamuniversity" >}}
 
 
-## SLAC National Accelerator Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="altslacnationalacceleratorlaboratory" >}}
-
-
-## Michigan State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altmichiganstateuniversity" >}}
-
-
-## Harvard University
-{{< people limit=20 title=" " cardView=true where="Type" value="altharvarduniversity" >}}
-
-
-## Florida State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altfloridastateuniversity" >}}
-
-
-## Rice University
-{{< people limit=20 title=" " cardView=true where="Type" value="altriceuniversity" >}}
-
-
-## University of Illinois at Urbana-Champaign
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofillinoisaturbanachampaign" >}}
-
-
-## California Institute of Technology
-{{< people limit=20 title=" " cardView=true where="Type" value="altcaliforniainstituteoftechnology" >}}
+## UCLA
+{{< people limit=20 title=" " cardView=true where="Type" value="altucla" >}}
 
 
 ## Massachusetts Institute of Technology
 {{< people limit=20 title=" " cardView=true where="Type" value="altmassachusettsinstituteoftechnology" >}}
 
 
-## UC Santa Cruz
-{{< people limit=20 title=" " cardView=true where="Type" value="altucsantacruz" >}}
+## University at Buffalo
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityatbuffalo" >}}
+
+
+## SLAC National Accelerator Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="altslacnationalacceleratorlaboratory" >}}
+
+
+## Northern Illinois University
+{{< people limit=20 title=" " cardView=true where="Type" value="altnorthernillinoisuniversity" >}}
+
+
+## Rice University
+{{< people limit=20 title=" " cardView=true where="Type" value="altriceuniversity" >}}
 
 
 ## University of Pennsylvania
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofpennsylvania" >}}
 
 
-## University of Alabama
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofalabama" >}}
+## University of Kansas
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofkansas" >}}
+
+
+## University of Notre Dame
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofnotredame" >}}
+
+
+## UC Santa Cruz
+{{< people limit=20 title=" " cardView=true where="Type" value="altucsantacruz" >}}
+
+
+## UC San Diego
+{{< people limit=20 title=" " cardView=true where="Type" value="altucsandiego" >}}
+
+
+## Harvard University
+{{< people limit=20 title=" " cardView=true where="Type" value="altharvarduniversity" >}}
+
+
+## Baylor University
+{{< people limit=20 title=" " cardView=true where="Type" value="altbayloruniversity" >}}
 
 
 ## UC Irvine
@@ -137,120 +133,152 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fn
 {{< people limit=20 title=" " cardView=true where="Type" value="altsouthernmethodistuniversity" >}}
 
 
-## University of Kansas
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofkansas" >}}
-
-
-## Baylor University
-{{< people limit=20 title=" " cardView=true where="Type" value="altbayloruniversity" >}}
-
-
-## UC San Diego
-{{< people limit=20 title=" " cardView=true where="Type" value="altucsandiego" >}}
-
-
 ## Stony Brook University
 {{< people limit=20 title=" " cardView=true where="Type" value="altstonybrookuniversity" >}}
 
 
-## University of Notre Dame
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofnotredame" >}}
+## California Institute of Technology
+{{< people limit=20 title=" " cardView=true where="Type" value="altcaliforniainstituteoftechnology" >}}
 
 
-## JLab
-{{< people limit=20 title=" " cardView=true where="Type" value="altjlab" >}}
+## University of Illinois at Urbana-Champaign
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofillinoisaturbanachampaign" >}}
 
 
-## George Washington University
-{{< people limit=20 title=" " cardView=true where="Type" value="altgeorgewashingtonuniversity" >}}
+## Michigan State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altmichiganstateuniversity" >}}
+
+
+## University of Alabama
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofalabama" >}}
+
+
+## Florida State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altfloridastateuniversity" >}}
 
 
 ## Texas Tech University
 {{< people limit=20 title=" " cardView=true where="Type" value="alttexastechuniversity" >}}
 
 
-## University of Texas at Arlington
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityoftexasatarlington" >}}
+## University of Oregon
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityoforegon" >}}
 
 
-## Lawrence Livermore National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="altlawrencelivermorenationallaboratory" >}}
-
-
-## Lafayette College
-{{< people limit=20 title=" " cardView=true where="Type" value="altlafayettecollege" >}}
-
-
-## University of Mississippi
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofmississippi" >}}
-
-
-## University of Oklahoma 
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofoklahoma" >}}
-
-
-## University of Arizona
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofarizona" >}}
-
-
-## Idaho State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altidahostateuniversity" >}}
-
-
-## Boston University
-{{< people limit=20 title=" " cardView=true where="Type" value="altbostonuniversity" >}}
-
-
-## Illinois Institute of Technology
-{{< people limit=20 title=" " cardView=true where="Type" value="altillinoisinstituteoftechnology" >}}
-
-
-## University of Minnesota
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofminnesota" >}}
-
-
-## University of New Mexico
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofnewmexico" >}}
-
-
-## Georgia State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altgeorgiastateuniversity" >}}
-
-
-## University of Padua
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofpadua" >}}
-
-
-## Particle Beam Lasers, Inc.
-{{< people limit=20 title=" " cardView=true where="Type" value="altparticlebeamlasersinc" >}}
+## Muons, Inc.
+{{< people limit=20 title=" " cardView=true where="Type" value="altmuonsinc" >}}
 
 
 ## University of Michigan
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofmichigan" >}}
 
 
-## Arizona State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altarizonastateuniversity" >}}
+## University of Washington
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofwashington" >}}
+
+
+## Particle Beam Lasers, Inc.
+{{< people limit=20 title=" " cardView=true where="Type" value="altparticlebeamlasersinc" >}}
+
+
+## University of Minnesota
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofminnesota" >}}
+
+
+## University of Mississippi
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofmississippi" >}}
+
+
+## JLab
+{{< people limit=20 title=" " cardView=true where="Type" value="altjlab" >}}
+
+
+## Cornell University
+{{< people limit=20 title=" " cardView=true where="Type" value="altcornelluniversity" >}}
+
+
+## University of New Mexico
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofnewmexico" >}}
+
+
+## Illinois Institute of Technology
+{{< people limit=20 title=" " cardView=true where="Type" value="altillinoisinstituteoftechnology" >}}
+
+
+## Boston University
+{{< people limit=20 title=" " cardView=true where="Type" value="altbostonuniversity" >}}
+
+
+## Idaho State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altidahostateuniversity" >}}
+
+
+## Lafayette College
+{{< people limit=20 title=" " cardView=true where="Type" value="altlafayettecollege" >}}
+
+
+## University of Texas at Arlington
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityoftexasatarlington" >}}
+
+
+## Virginia Tech
+{{< people limit=20 title=" " cardView=true where="Type" value="altvirginiatech" >}}
+
+
+## Columbia University
+{{< people limit=20 title=" " cardView=true where="Type" value="altcolumbiauniversity" >}}
+
+
+## Iowa State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altiowastateuniversity" >}}
+
+
+## University of Pittsburgh
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofpittsburgh" >}}
 
 
 ## Carver Scientific LLC
 {{< people limit=20 title=" " cardView=true where="Type" value="altcarverscientificllc" >}}
 
 
-## Northeastern Univeristy
-{{< people limit=20 title=" " cardView=true where="Type" value="altnortheasternuniveristy" >}}
+## University of Padua
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofpadua" >}}
 
 
-## University of Washington
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofwashington" >}}
+## Lawrence Livermore National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="altlawrencelivermorenationallaboratory" >}}
+
+
+## University of Oklahoma 
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofoklahoma" >}}
+
+
+## Oak Ridge National Laboratory
+{{< people limit=20 title=" " cardView=true where="Type" value="altoakridgenationallaboratory" >}}
+
+
+## George Washington University
+{{< people limit=20 title=" " cardView=true where="Type" value="altgeorgewashingtonuniversity" >}}
+
+
+## Arizona State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altarizonastateuniversity" >}}
+
+
+## University of Arizona
+{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofarizona" >}}
+
+
+## Georgia State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altgeorgiastateuniversity" >}}
+
+
+## Oklahoma State University
+{{< people limit=20 title=" " cardView=true where="Type" value="altoklahomastateuniversity" >}}
 
 
 ## Purdue University Northwest
 {{< people limit=20 title=" " cardView=true where="Type" value="altpurdueuniversitynorthwest" >}}
-
-
-## Columbia University
-{{< people limit=20 title=" " cardView=true where="Type" value="altcolumbiauniversity" >}}
 
 
 ## Stanford University
@@ -261,40 +289,12 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fn
 {{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofillinoischicago" >}}
 
 
-## Oklahoma State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altoklahomastateuniversity" >}}
-
-
-## University of Pittsburgh
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityofpittsburgh" >}}
-
-
-## Iowa State University
-{{< people limit=20 title=" " cardView=true where="Type" value="altiowastateuniversity" >}}
-
-
-## Cornell University
-{{< people limit=20 title=" " cardView=true where="Type" value="altcornelluniversity" >}}
-
-
-## Oak Ridge National Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="altoakridgenationallaboratory" >}}
-
-
 ## POSTECH
 {{< people limit=20 title=" " cardView=true where="Type" value="altpostech" >}}
 
 
-## Virginia Tech
-{{< people limit=20 title=" " cardView=true where="Type" value="altvirginiatech" >}}
-
-
-## University of Oregon
-{{< people limit=20 title=" " cardView=true where="Type" value="altuniversityoforegon" >}}
-
-
-## Muons, Inc.
-{{< people limit=20 title=" " cardView=true where="Type" value="altmuonsinc" >}}
+## Northeastern Univeristy
+{{< people limit=20 title=" " cardView=true where="Type" value="altnortheasternuniveristy" >}}
 
 
 ## University of Cincinnati
