@@ -1,6 +1,7 @@
 ---
 title: "US Muon Collider Collaboration"
 description: "US Muon Collider Collaboration (USMCC) Information"
+showHero: true
 ---
 
 ## Why a muon collider? 

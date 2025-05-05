@@ -1,6 +1,6 @@
 ---
 title: "Hosting & Deployment"
-date: 2020-08-07
+weight: 14
 draft: false
 description: "Learn how to deploy a Blowfish site."
 slug: "hosting-deployment"
@@ -47,7 +47,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:

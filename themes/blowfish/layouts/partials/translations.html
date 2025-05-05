@@ -1,11 +1,11 @@
 {{ if .IsTranslated }}
 <div>
   <div class="cursor-pointer flex items-center nested-menu">
-    <span class="mr-1">
+    <span class="ltr:mr-1 rtl:ml-1">
       {{ partial "icon.html" "language" }}
     </span>
     <div class="text-sm font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="{{ .Title }}">
-      {{- i18n "global.language" | markdownify | emojify -}}
+      {{- i18n "global.language" | markdownify -}}
     </div>
   </div>
   <div class="absolute menuhide">
