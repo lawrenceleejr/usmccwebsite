@@ -91,25 +91,25 @@ for i, entry in df.iterrows():
             if not pd.isna(photo_url):
                 file_id = photo_url.split("id=")[-1] # https://drive.google.com/open?id=1STvUG313HJuftNQdrq4gY0rWIEDHF_3g
                 download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
-                try:
-                    response = requests.get(download_url)
-                    response.raise_for_status()
-                    image_data = response.content
+                #try:
+                response = requests.get(download_url)
+                response.raise_for_status()
+                image_data = response.content
 
-                    # Detect image format
-                    image = Image.open(BytesIO(image_data))
-                    extension = image.format.lower()  # e.g., "jpeg", "png"
-                    if not extension:
-                        print(f"Could not detect image type for", fname)
-                    else:
-                        # Save file with detected extension
-                        filename = f"saved_photos/{fname}.{extension}"
-                        with open(filename, 'wb') as f:
-                            f.write(image_data)
-                        shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/feature_{fname}.{extension}")
-                        got_photo = True
-                except:
-                    print("Failed to retrieve image for", fname)
+                # Detect image format
+                image = Image.open(BytesIO(image_data))
+                extension = image.format.lower()  # e.g., "jpeg", "png"
+                if not extension:
+                    print(f"Could not detect image type for", fname)
+                else:
+                    # Save file with detected extension
+                    filename = f"saved_photos/{fname}.{extension}"
+                    with open(filename, 'wb') as f:
+                        f.write(image_data)
+                    shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/feature_{fname}.{extension}")
+                    got_photo = True
+                #except:
+                #    print("Failed to retrieve image for", fname)
 
         # If this fails, copy the default photo to their path
         if not got_photo:
