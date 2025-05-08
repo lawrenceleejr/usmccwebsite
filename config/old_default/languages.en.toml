@@ -1,0 +1,12 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "US Muon Collider Collaboration"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "LogoUSMCC_circles.png"
+secondaryLogo = "LogoUSMCC_circles.png"

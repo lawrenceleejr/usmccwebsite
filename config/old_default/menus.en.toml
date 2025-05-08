@@ -1,0 +1,76 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "About"
+pageRef = "/_index"
+weight = 1
+
+[[main]]
+name = "Accelerator R&D"
+parent = "About"
+pageRef = "posts/accelerator"
+weight = 2
+
+[[main]]
+name = "Detector R&D"
+parent = "About"
+pageRef = "posts/detector"
+weight = 3
+
+[[main]]
+name = "Physics Case"
+parent = "About"
+pageRef = "posts/physics"
+weight = 4
+
+[[main]]
+name = "Dedicated Software"
+parent = "About"
+pageRef = "posts/reconstruction"
+weight = 5
+
+[[main]]
+name = "IMCC"
+parent = "About"
+pageRef = "posts/imcc"
+weight = 6
+
+[[main]]
+name = "Press"
+pageRef = "press"
+weight = 10
+
+[[main]]
+name = "Events"
+pageRef = "events"
+weight = 20
+
+[[main]]
+name = "Resources"
+pageRef = "resources"
+weight = 30
+
+[[main]]
+name = "Contact"
+pageRef = "contact"
+weight = 40
+
+[[main]]
+name = "People"
+pageRef = "people"
+weight = 50
+
+[[main]]
+name = "Merch"
+pageRef = "merch"
+weight = 60
+
+#[[footer]]
+#none = "none"
+
+[[footer]]
+name = "Email us"
+url = "mailto:muon-collider@googlegroups.com"
+
+

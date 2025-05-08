@@ -1,6 +1,6 @@
 ---
 title: "安装和配置"
-date: 2020-08-16
+weight: 2
 draft: false
 description: "如何安装 Blowfish 主题。"
 slug: "installation"
@@ -110,6 +110,7 @@ git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blo
 
    ```toml
    [[imports]]
+   disable = false
    path = "github.com/nunocoracao/blowfish/v2"
    ```
 
@@ -135,7 +136,7 @@ git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blo
 
 根据你安装主题的不同方式，你可以在以下地方找到主题的配置文件：
 
-- **Hugo 模块:** 在 Hugo 的缓存目录, 或者从 Github [下载副本](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/nunocoracao/blowfish/tree/main/config/_default) from GitHub
+- **Hugo 模块:** 在 Hugo 的缓存目录, 或者从 Github [下载副本](https://github.com/nunocoracao/blowfish/releases/latest/download/config-default.zip) from GitHub
 - **Git 子模块 或 本地复制文件:** `themes/blowfish/config/_default`
 
 一旦你复制了这些文件，你的 config 目录看起来应该是这样：
@@ -180,7 +181,7 @@ git submodule update --remote --merge
 
 一旦子模块更新完毕，请检查你的确实是否一切正常。
 
-### Update using Hugo
+### 使用 Hugo 更新
 
 Hugo 更新也十分容易。只需要进入网站根目录，并执行以下命令即可：
 

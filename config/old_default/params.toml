@@ -1,0 +1,101 @@
+colorScheme = "marvel"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = false
+disableImageOptimization = false
+disableTextInHeader = true
+defaultBackgroundImage = "test.png"
+
+[header]
+layout = "fixed-fill-blur"
+
+[footer]
+showMenu = true
+showCopyright = false
+showThemeAttribution = false
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "background"
+showRecent = false
+showRecentItems = 5
+showMoreLink = false
+showMoreLinkDest = "/posts"
+cardView = false
+cardViewScreenWidth = false
+layoutBackgroundBlur = "enable"
+homepageImage = "test.png"
+
+[article]
+showDate = false
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = true
+showAuthor = false
+showHero = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = false
+showPagination = false
+invertPagination = false
+showReadingTime = false
+showTableOfContents = true
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = false
+showZenMode = false
+
+[list]
+showHero = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = true
+groupByYear = true
+cardView = true
+cardViewScreenWidth = false
+constrainItemsWidth = false
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+
+[firebase]
+
+[fathomAnalytics]
+
+[umamiAnalytics]
+
+[buymeacoffee]
+
+[verification]
