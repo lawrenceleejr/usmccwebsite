@@ -1,6 +1,6 @@
 ---
 title: Carl Vuosalo
-externalUrl: https://www.physics.wisc.edu/directory/vuosalo-carl/
-summary: Scientist, Experiment
+externalUrl: https://orcid.org/0000-0001-7571-5826
+summary: Lab Scientist, Experiment
 type: universityofwisconsinmadison
 ---

@@ -1,6 +1,6 @@
 ---
 title: Javier Duarte
-externalUrl: jduarte.physics.ucsd.edu
-summary: Associate Professor, Experiment
-type: universityofcaliforniasandiego
+externalUrl: https://orcid.org/0000-0002-5076-7096
+summary: Faculty, Experiment
+type: ucsandiego
 ---

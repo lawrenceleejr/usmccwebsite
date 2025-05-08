@@ -1,6 +1,6 @@
 ---
 title: Xueying Lu
-externalUrl: https://www.niu.edu/clas/physics/about/directory/lu.shtml
-summary: Assistant Professor (joint with ANL), Accelerator
+externalUrl: https://orcid.org/0000-0001-6336-3528
+summary: Faculty, Accelerator
 type: northernillinoisuniversity
 ---

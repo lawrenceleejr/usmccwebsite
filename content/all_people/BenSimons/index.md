@@ -1,6 +1,6 @@
 ---
 title: Ben Simons
-externalUrl: mailto:z1854942@students.niu.edu
-summary: Graduate Student, Accelerator
+externalUrl: https://orcid.org/0000-0002-6567-1329
+summary: Grad Student, Accelerator
 type: northernillinoisuniversity
 ---

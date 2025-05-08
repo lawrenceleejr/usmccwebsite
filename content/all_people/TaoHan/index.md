@@ -1,6 +1,6 @@
 ---
 title: Tao Han
-externalUrl: https://www.physicsandastronomy.pitt.edu/people/tao-han
-summary: Professor, Theory
+externalUrl: https://orcid.org/0000-0002-5543-0716
+summary: Faculty, Theory
 type: universityofpittsburgh
 ---

@@ -1,6 +1,6 @@
 ---
 title: Matheus Hostert
-externalUrl: mhostert.com
-summary: Postdoc , Theory
-type: harvarduniversity
+externalUrl: https://orcid.org/0000-0002-9584-8877
+summary: Faculty, Theory
+type: universityofiowa
 ---

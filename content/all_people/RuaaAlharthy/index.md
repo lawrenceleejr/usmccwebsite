@@ -1,6 +1,6 @@
 ---
 title: Ruaa Alharthy
-externalUrl: https://www.physics.wisc.edu/directory/alharthy-ruaa/
-summary: Graduate Student, Experiment
+externalUrl: https://orcid.org/nan
+summary: Grad Student, Accelerator
 type: universityofwisconsinmadison
 ---

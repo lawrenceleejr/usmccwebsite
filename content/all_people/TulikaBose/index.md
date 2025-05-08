@@ -1,6 +1,6 @@
 ---
 title: Tulika Bose
-externalUrl: https://www.hep.wisc.edu/tulikabose/
-summary: Professor, Experiment
+externalUrl: https://orcid.org/0000-0001-8026-5380
+summary: Faculty, Experiment
 type: universityofwisconsinmadison
 ---

@@ -1,6 +1,6 @@
 ---
-title: Sergo  Jindariani
-externalUrl: https://cms.fnal.gov/sergo-r-jindariani/
-summary: Senior Scientist, Experiment
+title: Sergo Jindariani
+externalUrl: https://orcid.org/0009-0000-7046-6533
+summary: Lab Scientist, Experiment
 type: fermilab
 ---

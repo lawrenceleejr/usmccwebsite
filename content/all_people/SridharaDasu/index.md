@@ -1,6 +1,6 @@
 ---
 title: Sridhara Dasu
-externalUrl: https://www.hep.wisc.edu/home/dasu/
-summary: Professor, Experiment
+externalUrl: https://orcid.org/0000-0001-5993-9045
+summary: Faculty, Experiment
 type: universityofwisconsinmadison
 ---

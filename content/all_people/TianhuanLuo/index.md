@@ -1,6 +1,6 @@
 ---
-title: Tianhuan  Luo
-externalUrl: mailto:tluo@lbl.gov
-summary: Research Scientist, Accelerator
+title: Tianhuan Luo
+externalUrl: https://orcid.org/0000-0001-7358-9686
+summary: Lab Scientist, Accelerator
 type: lawrenceberkeleynationallaboratory
 ---

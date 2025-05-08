@@ -1,6 +1,6 @@
 ---
 title: Gregory Penn
-externalUrl: mailto:gregory.penn@yale.edu 
-summary: Graduate Student, Experiment
+externalUrl: https://orcid.org/0000-0002-6956-9970
+summary: Grad Student, Experiment
 type: yaleuniversity
 ---

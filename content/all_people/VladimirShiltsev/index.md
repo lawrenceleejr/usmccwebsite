@@ -1,6 +1,6 @@
 ---
 title: Vladimir Shiltsev
-externalUrl: https://en.wikipedia.org/wiki/Vladimir_Shiltsev
-summary: Professor, Accelerator
+externalUrl: https://orcid.org/0000-0003-3282-4701
+summary: Faculty, Accelerator
 type: northernillinoisuniversity
 ---

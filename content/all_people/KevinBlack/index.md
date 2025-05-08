@@ -1,6 +1,6 @@
 ---
-title: Kevin  Black
-externalUrl: https://www.physics.wisc.edu/directory/black-kevin/
-summary: Professor, Experiment
+title: Kevin Black
+externalUrl: https://orcid.org/0000-0001-7320-5080
+summary: Faculty, Experiment
 type: universityofwisconsinmadison
 ---

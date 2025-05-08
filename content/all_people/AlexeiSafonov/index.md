@@ -1,6 +1,6 @@
 ---
 title: Alexei Safonov
-externalUrl: mailto:safonov@tamu.edu
-summary: Professor, Experiment
+externalUrl: https://orcid.org/0000-0001-9497-5471
+summary: Faculty, Experiment
 type: texasamuniversity
 ---

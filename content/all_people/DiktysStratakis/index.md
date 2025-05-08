@@ -1,6 +1,6 @@
 ---
 title: Diktys Stratakis
-externalUrl: https://www.dstratakis.com/
-summary: Scientist, Accelerator
+externalUrl: https://orcid.org/nan
+summary: Lab Scientist, Accelerator
 type: fermilab
 ---

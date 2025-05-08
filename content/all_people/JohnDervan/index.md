@@ -1,6 +1,6 @@
 ---
 title: John Dervan
-externalUrl: mailto:john.dervan@cern.ch
-summary: Graduate Student, Experiment
+externalUrl: https://orcid.org/0000-0002-3931-0845
+summary: Grad Student, Experiment
 type: northeasternuniversity
 ---

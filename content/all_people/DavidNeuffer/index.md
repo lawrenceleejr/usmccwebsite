@@ -1,6 +1,6 @@
 ---
 title: David Neuffer
-externalUrl: mailto:neufferd@sbcglobal.net
-summary: Scientist Emeritus, Accelerator
+externalUrl: https://orcid.org/0000-0002-4538-1295
+summary: scientist emeritus, Accelerator
 type: fermilab
 ---

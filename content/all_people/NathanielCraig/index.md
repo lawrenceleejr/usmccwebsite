@@ -1,6 +1,6 @@
 ---
 title: Nathaniel Craig
-externalUrl: mailto:ncraig@ucsb.edu
-summary: Professor, Theory
-type: universityofcaliforniasantabarbara
+externalUrl: https://orcid.org/0000-0003-2214-8447
+summary: Faculty, Theory
+type: ucsantabarbara
 ---

@@ -1,6 +1,6 @@
 ---
 title: Kyle Capobianco-Hogan
-externalUrl: mailto:kyle.capobianco-hogan@stonybrook.edu
-summary: Graduate Student, Accelerator
+externalUrl: https://orcid.org/0000-0003-3046-6314
+summary: Grad Student, Accelerator
 type: stonybrookuniversity
 ---

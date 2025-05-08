@@ -1,6 +1,6 @@
 ---
 title: Simone Pagan Griso
-externalUrl: mailto:spagangriso@lbl.gov
-summary: Senior Scientist, Experiment
+externalUrl: https://orcid.org/0000-0003-0999-5019
+summary: Lab Scientist, Experiment
 type: lawrenceberkeleynationallaboratory
 ---

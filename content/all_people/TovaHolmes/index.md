@@ -1,6 +1,6 @@
 ---
 title: Tova Holmes
-externalUrl: http://www.phys.utk.edu/people/faculty/holmes.html
-summary: Assistant Professor, Experiment
+externalUrl: https://orcid.org/0000-0002-3959-5174
+summary: Faculty, Experiment
 type: universityoftennesseeknoxville
 ---

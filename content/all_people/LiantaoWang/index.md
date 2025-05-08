@@ -1,6 +1,6 @@
 ---
 title: Liantao Wang
-externalUrl: https://homes.psd.uchicago.edu/~liantaow/
-summary: Professsor, Theory
+externalUrl: https://orcid.org/nan
+summary: Faculty, Theory
 type: universityofchicago
 ---

@@ -1,6 +1,6 @@
 ---
 title: Abhisek Datta
-externalUrl: mailto:abhisek.datta@cern.ch
+externalUrl: https://orcid.org/0000-0003-2695-7719
 summary: Postdoc, Experiment
-type: universityofcalifornialosangeles
+type: ucla
 ---

@@ -1,6 +1,6 @@
 ---
 title: Caroline Riggall
-externalUrl: mailto:criggall@vols.utk.edu
-summary: Graduate Student, Experiment
+externalUrl: https://orcid.org/nan
+summary: Grad Student, Accelerator
 type: universityoftennesseeknoxville
 ---

@@ -1,6 +1,6 @@
 ---
 title: Kiley Kennedy
-externalUrl: mailto:kileykennedy@princeton.edu
+externalUrl: https://orcid.org/0000-0003-3264-548X
 summary: Postdoc, Experiment
 type: princetonuniversity
 ---

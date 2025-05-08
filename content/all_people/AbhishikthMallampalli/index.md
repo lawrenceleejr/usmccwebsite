@@ -1,6 +1,6 @@
 ---
 title: Abhishikth Mallampalli
-externalUrl: https://www.physics.wisc.edu/directory/mallampalli-abhishikth/
-summary: Graduate Student, Experiment
+externalUrl: https://orcid.org/0000-0002-3793-8516
+summary: Grad Student, Experiment
 type: universityofwisconsinmadison
 ---

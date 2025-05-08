@@ -1,6 +1,6 @@
 ---
 title: Rodolfo Capdevilla
-externalUrl: https://inspirehep.net/authors/1275234?ui-citation-summary=true
+externalUrl: https://orcid.org/nan
 summary: Postdoc, Theory
 type: fermilab
 ---

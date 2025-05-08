@@ -1,6 +1,6 @@
 ---
 title: Pavel Snopok
-externalUrl: mailto:psnopok@iit.edu
-summary: Professor, Accelerator
+externalUrl: https://orcid.org/0000-0003-4174-1633
+summary: Faculty, Accelerator
 type: illinoisinstituteoftechnology
 ---

@@ -1,6 +1,6 @@
 ---
 title: Toyoko Orimoto
-externalUrl: https://cos.northeastern.edu/people/toyoko-orimoto/
-summary: Professor, Experiment
+externalUrl: https://orcid.org/0000-0002-8388-3341
+summary: Faculty, Experiment
 type: northeasternuniversity
 ---

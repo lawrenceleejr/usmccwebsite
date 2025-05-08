@@ -1,6 +1,6 @@
 ---
 title: Cari Cesarotti
-externalUrl: mailto:ccesar@mit.edu
+externalUrl: https://orcid.org/0000-0001-5128-7919
 summary: Postdoc, Theory
-type: mit
+type: massachusettsinstituteoftechnology
 ---

@@ -1,6 +1,6 @@
 ---
 title: Gustaaf Brooijmans
-externalUrl: https://www.physics.columbia.edu/content/gustaaf-h-brooijmans
-summary: Professor, Experiment
+externalUrl: https://orcid.org/0000-0002-3354-1810
+summary: Faculty, Experiment
 type: columbiauniversity
 ---

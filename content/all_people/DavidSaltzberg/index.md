@@ -1,6 +1,6 @@
 ---
 title: David Saltzberg
-externalUrl: https://www.physics.ucla.edu/~saltzberg/
+externalUrl: https://orcid.org/0000-0003-0658-9146
 summary: Faculty, Experiment
-type: universityofcalifornialosangeles
+type: ucla
 ---

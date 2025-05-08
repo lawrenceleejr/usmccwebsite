@@ -1,6 +1,6 @@
 ---
 title: Katrina Howard
-externalUrl: https://physics.uchicago.edu/people/profile/katrina-howard/
-summary: Graduate Student, Accelerator
+externalUrl: https://orcid.org/0000-0003-2561-3308
+summary: Grad Student, Accelerator
 type: universityofchicago
 ---

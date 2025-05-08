@@ -1,6 +1,6 @@
 ---
 title: Alexander Tuna
-externalUrl: https://www.linkedin.com/in/alexandertuna
-summary: Postdoc, Experiment
-type: universityoftennesseeknoxville
+externalUrl: https://orcid.org/0000-0002-7672-7754
+summary: University Scientist, Experiment
+type: ucsandiego
 ---

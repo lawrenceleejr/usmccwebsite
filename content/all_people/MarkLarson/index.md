@@ -1,6 +1,6 @@
 ---
 title: Mark Larson
-externalUrl: mailto:mark.steven.larson@cern.ch
-summary: Graduate Student, Experiment
+externalUrl: https://orcid.org/0000-0002-1546-7354
+summary: Grad Student, Experiment
 type: universityofchicago
 ---

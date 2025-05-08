@@ -1,6 +1,6 @@
 ---
 title: Shivani Lomte
-externalUrl: https://www.physics.wisc.edu/directory/lomte-shivani-s/
-summary: Graduate Student, Experiment
+externalUrl: https://orcid.org/0000-0002-9745-2403
+summary: Grad Student, Experiment
 type: universityofwisconsinmadison
 ---

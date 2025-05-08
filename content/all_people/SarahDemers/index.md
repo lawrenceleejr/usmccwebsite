@@ -1,6 +1,6 @@
 ---
 title: Sarah Demers
-externalUrl: https://demerslab.yale.edu/
+externalUrl: https://orcid.org/0000-0002-7282-1786
 summary: Faculty, Experiment
 type: yaleuniversity
 ---
