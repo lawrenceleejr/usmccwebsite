@@ -27,3 +27,11 @@
 .max-w-prose {
   max-width:80ch
 }
+
+.thumbnail {
+  /*min-width: 300px;*/
+  height: auto;
+  /*background-repeat:no-repeat;
+  background-size:cover; 
+  background-position:center;*/
+}
