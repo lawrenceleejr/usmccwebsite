@@ -56,8 +56,12 @@ def getInstTag(inst):
     return result
 
 # Get data and list of institutes and sort by size
+#df = pd.read_csv(url)
+#institutions = df['Primary Affiliation'].value_counts().index.tolist()
+
+# Get data and list of institutes and sort alphabetically
 df = pd.read_csv(url)
-institutions = df['Primary Affiliation'].value_counts().index.tolist()
+institutions = sorted(df['Primary Affiliation'].dropna().unique().tolist())
 
 # Remove everything if hard_reset
 if hard_reset:
