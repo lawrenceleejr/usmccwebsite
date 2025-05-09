@@ -1,6 +1,6 @@
 ---
 title: Jennifer Roloff
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:jennifer_roloff@brown.edu
 summary: Faculty, Experiment
 type: brownuniversity
 ---

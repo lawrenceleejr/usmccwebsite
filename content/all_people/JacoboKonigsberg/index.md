@@ -1,6 +1,6 @@
 ---
 title: Jacobo Konigsberg
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:jacobo@cern.ch
 summary: Faculty, Experiment
 type: universityofflorida
 ---

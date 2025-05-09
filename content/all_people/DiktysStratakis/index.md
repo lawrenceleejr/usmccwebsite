@@ -1,6 +1,6 @@
 ---
 title: Diktys Stratakis
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:diktys@fnal.gov
 summary: Lab Scientist, Accelerator
 type: fermilab
 ---

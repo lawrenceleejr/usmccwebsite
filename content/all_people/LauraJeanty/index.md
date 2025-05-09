@@ -1,6 +1,6 @@
 ---
 title: Laura Jeanty
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:ljeanty@uoregon.edu
 summary: Faculty, Experiment
 type: universityoforegon
 ---

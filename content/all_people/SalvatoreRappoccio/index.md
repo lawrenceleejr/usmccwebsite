@@ -1,6 +1,6 @@
 ---
 title: Salvatore Rappoccio
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:srrappoc@buffalo.edu
 summary: Faculty, Experiment
 type: universityatbuffalo
 ---

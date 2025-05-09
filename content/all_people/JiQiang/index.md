@@ -1,6 +1,6 @@
 ---
 title: Ji  Qiang
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:jqiang@lbl.gov
 summary: Lab Scientist, Accelerator
 type: lawrenceberkeleynationallaboratory
 ---

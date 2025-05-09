@@ -1,6 +1,6 @@
 ---
 title: Andrei Afanasev
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:afanas@gwu.edu
 summary: Faculty, Theory, Accelerator
 type: georgewashingtonuniversity
 ---

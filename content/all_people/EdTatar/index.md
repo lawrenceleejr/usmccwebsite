@@ -1,6 +1,6 @@
 ---
 title: Ed Tatar
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:tataerdi@isu.edu
 summary: Faculty, Experiment
 type: idahostateuniversity
 ---

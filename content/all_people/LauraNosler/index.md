@@ -1,6 +1,6 @@
 ---
 title: Laura Nosler
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:laura_nosler@berkeley.edu
 summary: Grad Student, Experiment
 type: lawrenceberkeleynationallaboratory
 ---

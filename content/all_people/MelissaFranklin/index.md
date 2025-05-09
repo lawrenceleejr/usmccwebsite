@@ -1,6 +1,6 @@
 ---
 title: Melissa Franklin
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:melissafranklin@g.harvard.edu
 summary: Faculty, Experiment
 type: harvarduniversity
 ---

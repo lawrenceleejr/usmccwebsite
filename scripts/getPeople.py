@@ -24,7 +24,7 @@ hard_reset = True
 # Get ORCID website url
 def getOrcidURL(entry):
     orcid = entry['ORCID ID (if available)']
-    if not orcid:
+    if pd.isna(orcid):
         return "mailto:"+entry['Email']
     if not "orcid.org" in str(orcid):
         orcid = "https://orcid.org/"+str(orcid)

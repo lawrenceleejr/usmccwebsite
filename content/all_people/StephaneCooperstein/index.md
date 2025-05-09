@@ -1,6 +1,6 @@
 ---
 title: Stephane Cooperstein
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:stephane.b.cooperstein@cern.ch
 summary: Faculty, Experiment
 type: texasamuniversity
 ---

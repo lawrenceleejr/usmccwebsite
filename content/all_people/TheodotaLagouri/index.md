@@ -1,6 +1,6 @@
 ---
 title: Theodota Lagouri
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:theodota.lagouri@cern.ch
 summary: Research Scientist, Experiment
 type: yaleuniversity
 ---

@@ -1,6 +1,6 @@
 ---
 title: Sergei Gleyzer
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:sgleyzer@ua.edu
 summary: Faculty, Experiment
 type: universityofalabama
 ---

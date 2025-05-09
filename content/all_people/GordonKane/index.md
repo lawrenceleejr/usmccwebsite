@@ -1,6 +1,6 @@
 ---
 title: Gordon Kane
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:gkane@umich.edu
 summary: Faculty, Theory
 type: universityofmichigan
 ---

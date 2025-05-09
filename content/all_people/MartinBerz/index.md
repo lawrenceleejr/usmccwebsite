@@ -1,6 +1,6 @@
 ---
 title: Martin Berz
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:martin.berz@gmail.com
 summary: Faculty, Accelerator
 type: michiganstateuniversity
 ---

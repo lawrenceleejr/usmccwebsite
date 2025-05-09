@@ -1,6 +1,6 @@
 ---
 title: Irene Dutta
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:irene.dutta@cern.ch
 summary: Postdoc, Experiment
 type: fermilab
 ---

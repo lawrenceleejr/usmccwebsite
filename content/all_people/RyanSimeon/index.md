@@ -1,6 +1,6 @@
 ---
 title: Ryan Simeon
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:rsimeon@wisc.edu
 summary: Grad Student, Experiment
 type: universityofwisconsinmadison
 ---

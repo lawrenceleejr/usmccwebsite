@@ -1,6 +1,6 @@
 ---
 title: Prateek  Rao
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:pprao@wisc.edu
 summary: Undergrad, Accelerator
 type: universityofwisconsinmadison
 ---

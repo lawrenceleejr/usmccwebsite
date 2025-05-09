@@ -1,6 +1,6 @@
 ---
 title: Yang-Ting Chien
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:ytchien@gsu.edu
 summary: Faculty, Theory
 type: georgiastateuniversity
 ---

@@ -1,6 +1,6 @@
 ---
 title: Daniel Green
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:danielgreen338@gmail.com
 summary: FNAL emeritus, Experiment
 type: fermilab
 ---

@@ -1,6 +1,6 @@
 ---
 title: Lawrence Sulak
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:sulak@bu.edu
 summary: Faculty, Experiment
 type: bostonuniversity
 ---

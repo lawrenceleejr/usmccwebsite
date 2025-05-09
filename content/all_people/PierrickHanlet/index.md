@@ -1,6 +1,6 @@
 ---
 title: Pierrick Hanlet
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:hanlet@fnal.gov
 summary: Accelerator engineer, Experiment, Accelerator, control systems engineering
 type: fermilab
 ---

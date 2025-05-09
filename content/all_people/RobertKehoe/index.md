@@ -1,6 +1,6 @@
 ---
 title: Robert Kehoe
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:Kehoe@physics.smu.edu
 summary: Faculty, Experiment
 type: southernmethodistuniversity
 ---

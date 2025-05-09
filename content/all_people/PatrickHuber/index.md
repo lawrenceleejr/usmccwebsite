@@ -1,6 +1,6 @@
 ---
 title: Patrick Huber
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:pahuber@vt.edu
 summary: Faculty, Theory
 type: virginiatech
 ---

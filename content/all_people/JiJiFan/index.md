@@ -1,6 +1,6 @@
 ---
 title: JiJi Fan
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:jiji_fan@brown.edu
 summary: Faculty, Theory
 type: brownuniversity
 ---

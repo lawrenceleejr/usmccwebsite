@@ -1,6 +1,6 @@
 ---
 title: Andrew Fee
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:afee@ucsb.edu
 summary: Undergrad, Theory
 type: ucsantabarbara
 ---

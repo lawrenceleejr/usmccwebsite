@@ -1,6 +1,6 @@
 ---
 title: Ronald Lipton 
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:lipton@fnal.gov
 summary: Lab Emeritus, Experiment
 type: fermilab
 ---

@@ -1,6 +1,6 @@
 ---
 title: Christopher  Pierce
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:chris@chris-pierce.com
 summary: Lab Scientist, Accelerator
 type: universityofchicago
 ---

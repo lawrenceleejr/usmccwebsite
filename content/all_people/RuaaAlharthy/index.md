@@ -1,6 +1,6 @@
 ---
 title: Ruaa Alharthy
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:ralharthy@wisc.edu
 summary: Grad Student, Accelerator
 type: universityofwisconsinmadison
 ---

@@ -1,6 +1,6 @@
 ---
 title: Rodolfo Capdevilla
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:rcapdevi@fnal.gov
 summary: Postdoc, Theory
 type: fermilab
 ---

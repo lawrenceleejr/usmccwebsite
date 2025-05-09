@@ -1,6 +1,6 @@
 ---
 title: Devlin Jenkins
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:djenki32@vols.utk.edu
 summary: Undergrad, Experiment
 type: universityoftennesseeknoxville
 ---

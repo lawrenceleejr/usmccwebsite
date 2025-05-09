@@ -1,6 +1,6 @@
 ---
 title: Gordan Krnjaic
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:krnjaicg@gmail.com
 summary: Faculty, Theory
 type: fermilab
 ---

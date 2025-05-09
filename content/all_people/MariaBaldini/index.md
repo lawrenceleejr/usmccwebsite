@@ -1,6 +1,6 @@
 ---
 title: Maria Baldini
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:mbaldini@fnal.gov
 summary: Lab Scientist, Accelerator
 type: fermilab
 ---

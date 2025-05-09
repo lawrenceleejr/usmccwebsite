@@ -1,6 +1,6 @@
 ---
 title: Liantao Wang
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:liantaow@uchicago.edu
 summary: Faculty, Theory
 type: universityofchicago
 ---

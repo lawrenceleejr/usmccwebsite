@@ -1,6 +1,6 @@
 ---
 title: Wonyong Chung
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:wonyongc@princeton.edu
 summary: Postdoc, Experiment
 type: princetonuniversity
 ---

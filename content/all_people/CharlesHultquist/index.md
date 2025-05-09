@@ -1,6 +1,6 @@
 ---
 title: Charles Hultquist
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:charlie.hultquist@berkeley.edu
 summary: Grad Student, Experiment
 type: ucberkeley
 ---

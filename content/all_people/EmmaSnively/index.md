@@ -1,6 +1,6 @@
 ---
 title: Emma Snively
-externalUrl: https://orcid.org/nan
+externalUrl: mailto:esnively@slac.stanford.edu
 summary: Lab Scientist, Accelerator
 type: slacnationalacceleratorlaboratory
 ---
