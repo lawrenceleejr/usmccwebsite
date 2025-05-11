@@ -142,7 +142,7 @@ with open(output_file, "w") as f:
         f.write("\n\n")
         #print(inst, "...")
         f.write(f"## {inst}\n")
-        f.write(f'{{{{< people limit=20 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
+        f.write(f'{{{{< people limit=2000 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
     f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).")
 
 
