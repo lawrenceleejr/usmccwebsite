@@ -45,10 +45,6 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fn
 {{< people limit=20 title=" " cardView=true where="Type" value="cornelluniversity" >}}
 
 
-## Fermi National Accelerator Laboratory
-{{< people limit=20 title=" " cardView=true where="Type" value="ferminationalacceleratorlaboratory" >}}
-
-
 ## Fermilab
 {{< people limit=20 title=" " cardView=true where="Type" value="fermilab" >}}
 
@@ -227,6 +223,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fn
 
 ## University of Florida
 {{< people limit=20 title=" " cardView=true where="Type" value="universityofflorida" >}}
+
+
+## University of Hawaii at Manoa
+{{< people limit=20 title=" " cardView=true where="Type" value="universityofhawaiiatmanoa" >}}
 
 
 ## University of Illinois Chicago

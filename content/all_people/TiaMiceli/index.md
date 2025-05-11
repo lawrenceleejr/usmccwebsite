@@ -1,6 +1,6 @@
 ---
 title: Tia Miceli
 externalUrl: mailto:miceli@fnal.gov
-summary: Computer Science Researcher in Accelerator Controls Department, Accelerator controls and AI
+summary: Computer Science Researcher, Experiment, Accelerator, Machine Learning / AI
 type: fermilab
 ---
