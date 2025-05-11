@@ -1,6 +1,6 @@
 ---
 title: Murtaza Safdari
-externalUrl: mailto:murtazas@fnal.gov
+externalUrl: https://orcid.org/0000-0001-8323-7318
 summary: Postdoc, Experiment
 type: fermilab
 ---
