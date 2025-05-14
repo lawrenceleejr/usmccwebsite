@@ -28,7 +28,9 @@ title: Resources
 
 [Karri DiPetrillo @ Sydney CPPC](https://www.youtube.com/watch?v=4bnTRqXPQPI)
 
-## Papers
+## Overview Papers
+
+[Input from IMCC to the European Strategy Process](https://indico.cern.ch/event/1439855/contributions/6461618/)
 
 [Interim report for the International Muon Collider Collaboration](https://arxiv.org/abs/2407.12450)
 
@@ -51,3 +53,13 @@ title: Resources
 [Muon Collider R&D](https://sites.google.com/view/ec-for-mc/home) - Letter to P5
 
 [Accelerator R&D](https://sites.google.com/view/ec-for-future-colliders/home) - Letter to P5, joint with C3
+
+## Official USMCC logos
+
+{{< gallery >}}
+    <img src="USMCCLogo_white.png" class="grid-w25" />
+    <img src="USMCCLogo_black.png" class="grid-w25" />
+    <img src="USMCCLogo_color_white.png" class="grid-w25" />
+    <img src="USMCCLogo_color_black.png" class="grid-w25" />
+{{< /gallery >}}
+
