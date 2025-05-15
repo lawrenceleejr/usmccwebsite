@@ -53,5 +53,6 @@ Here's a list of US-based speakers you could consider reaching out to:
 * Kevin Black (Wisconsin)
 * Lawrence Lee (Tennessee)
 * Tao Han (Pittsburgh)
+* Cari Cesarotti (CERN)
 
 If you'd like to be on this list but aren't, send us an [email](mailto:muon-collider@googlegroups.com)!
