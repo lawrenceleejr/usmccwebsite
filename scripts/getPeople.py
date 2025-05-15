@@ -55,6 +55,12 @@ def getInstTag(inst):
     result = re.sub('[\W_]+', '', inst)
     return result
 
+# Allow custom display names
+def getName(entry):
+    name = f"{entry['First Name']} {entry['Last Name']}"
+    if name == "J. Berg": name = "J. Scott Berg"
+    return name
+
 # Get data and list of institutes and sort by size
 #df = pd.read_csv(url)
 #institutions = df['Primary Affiliation'].value_counts().index.tolist()
@@ -74,7 +80,7 @@ for i, entry in df.iterrows():
     if entry['Public'] == 'Opt out': continue
 
     # Put data in paths based on the person's name
-    fname = f"{entry['First Name']}{entry['Last Name']}".replace(" ","")
+    fname = getName(entry).replace(" ","")
     person_path = f"{data_dir}{fname}/"
     if not os.path.exists(person_path): os.mkdir(person_path)
     print("Adding", fname)
@@ -122,7 +128,7 @@ for i, entry in df.iterrows():
     # Create index file with all the person's info
     with open(f"{person_path}index.md", "w") as f:
         f.write("---\n")
-        f.write(f"title: {entry['First Name']} {entry['Last Name']}\n")
+        f.write(f"title: {getName(entry)}\n")
         f.write(f"externalUrl: {getOrcidURL(entry)}\n")
         f.write(f"summary: {getPosition(entry)}, {getArea(entry)}\n")
         f.write(f"type: {getInstTag(entry['Primary Affiliation'])}\n")
