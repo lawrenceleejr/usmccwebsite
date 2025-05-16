@@ -17,5 +17,7 @@ All muon collider merchandise can be purchased via [Redbubble](https://www.redbu
 	<img src="06.jpg" class="grid-w25" />
 	<img src="07.png" class="grid-w25" />
 	<img src="08.png" class="grid-w25" />
+	<img src="09.png" class="grid-w25" />
+	<img src="10.png" class="grid-w25" />
 {{< /gallery >}}
 
