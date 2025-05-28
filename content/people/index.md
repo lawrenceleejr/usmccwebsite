@@ -101,6 +101,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="lawrencelivermorenationallaboratory" >}}
 
 
+## MIT
+{{< people limit=2000 title=" " cardView=true where="Type" value="mit" >}}
+
+
 ## Magnet Optimization Research Engineering, LLCLC
 {{< people limit=2000 title=" " cardView=true where="Type" value="magnetoptimizationresearchengineeringllclc" >}}
 

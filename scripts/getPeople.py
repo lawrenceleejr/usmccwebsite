@@ -86,7 +86,7 @@ for i, entry in df.iterrows():
     print("Adding", fname)
 
     # Try to access photo from spreadsheet if it's not already there
-    if not os.path.exists(f"{person_path}/feature_{fname}.*"):
+    if not os.path.exists(f"{person_path}/featured.*"):
         got_photo = False
 
         # Start by just checking the saved photos directory
@@ -116,7 +116,7 @@ for i, entry in df.iterrows():
                     filename = f"saved_photos/{fname}.{extension}"
                     with open(filename, 'wb') as f:
                         f.write(image_data)
-                    shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/feature_{fname}.{extension}")
+                    shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/featured.{extension}")
                     got_photo = True
                 #except:
                 #    print("Failed to retrieve image for", fname)
