@@ -4,6 +4,10 @@ description: "US Muon Collider Collaboration (USMCC) Information"
 showHero: true
 ---
 
+{{< alert cardColor="#E38153" iconColor="#FFE436" textColor="#ffffff" >}}
+[Register now for the August US Muon Collider Collaboration meeting!](https://indico.uchicago.edu/event/479/)
+{{< /alert >}}
+
 ## Why a muon collider? 
 
 **A muon collider is the only near-future technology to allow exploration of the 10 TeV scale and beyond.**
