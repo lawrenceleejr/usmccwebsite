@@ -5,7 +5,7 @@ showHero: true
 ---
 
 {{< alert cardColor="#0052C5" iconColor="#FFE436" textColor="#ffffff" icon="circle-info" >}}
-[Register now for the August US Muon Collider Collaboration meeting!](https://indico.uchicago.edu/event/479/)
+Register now for the August US Muon Collider Collaboration meeting [**here**](https://indico.uchicago.edu/event/479/)!
 {{< /alert >}}
 
 ## Why a muon collider? 
