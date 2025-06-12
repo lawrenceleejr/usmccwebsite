@@ -317,6 +317,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="virginiatech" >}}
 
 
+## Wichita State University
+{{< people limit=2000 title=" " cardView=true where="Type" value="wichitastateuniversity" >}}
+
+
 ## Yale University
 {{< people limit=2000 title=" " cardView=true where="Type" value="yaleuniversity" >}}
 
