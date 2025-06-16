@@ -54,6 +54,12 @@ title: Resources
 
 [Accelerator R&D](https://sites.google.com/view/ec-for-future-colliders/home) - Letter to P5, joint with C3
 
+## USMCC Documents
+
+[Charter](https://drive.google.com/file/d/1y5Z5OHoUTwrPT8yMk7YV4Ch98EswjqoJ/view?usp=share_link)
+
+[Input to European Strategy](https://indico.cern.ch/event/1439855/contributions/6461576/attachments/3076691/5443733/152-Update-ESPPU_USMCC_draft_v8.pdf)
+
 ## Official USMCC logos
 
 {{< gallery >}}
