@@ -28,6 +28,8 @@ title: Resources
 
 [Karri DiPetrillo @ Sydney CPPC](https://www.youtube.com/watch?v=4bnTRqXPQPI)
 
+[Mark Palmer @ PSW](https://www.youtube.com/watch?v=p0qhQGLrujo)
+
 ## Overview Papers
 
 [Input from IMCC to the European Strategy Process](https://indico.cern.ch/event/1439855/contributions/6461618/)
