@@ -6,7 +6,7 @@ title: Contact
 #layout: simple
 ---
 
-Send us an [email](mailto:muon-collider@googlegroups.com ) for more information about the muon collider effort or to get involved. See also our [people](/people) page for a (work-in-progress) list of people currently involved.
+Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the muon collider effort or to get involved. See also our [people](/people) page for a (work-in-progress) list of people currently involved.
 
 
 ## The US Muon Collider Coordinating Committee 
@@ -55,4 +55,4 @@ Here's a list of US-based speakers you could consider reaching out to:
 * Tao Han (Pittsburgh)
 * Cari Cesarotti (CERN)
 
-If you'd like to be on this list but aren't, send us an [email](mailto:muon-collider@googlegroups.com)!
+If you'd like to be on this list but aren't, send us an [email](mailto:usmcc-coord@fnal.gov)!

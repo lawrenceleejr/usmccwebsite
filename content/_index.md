@@ -4,9 +4,9 @@ description: "US Muon Collider Collaboration (USMCC) Information"
 showHero: true
 ---
 
-{{< alert cardColor="#0052C5" iconColor="#FFE436" textColor="#ffffff" icon="circle-info" >}}
+<!--{{< alert cardColor="#0052C5" iconColor="#FFE436" textColor="#ffffff" icon="circle-info" >}}
 Register now for the August US Muon Collider Collaboration meeting [**here**](https://indico.uchicago.edu/event/479/)!
-{{< /alert >}}
+{{< /alert >}}-->
 
 ## Why a muon collider? 
 
