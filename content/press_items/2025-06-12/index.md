@@ -1,5 +1,5 @@
 ---
-title: "Physicists’ hopes for an exotic muon collider get a boost" 
+title: "Science: Physicists’ hopes for an exotic muon collider get a boost" 
 externalUrl: https://www.science.org/content/article/physicists-hopes-exotic-muon-collider-get-boost
 showDate: true
 date: 2025-06-12

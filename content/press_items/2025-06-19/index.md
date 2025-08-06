@@ -1,5 +1,5 @@
 ---
-title: "Half a universe once lost now found"
+title: "BBC Science in Action: Half a universe once lost now found"
 externalUrl: https://www.bbc.co.uk/sounds/play/w3ct6yfg
 showDate: true
 date: 2025-06-19
