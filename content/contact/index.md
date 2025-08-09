@@ -9,8 +9,40 @@ title: Contact
 Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the muon collider effort or to get involved. See also our [people](/people) page for a (work-in-progress) list of people currently involved.
 
 
+
+## USMCC Leadership
+
+* **Chair:**               Sergo Jindariani (Fermilab)
+* **Vice Chair:**          Tova Holmes (Tennessee)
+* **Accelerator Community Rep:**  Diktys Stratakis (Fermilab)
+* **Experimental Community Rep:** Simone Pagan Griso (LBNL)
+* **Theory Community Rep:**       Patrick Meade (Stony Brook)
+* **Communications Coordinator:**       Kiley Kennedy (Princeton)
+
+
+
+## Invite a muon collider speaker to your institute
+Here's a list of US-based speakers you could consider reaching out to:
+* Sergo Jindariani (Fermilab)
+* Nathaniel Craig (UCSB)
+* Tova Holmes (Tennessee)
+* Patrick Meade (Stony Brook)
+* Karri DiPetrillo (Chicago)
+* Isobel Ojalvo (Princeton)
+* Kevin Black (Wisconsin)
+* Lawrence Lee (Tennessee)
+* Tao Han (Pittsburgh)
+* Cari Cesarotti (CERN)
+
+If you'd like to be on this list but aren't, send us an [email](mailto:usmcc-coord@fnal.gov)!
+
+
+
+
 ## The US Muon Collider Coordinating Committee 
-Our committee consists of the following experts:
+The Coordinating Committee served the community as an interim body until the election of USMCC leadership in August 2025, as per the organization charter.
+
+The Coordinating Committee consisted of the following experts:
 
 * The Committee Co-Chairs:
   * Sridhara Dasu (Wisconsin), Sergo Jindariani (Fermilab), Diktys Stratakis (Fermilab)
@@ -40,19 +72,3 @@ Our committee consists of the following experts:
     * Liz Sexton-Kennedy (Fermilab), Simone Pagan Griso (LBNL)
 * International Liaisons: 
   * Daniel Schulte (CERN), Chris Rogers (RAL), Donatella Lucchesi (INFN), Federico Meloni (DESY)
-
-
-## Invite a muon collider speaker to your institute
-Here's a list of US-based speakers you could consider reaching out to:
-* Sergo Jindariani (Fermilab)
-* Nathaniel Craig (UCSB)
-* Tova Holmes (Tennessee)
-* Patrick Meade (Stony Brook)
-* Karri DiPetrillo (Chicago)
-* Isobel Ojalvo (Princeton)
-* Kevin Black (Wisconsin)
-* Lawrence Lee (Tennessee)
-* Tao Han (Pittsburgh)
-* Cari Cesarotti (CERN)
-
-If you'd like to be on this list but aren't, send us an [email](mailto:usmcc-coord@fnal.gov)!

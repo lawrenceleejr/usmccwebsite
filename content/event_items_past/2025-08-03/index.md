@@ -10,6 +10,8 @@ cascade:
 
 {{< figure src="poster_sess.jpg" >}}
 
+Photo album: [Google Photos](https://photos.app.goo.gl/WYJLkCLQTbhm995J8)
+
 The Muon Accelerator School will run from August 3-6 at the University of Chicago. This opportunity is aimed at physicists and accelerator specialists looking to understand the big muon collider picture and get involved in muon collider research.
 
 The accelerator school will be followed by [the 2nd Annual US Muon Collider Collaboration meeting](https://indico.uchicago.edu/event/479/).

@@ -66,6 +66,23 @@ name = "Merch"
 pageRef = "merch"
 weight = 60
 
+
+
+[[main]]
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://www.instagram.com/muoncollider.us/"
+  weight = 9992
+
+
+[[main]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://www.linkedin.com/company/muoncollider-us/"
+  weight = 9992
+
+
+
 #[[footer]]
 #none = "none"
 
