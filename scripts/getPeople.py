@@ -92,7 +92,8 @@ for i, entry in df.iterrows():
         # Start by just checking the saved photos directory
         photos = glob.glob(f"saved_photos/{fname}*")
         if len(photos)>0:
-            shutil.copy(photos[0], f"{person_path}featured.png")
+            extension = photos[0].split(".")[-1]
+            shutil.copy(photos[0], f"{person_path}featured.{extension}")
             got_photo = True
 
         # If there's nothing there, use the spreadsheet
