@@ -3,7 +3,7 @@ title: Meet the members of the US Muon Collider Collaboration
 ---
 
 
-If you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).
+If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fnal.gov).
 
 ## Argonne National Laboratory
 {{< people limit=2000 title=" " cardView=true where="Type" value="argonnenationallaboratory" >}}

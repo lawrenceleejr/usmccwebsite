@@ -144,12 +144,12 @@ with open(output_file, "w") as f:
     #f.write("layout: simple\n")
     f.write("---\n")
 
-    f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).")
+    f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fnal.gov).")
     for inst in institutions:
         f.write("\n\n")
         #print(inst, "...")
         f.write(f"## {inst}\n")
         f.write(f'{{{{< people limit=2000 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
-    f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc_coord@fnal.gov).")
+    f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fnal.gov).")
 
 
