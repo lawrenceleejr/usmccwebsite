@@ -117,10 +117,6 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="michiganstateuniversity" >}}
 
 
-## Muons Inc
-{{< people limit=2000 title=" " cardView=true where="Type" value="muonsinc" >}}
-
-
 ## Muons, Inc.
 {{< people limit=2000 title=" " cardView=true where="Type" value="muonsinc" >}}
 
