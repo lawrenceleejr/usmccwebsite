@@ -61,6 +61,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="georgiastateuniversity" >}}
 
 
+## Georgia Tech
+{{< people limit=2000 title=" " cardView=true where="Type" value="georgiatech" >}}
+
+
 ## Harvard University
 {{< people limit=2000 title=" " cardView=true where="Type" value="harvarduniversity" >}}
 
