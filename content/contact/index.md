@@ -20,9 +20,11 @@ Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the m
 * **Communications Coordinator:**       Kiley Kennedy (Princeton)
 
 
+## Muon Collider Speakers
 
-## Invite a muon collider speaker to your institute
-Here's a list of US-based speakers you could consider reaching out to:
+For requests for a muon collider speaker at a conference, please reach out to our [Speakers Committee](mailto:usmcc-speakers@fnal.gov) (chair: Kevin Black). 
+
+If you're interested in inviting a colloquium speaker to your institute, here's a list of US-based speakers you could consider reaching out to:
 * Sergo Jindariani (Fermilab)
 * Nathaniel Craig (UCSB)
 * Tova Holmes (Tennessee)
