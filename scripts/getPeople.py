@@ -31,22 +31,40 @@ def getOrcidURL(entry):
     return orcid
 
 # Get area for web
-def getArea(entry):
+def getArea(entry, counters):
     form_area = entry['Area(s) of Expertise']
     output_area = ""
+    multiple = False
+    if len(form_area.split(", "))>1:
+        multiple = True
+        counters["Multiple"] += 1
     for val in form_area.split(", "):
         if not output_area == "":
             output_area += ", "
-        if val == "Experimental Particle Physics": output_area += "Experiment"
-        elif val == "Theoretical Particle Physics": output_area += "Theory"
-        elif val == "Accelerator Physics": output_area += "Accelerator"
-        else: output_area += val
+        if val == "Experimental Particle Physics":
+            output_area += "Experiment"
+            if not multiple: counters["Experiment"] += 1
+        elif val == "Theoretical Particle Physics":
+            output_area += "Theory"
+            if not multiple: counters["Theory"] += 1
+        elif val == "Accelerator Physics":
+            output_area += "Accelerator"
+            if not multiple: counters["Accelerator"] += 1
+        else:
+            output_area += val
+            if not multiple: counters["Other"] += 1
     return output_area
 
-def getPosition(entry):
+def getPosition(entry, counters):
     form_position = entry['Position']
-    if form_position == "Graduate Student": return "Grad Student"
-    if form_position == "Undergraduate Student": return "Undergrad"
+    if form_position == "Graduate Student":
+        counters["Grad Student"] += 1
+        return "Grad Student"
+    if form_position == "Undergraduate Student":
+        counters["Undergrad"] += 1
+        return "Undergrad"
+    try: counters[form_position] += 1
+    except: counters["Other"] += 1
     return form_position
 
 # Make alphanumeric tags to ID institutes
@@ -73,6 +91,9 @@ institutions = sorted(df['Primary Affiliation'].dropna().unique().tolist())
 if hard_reset:
     for f in glob.glob(f"{data_dir}*"):
         shutil.rmtree(f)
+
+counters = {"Accelerator":0, "Experiment":0, "Theory":0, "Multiple":0, "Other":0,
+            "Faculty": 0, "Lab Scientist": 0, "Grad Student": 0, "Undergrad": 0, "Postdoc": 0, "Other": 0}
 
 # Loop over people
 for i, entry in df.iterrows():
@@ -131,7 +152,7 @@ for i, entry in df.iterrows():
         f.write("---\n")
         f.write(f"title: {getName(entry)}\n")
         f.write(f"externalUrl: {getOrcidURL(entry)}\n")
-        f.write(f"summary: {getPosition(entry)}, {getArea(entry)}\n")
+        f.write(f"summary: {getPosition(entry, counters)}, {getArea(entry, counters)}\n")
         f.write(f"type: {getInstTag(entry['Primary Affiliation'])}\n")
         #f.write("showHero: true\n")
         f.write("---\n")
@@ -143,6 +164,72 @@ with open(output_file, "w") as f:
     f.write("title: Meet the members of the US Muon Collider Collaboration\n")
     #f.write("layout: simple\n")
     f.write("---\n")
+
+    f.write('<div style="display: flex; gap: 3rem; text-align: center;">\n')
+    f.write('<div style="flex: 1;">\n')
+    f.write('Area\n')
+    f.write("{{< chart >}}\n")
+    f.write("type: 'pie',\n")
+    f.write("data: {\n")
+    f.write("  labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],\n")
+    f.write("  datasets: [{\n")
+    f.write("	label: '# of members',\n")
+    f.write(f"	data: [{counters['Accelerator']}, {counters['Experiment']}, {counters['Theory']}, {counters['Multiple']}, {counters['Other']}],\n")
+    f.write("	backgroundColor: [\n")
+    f.write("	  'rgba(255, 99, 132, 0.2)',\n")
+    f.write("	  'rgba(255, 159, 64, 0.2)',\n")
+    f.write("	  'rgba(255, 205, 86, 0.2)',\n")
+    f.write("	  'rgba(75, 192, 192, 0.2)',\n")
+    f.write("	  'rgba(54, 162, 235, 0.2)',\n")
+    f.write("	  'rgba(153, 102, 255, 0.2)',\n")
+    f.write("	  'rgba(201, 203, 207, 0.2)'\n")
+    f.write("	],\n")
+    f.write("	borderColor: [\n")
+    f.write("	  'rgb(255, 99, 132)',\n")
+    f.write("	  'rgb(255, 159, 64)',\n")
+    f.write("	  'rgb(255, 205, 86)',\n")
+    f.write("	  'rgb(75, 192, 192)',\n")
+    f.write("	  'rgb(54, 162, 235)',\n")
+    f.write("	  'rgb(153, 102, 255)',\n")
+    f.write("	  'rgb(201, 203, 207)'\n")
+    f.write("	],\n")
+    f.write("  }]\n")
+    f.write("}\n")
+    f.write("{{< /chart >}}\n")
+    f.write('</div>\n')
+
+    f.write('<div style="flex: 1;">\n')
+    f.write('Career Stage\n')
+    f.write("{{< chart >}}\n")
+    f.write("type: 'pie',\n")
+    f.write("data: {\n")
+    f.write('  labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],\n')
+    f.write("  datasets: [{\n")
+    f.write("	label: '# of members',\n")
+    f.write(f"	data: [{counters['Faculty']}, {counters['Lab Scientist']}, {counters['Grad Student']}, {counters['Undergrad']}, {counters['Postdoc']}, {counters['Other']}],\n")
+    f.write("	backgroundColor: [\n")
+    f.write("	  'rgba(255, 99, 132, 0.2)',\n")
+    f.write("	  'rgba(255, 159, 64, 0.2)',\n")
+    f.write("	  'rgba(255, 205, 86, 0.2)',\n")
+    f.write("	  'rgba(75, 192, 192, 0.2)',\n")
+    f.write("	  'rgba(54, 162, 235, 0.2)',\n")
+    f.write("	  'rgba(153, 102, 255, 0.2)',\n")
+    f.write("	  'rgba(201, 203, 207, 0.2)'\n")
+    f.write("	],\n")
+    f.write("	borderColor: [\n")
+    f.write("	  'rgb(255, 99, 132)',\n")
+    f.write("	  'rgb(255, 159, 64)',\n")
+    f.write("	  'rgb(255, 205, 86)',\n")
+    f.write("	  'rgb(75, 192, 192)',\n")
+    f.write("	  'rgb(54, 162, 235)',\n")
+    f.write("	  'rgb(153, 102, 255)',\n")
+    f.write("	  'rgb(201, 203, 207)'\n")
+    f.write("	],\n")
+    f.write("  }]\n")
+    f.write("}\n")
+    f.write("{{< /chart >}}\n")
+    f.write('</div>\n')
+    f.write('</div>\n')
 
     f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fnal.gov).")
     for inst in institutions:

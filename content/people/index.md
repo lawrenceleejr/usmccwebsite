@@ -1,6 +1,70 @@
 ---
 title: Meet the members of the US Muon Collider Collaboration
 ---
+<div style="display: flex; gap: 3rem; text-align: center;">
+<div style="flex: 1;">
+Area
+{{< chart >}}
+type: 'pie',
+data: {
+  labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
+  datasets: [{
+	label: '# of members',
+	data: [42, 139, 47, 25, 22],
+	backgroundColor: [
+	  'rgba(255, 99, 132, 0.2)',
+	  'rgba(255, 159, 64, 0.2)',
+	  'rgba(255, 205, 86, 0.2)',
+	  'rgba(75, 192, 192, 0.2)',
+	  'rgba(54, 162, 235, 0.2)',
+	  'rgba(153, 102, 255, 0.2)',
+	  'rgba(201, 203, 207, 0.2)'
+	],
+	borderColor: [
+	  'rgb(255, 99, 132)',
+	  'rgb(255, 159, 64)',
+	  'rgb(255, 205, 86)',
+	  'rgb(75, 192, 192)',
+	  'rgb(54, 162, 235)',
+	  'rgb(153, 102, 255)',
+	  'rgb(201, 203, 207)'
+	],
+  }]
+}
+{{< /chart >}}
+</div>
+<div style="flex: 1;">
+Career Stage
+{{< chart >}}
+type: 'pie',
+data: {
+  labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
+  datasets: [{
+	label: '# of members',
+	data: [108, 57, 29, 10, 35, 22],
+	backgroundColor: [
+	  'rgba(255, 99, 132, 0.2)',
+	  'rgba(255, 159, 64, 0.2)',
+	  'rgba(255, 205, 86, 0.2)',
+	  'rgba(75, 192, 192, 0.2)',
+	  'rgba(54, 162, 235, 0.2)',
+	  'rgba(153, 102, 255, 0.2)',
+	  'rgba(201, 203, 207, 0.2)'
+	],
+	borderColor: [
+	  'rgb(255, 99, 132)',
+	  'rgb(255, 159, 64)',
+	  'rgb(255, 205, 86)',
+	  'rgb(75, 192, 192)',
+	  'rgb(54, 162, 235)',
+	  'rgb(153, 102, 255)',
+	  'rgb(201, 203, 207)'
+	],
+  }]
+}
+{{< /chart >}}
+</div>
+</div>
 
 
 If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fnal.gov).
@@ -285,7 +349,7 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofnotredame" >}}
 
 
-## University of Oklahoma 
+## University of Oklahoma
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofoklahoma" >}}
 
 
