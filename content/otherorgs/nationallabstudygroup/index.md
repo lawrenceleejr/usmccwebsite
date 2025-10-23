@@ -4,7 +4,7 @@ cascade:
   showReadingTime: false
 ---
 
-Charge to the National Lab Accelerator Study Group for a Muon Collider
+## Charge to the National Lab Accelerator Study Group for a Muon Collider
 
 The purpose of this study group is to:
 
@@ -21,7 +21,7 @@ Strong emphasis should be placed on coordination across U.S. national labs, as w
 
 The study group is expected to deliver a written report by July 1, 2026.
 
-Membership
+## Membership
 
 * Argonne: Philippe Piot, ppiot@anl.gov 
 * Berkeley: Jean-Luc Vay JLVay@lbl.gov 

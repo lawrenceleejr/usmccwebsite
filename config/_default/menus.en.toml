@@ -34,13 +34,13 @@ weight = 5
 [[main]]
 name = "National Lab Accelerator Study Group"
 parent = "About"
-pageRef = "posts/nationallabstudygroup"
+pageRef = "otherorgs/nationallabstudygroup"
 weight = 6
 
 [[main]]
 name = "IMCC"
 parent = "About"
-pageRef = "posts/imcc"
+pageRef = "otherorgs/imcc"
 weight = 7
 
 [[main]]
