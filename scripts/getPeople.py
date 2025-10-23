@@ -9,6 +9,7 @@ import gdown
 import requests
 from PIL import Image
 from io import BytesIO
+import resizePhotos
 
 
 # Path options
@@ -138,6 +139,7 @@ for i, entry in df.iterrows():
                     filename = f"saved_photos/{fname}.{extension}"
                     with open(filename, 'wb') as f:
                         f.write(image_data)
+                    resizePhotos.process_image(filename)
                     shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/featured.{extension}")
                     got_photo = True
                 #except:
