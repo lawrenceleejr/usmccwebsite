@@ -16,6 +16,10 @@ _build:
 
 Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the muon collider effort or to get involved. See also our [people](/people) page for list of USMCC members.
 
+In addition to the elected leadership, the Leadership Strategy Group was appointed to help steer the direction of the organization. It includes:
+
+Marcela Carena (Perimeter Institute), Sarah Cousineau (ORNL), Nathaniel Craig (UCSB), Sridhara Dasu (UW), Peter Elmer (Princeton), Cameron Geddes (LBNL), Maurice Garcia Sciveres (LBNL), Andre de Gouvea (NW), Tao Han (Pittsburgh), Isobel Ojalvo (Princeton), Mark Palmer (BNL), Chris Quigg (FNAL), Kate Scholberg (Duke), John Seeman (SLAC), Vladimir Shiltsev (NIU), Jinlong Zhang (ANL), Bob Zwaska (FNAL)
+
 You can find an archive of past leadership [here](/contact/leadership_archive/).
 
 ## Muon Collider Speakers
