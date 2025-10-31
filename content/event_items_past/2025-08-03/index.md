@@ -2,7 +2,7 @@
 title: "Muon Collider Accelerator School"
 summary: "August 3-6, 2025 -- Chicago, IL"
 externalUrl: https://indico.uchicago.edu/event/478/
-weight: 2
+date: 2025-08-03
 showHero: true
 cascade:
   showReadingTime: false
