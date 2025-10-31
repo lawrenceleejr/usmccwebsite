@@ -58,6 +58,7 @@ def compress_png(path):
     os.replace(tmp_path, path)
 
 def process_image(path):
+    path = Path(path)
     ext = path.suffix.lower()
     size = get_file_size(path)
 
