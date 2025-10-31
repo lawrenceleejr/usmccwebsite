@@ -18,6 +18,13 @@ def compress_jpeg(path):
     quality = 90
 
     with Image.open(path) as im:
+
+        # MPO may contain multiple frames; use only the first
+        try:
+            im.seek(0)
+        except EOFError:
+            pass
+
         im = im.convert("RGB")  # ensure compatibility
 
         while quality > 10:
@@ -67,7 +74,7 @@ def process_image(path):
 
     print(f"Processing {path} ({size/1_048_576:.2f} MB)")
 
-    if ext in [".jpg", ".jpeg"]:
+    if ext in [".jpg", ".jpeg", ".mpo"]:
         compress_jpeg(path)
     elif ext == ".png":
         compress_png(path)
@@ -78,7 +85,7 @@ def process_image(path):
 def main():
     for root, _, files in os.walk("."):
         for name in files:
-            if name.lower().endswith((".jpg", ".jpeg", ".png")):
+            if name.lower().endswith((".jpg", ".jpeg", ".png", ".mpo")):
                 process_image(Path(root) / name)
 
 if __name__ == "__main__":
