@@ -64,6 +64,29 @@ def compress_png(path):
 
     os.replace(tmp_path, path)
 
+
+def convert_mpo_to_jpeg(path):
+    """Convert MPO to single-frame JPEG and compress."""
+    # Convert to .jpg extension
+    jpg_path = path.with_suffix(".jpg")
+    tmp_path = jpg_path.with_suffix(".jpg.tmp")
+
+    with Image.open(path) as im:
+        print(path)
+        try:
+            im.seek(0)  # use first frame
+        except EOFError:
+            pass
+        im = im.convert("RGB")
+        im.save(tmp_path, "JPEG", optimize=True, quality=90)
+
+    os.remove(path)  # remove original MPO
+    os.replace(tmp_path, jpg_path)
+
+    # Then compress as a normal JPEG if needed
+    # if get_file_size(jpg_path) > TARGET_SIZE:
+    #     compress_jpeg(jpg_path)
+
 def process_image(path):
     path = Path(path)
     ext = path.suffix.lower()
