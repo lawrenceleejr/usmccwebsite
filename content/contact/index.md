@@ -14,9 +14,9 @@ _build:
   {{< list limit=6 title=" " cardView=true where="Type" value="leadership" width=3 >}}
 </div> -->
 
-<img src="251112_USMCCOrgChartInv.webp" alt="USMCC Org Chart" style="width:800px; max-width:120%;">
+<img src="251113_USMCCOrgChartInv.webp" alt="USMCC Org Chart" style="width:800px; max-width:120%;">
 
-[Download PDF](251112_USMCCOrgChart.pdf)
+[Download PDF](251113_USMCCOrgChart.pdf)
 
 
 Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the muon collider effort or to get involved. See also our [people](/people) page for list of USMCC members.
