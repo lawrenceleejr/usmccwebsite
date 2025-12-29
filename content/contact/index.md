@@ -23,7 +23,7 @@ Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the m
 
 In addition to the elected leadership, the Leadership Strategy Group was appointed to help steer the direction of the organization. It includes:
 
-Pushpa Bhat (FNAL), Marcela Carena (Perimeter Institute), Lance Cooley (NHMFL), Sarah Cousineau (ORNL), Nathaniel Craig (UCSB), Sridhara Dasu (UW), Peter Elmer (Princeton), Cameron Geddes (LBNL), Maurice Garcia Sciveres (LBNL), Andre de Gouvea (NW), Tao Han (Pittsburgh), Isobel Ojalvo (Princeton), Mark Palmer (BNL), Chris Quigg (FNAL), Kate Scholberg (Duke), John Seeman (SLAC), Vladimir Shiltsev (NIU), Jinlong Zhang (ANL), Bob Zwaska (FNAL)
+Pushpa Bhat (FNAL), Marcela Carena (Perimeter Institute), Lance Cooley (NHMFL), Sarah Cousineau (ORNL), Nathaniel Craig (UCSB), Sridhara Dasu (UW), Peter Elmer (Princeton), Cameron Geddes (LBNL), Maurice Garcia Sciveres (LBNL), Andre de Gouvea (NW), Tao Han (Pittsburgh), Young-Kee Kim (Chicago), Isobel Ojalvo (Princeton), Mark Palmer (BNL), Chris Quigg (FNAL), Kate Scholberg (Duke), John Seeman (SLAC), Vladimir Shiltsev (NIU), Jinlong Zhang (ANL), Bob Zwaska (FNAL)
 
 You can find an archive of past leadership [here](/contact/leadership_archive/).
 
