@@ -10,7 +10,7 @@ data: {
   labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
   datasets: [{
 	label: '# of members',
-	data: [43, 144, 48, 27, 23],
+	data: [43, 145, 48, 27, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [110, 61, 30, 10, 38, 23],
+	data: [110, 61, 30, 10, 39, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -379,6 +379,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 
 ## University of South Dakota
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofsouthdakota" >}}
+
+
+## University of Tennessee 
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityoftennessee" >}}
 
 
 ## University of Tennessee, Knoxville
