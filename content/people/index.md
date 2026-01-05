@@ -381,10 +381,6 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofsouthdakota" >}}
 
 
-## University of Tennessee 
-{{< people limit=2000 title=" " cardView=true where="Type" value="universityoftennessee" >}}
-
-
 ## University of Tennessee, Knoxville
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityoftennesseeknoxville" >}}
 
