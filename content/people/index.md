@@ -10,7 +10,7 @@ data: {
   labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
   datasets: [{
 	label: '# of members',
-	data: [43, 146, 48, 27, 23],
+	data: [43, 147, 48, 28, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [110, 61, 30, 10, 40, 23],
+	data: [111, 61, 30, 11, 40, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -313,7 +313,7 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofflorida" >}}
 
 
-## University of Hawaii at Manoa
+## University of Hawai'i at Manoa
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofhawaiiatmanoa" >}}
 
 
