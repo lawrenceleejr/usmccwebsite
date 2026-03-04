@@ -69,5 +69,6 @@ title: Resources
     <img src="USMCCLogo_black.png" class="grid-w25" />
     <img src="USMCCLogo_color_white.png" class="grid-w25" />
     <img src="USMCCLogo_color_black.png" class="grid-w25" />
+    <img src="USMCCLogo_fulltext.png" class="grid-w25" />
 {{< /gallery >}}
 
