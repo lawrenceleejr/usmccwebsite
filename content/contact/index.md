@@ -31,7 +31,7 @@ You can find an archive of past leadership [here](/contact/leadership_archive/).
 
 For requests for a muon collider speaker at a conference, please reach out to our [Speakers Committee](mailto:usmcc-speakers@fnal.gov) (chair: Kevin Black). 
 
-If you're interested in inviting a colloquium speaker to your institute, here's a list of US-based speakers you could consider reaching out to:
+If you're interested in inviting a colloquium or seminar speaker to your institute, here's a list of US-based speakers you could consider reaching out to:
 * Sergo Jindariani (Fermilab)
 * Nathaniel Craig (UCSB)
 * Tova Holmes (Tennessee)
