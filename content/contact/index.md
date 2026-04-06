@@ -14,7 +14,19 @@ _build:
   {{< list limit=6 title=" " cardView=true where="Type" value="leadership" width=3 >}}
 </div> -->
 
-<img src="251113_USMCCOrgChartInv.webp" alt="USMCC Org Chart" style="width:800px; max-width:120%;">
+<img id="usmcc-org-chart" src="251113_USMCCOrgChart.webp" alt="USMCC Org Chart" style="width:800px; max-width:120%;" />
+<script>
+  (function() {
+    var img = document.getElementById("usmcc-org-chart");
+    function update() {
+      img.src = document.documentElement.classList.contains("dark")
+        ? "251113_USMCCOrgChartInv.webp"
+        : "251113_USMCCOrgChart.webp";
+    }
+    update();
+    new MutationObserver(update).observe(document.documentElement, { attributeFilter: ["class"] });
+  })();
+</script>
 
 [Download PDF](251113_USMCCOrgChart.pdf)
 
