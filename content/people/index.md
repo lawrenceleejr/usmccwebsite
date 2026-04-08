@@ -10,7 +10,7 @@ data: {
   labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
   datasets: [{
 	label: '# of members',
-	data: [43, 147, 48, 28, 23],
+	data: [43, 148, 48, 28, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [111, 61, 30, 11, 40, 23],
+	data: [112, 61, 31, 10, 40, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -159,6 +159,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 
 ## JLab
 {{< people limit=2000 title=" " cardView=true where="Type" value="jlab" >}}
+
+
+## Johns Hopkins University
+{{< people limit=2000 title=" " cardView=true where="Type" value="johnshopkinsuniversity" >}}
 
 
 ## Lafayette College
