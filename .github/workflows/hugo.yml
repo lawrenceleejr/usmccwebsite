@@ -2,9 +2,9 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes to all branches; deploy stage is restricted to main
   push:
-    branches: ["main"]
+    branches: ["**"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -50,6 +50,7 @@ jobs:
           submodules: recursive
       - name: Setup Pages
         id: pages
+        if: github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
@@ -61,14 +62,15 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ github.ref == 'refs/heads/main' && steps.pages.outputs.base_url || '' }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  # Deployment job
+  # Deployment job (main branch only)
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
