@@ -117,7 +117,9 @@ for i, entry in df.iterrows():
         photos = glob.glob(f"saved_photos/{fname}*")
         if len(photos)>0:
             extension = photos[0].split(".")[-1]
-            shutil.copy(photos[0], f"{person_path}featured.{extension}")
+            dest = f"{person_path}featured.{extension}"
+            shutil.copy(photos[0], dest)
+            resizePhotos.process_image(dest)
             got_photo = True
 
         # If there's nothing there, use the spreadsheet
