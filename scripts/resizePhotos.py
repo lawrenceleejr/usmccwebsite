@@ -2,7 +2,10 @@
 import os
 from pathlib import Path
 from PIL import Image
+from pillow_heif import register_heif_opener
 import math
+
+register_heif_opener()  # Add HEIC/HEIF support to PIL
 
 # --- CONFIG ---
 TARGET_SIZE = 1_000_000      # target max bytes (1 MB)
@@ -64,6 +67,18 @@ def compress_png(path):
 
     os.replace(tmp_path, path)
 
+
+def convert_heic_to_png(path):
+    """Convert HEIC/HEIF to PNG."""
+    png_path = path.with_suffix(".png")
+    tmp_path = png_path.with_suffix(".png.tmp")
+
+    with Image.open(path) as im:
+        im = im.convert("RGBA")
+        im.save(tmp_path, "PNG", optimize=True)
+
+    os.remove(path)  # remove original HEIC
+    os.replace(tmp_path, png_path)
 
 def convert_mpo_to_jpeg(path):
     """Convert MPO to single-frame JPEG and compress."""
