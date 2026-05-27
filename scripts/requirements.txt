@@ -1,0 +1,5 @@
+pandas
+wget
+gdown
+Pillow
+pillow-heif
