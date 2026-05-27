@@ -6,11 +6,12 @@ import wget
 import math
 import glob
 import gdown
-import requests
 from PIL import Image
-from io import BytesIO
+from pillow_heif import register_heif_opener
 import resizePhotos
 from pathlib import Path
+
+register_heif_opener()  # Add HEIC/HEIF support to PIL
 
 
 # Path options
@@ -72,7 +73,7 @@ def getPosition(entry, counters):
 # Make alphanumeric tags to ID institutes
 def getInstTag(inst):
     inst = inst.lower()
-    result = re.sub('[\W_]+', '', inst)
+    result = re.sub(r'[\W_]+', '', inst)
     return result
 
 # Allow custom display names
@@ -116,7 +117,17 @@ for i, entry in df.iterrows():
         photos = glob.glob(f"saved_photos/{fname}*")
         if len(photos)>0:
             extension = photos[0].split(".")[-1]
-            shutil.copy(photos[0], f"{person_path}featured.{extension}")
+            dest = f"{person_path}featured.{extension}"
+            shutil.copy(photos[0], dest)
+            if extension.lower() == "mpo":
+                resizePhotos.convert_mpo_to_jpeg(Path(dest))
+                extension = "jpg"
+                dest = f"{person_path}featured.{extension}"
+            elif extension.lower() == "heif":
+                resizePhotos.convert_heic_to_png(Path(dest))
+                extension = "png"
+                dest = f"{person_path}featured.{extension}"
+            resizePhotos.process_image(dest)
             got_photo = True
 
         # If there's nothing there, use the spreadsheet
@@ -125,30 +136,40 @@ for i, entry in df.iterrows():
             if not pd.isna(photo_url):
                 file_id = photo_url.split("id=")[-1] # https://drive.google.com/open?id=1STvUG313HJuftNQdrq4gY0rWIEDHF_3g
                 download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
-                #try:
-                response = requests.get(download_url)
-                response.raise_for_status()
-                image_data = response.content
+                try:
+                    # Download to a temp file using gdown, which handles
+                    # Google Drive confirmation pages for large files
+                    tmp_download = f"saved_photos/{fname}.tmp"
+                    result = gdown.download(id=file_id, output=tmp_download, quiet=True)
+                    if result is None:
+                        raise Exception("gdown returned None (download failed or access denied)")
 
-                # Detect image format
-                image = Image.open(BytesIO(image_data))
-                extension = image.format.lower()  # e.g., "jpeg", "png"
-                if not extension:
-                    print(f"Could not detect image type for", fname)
-                else:
-                    # Save file with detected extension
-                    filename = f"saved_photos/{fname}.{extension}"
-                    with open(filename, 'wb') as f:
-                        f.write(image_data)
-                    if extension.lower()=="mpo":
-                        resizePhotos.convert_mpo_to_jpeg(Path(filename) )
-                        extension = "jpg"
+                    # Detect image format
+                    image = Image.open(tmp_download)
+                    extension = image.format.lower()  # e.g., "jpeg", "png"
+                    image.close()
+                    if not extension:
+                        os.remove(tmp_download)
+                        print(f"Could not detect image type for", fname)
+                    else:
+                        # Rename temp file to proper extension
                         filename = f"saved_photos/{fname}.{extension}"
-                    resizePhotos.process_image(filename)
-                    shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/featured.{extension}")
-                    got_photo = True
-                #except:
-                #    print("Failed to retrieve image for", fname)
+                        os.replace(tmp_download, filename)
+                        if extension.lower()=="mpo":
+                            resizePhotos.convert_mpo_to_jpeg(Path(filename))
+                            extension = "jpg"
+                            filename = f"saved_photos/{fname}.{extension}"
+                        elif extension.lower()=="heif":
+                            resizePhotos.convert_heic_to_png(Path(filename))
+                            extension = "png"
+                            filename = f"saved_photos/{fname}.{extension}"
+                        resizePhotos.process_image(filename)
+                        shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/featured.{extension}")
+                        got_photo = True
+                except Exception as e:
+                    print(f"Failed to retrieve image for {fname}: {e}")
+                    if os.path.exists(f"saved_photos/{fname}.tmp"):
+                        os.remove(f"saved_photos/{fname}.tmp")
 
         # If this fails, copy the default photo to their path
         if not got_photo:

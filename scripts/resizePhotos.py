@@ -2,68 +2,67 @@
 import os
 from pathlib import Path
 from PIL import Image
-import math
+from pillow_heif import register_heif_opener
+
+register_heif_opener()  # Add HEIC/HEIF support to PIL
 
 # --- CONFIG ---
 TARGET_SIZE = 1_000_000      # target max bytes (1 MB)
-MIN_PROCESS_SIZE = 1_000_000 # only process files larger than 2 MB
-JPEG_QUALITY_STEP = 5        # for iterative JPEG compression
+MAX_DIMENSION = 600          # max pixels on longest side (covers 3in @ 2x retina)
+JPEG_QUALITY = 85            # JPEG quality for thumbnail output
 
 def get_file_size(path):
     return path.stat().st_size
 
+def resize_to_max_dimension(im, max_dim=MAX_DIMENSION):
+    """Return image scaled so its longest side is at most max_dim pixels."""
+    w, h = im.size
+    if max(w, h) <= max_dim:
+        return im
+    if w >= h:
+        new_w, new_h = max_dim, max(1, int(h * max_dim / w))
+    else:
+        new_w, new_h = max(1, int(w * max_dim / h)), max_dim
+    return im.resize((new_w, new_h), Image.LANCZOS)
+
 def compress_jpeg(path):
-    """Reduce JPEG quality until below target size."""
+    """Resize to MAX_DIMENSION and save as JPEG at JPEG_QUALITY."""
     tmp_path = path.with_suffix(path.suffix + ".tmp")
-    quality = 90
 
     with Image.open(path) as im:
-
-        # MPO may contain multiple frames; use only the first
         try:
             im.seek(0)
         except EOFError:
             pass
-
-        im = im.convert("RGB")  # ensure compatibility
-
-        while quality > 10:
-            im.save(tmp_path, "JPEG", optimize=True, quality=quality)
-            if get_file_size(tmp_path) <= TARGET_SIZE:
-                break
-            quality -= JPEG_QUALITY_STEP
+        im = im.convert("RGB")
+        im = resize_to_max_dimension(im)
+        im.save(tmp_path, "JPEG", optimize=True, quality=JPEG_QUALITY)
 
     os.replace(tmp_path, path)
 
 def compress_png(path):
-    """Scale PNG based on size ratio until below target size."""
+    """Resize to MAX_DIMENSION and save as PNG."""
     tmp_path = path.with_suffix(path.suffix + ".tmp")
-    size_bytes = get_file_size(path)
-
-    if size_bytes <= TARGET_SIZE:
-        return
-
-    # Compute scaling factor using sqrt(target / current)
-    ratio = math.sqrt(TARGET_SIZE / size_bytes)
-    ratio = max(0.1, min(1.0, ratio))  # clamp between 10% and 100%
-    percent = int(ratio * 100)
 
     with Image.open(path) as im:
-        w, h = im.size
-        new_size = (max(1, int(w * ratio)), max(1, int(h * ratio)))
-        im = im.convert("RGBA") if im.mode in ("P", "LA") else im.convert("RGB")
-        im = im.resize(new_size, Image.LANCZOS)
+        im = im.convert("RGBA") if im.mode in ("P", "LA", "RGBA") else im.convert("RGB")
+        im = resize_to_max_dimension(im)
         im.save(tmp_path, "PNG", optimize=True, compress_level=9)
-
-    # If still too big, shrink iteratively by 10%
-    while get_file_size(tmp_path) > TARGET_SIZE:
-        with Image.open(tmp_path) as im:
-            w, h = im.size
-            im = im.resize((int(w * 0.9), int(h * 0.9)), Image.LANCZOS)
-            im.save(tmp_path, "PNG", optimize=True, compress_level=9)
 
     os.replace(tmp_path, path)
 
+
+def convert_heic_to_png(path):
+    """Convert HEIC/HEIF to PNG."""
+    png_path = path.with_suffix(".png")
+    tmp_path = png_path.with_suffix(".png.tmp")
+
+    with Image.open(path) as im:
+        im = im.convert("RGBA")
+        im.save(tmp_path, "PNG", optimize=True)
+
+    os.remove(path)  # remove original HEIC
+    os.replace(tmp_path, png_path)
 
 def convert_mpo_to_jpeg(path):
     """Convert MPO to single-frame JPEG and compress."""
@@ -90,20 +89,15 @@ def convert_mpo_to_jpeg(path):
 def process_image(path):
     path = Path(path)
     ext = path.suffix.lower()
-    size = get_file_size(path)
 
-    if size < MIN_PROCESS_SIZE:
-        return
-
-    print(f"Processing {path} ({size/1_048_576:.2f} MB)")
+    print(f"Processing {path} ({get_file_size(path)/1_048_576:.2f} MB)")
 
     if ext in [".jpg", ".jpeg", ".mpo"]:
         compress_jpeg(path)
     elif ext == ".png":
         compress_png(path)
 
-    new_size = get_file_size(path)
-    print(f"  → {new_size/1_048_576:.2f} MB\n")
+    print(f"  → {get_file_size(path)/1_048_576:.2f} MB\n")
 
 def main():
     for root, _, files in os.walk("."):
