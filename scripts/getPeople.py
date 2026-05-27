@@ -72,7 +72,7 @@ def getPosition(entry, counters):
 # Make alphanumeric tags to ID institutes
 def getInstTag(inst):
     inst = inst.lower()
-    result = re.sub('[\W_]+', '', inst)
+    result = re.sub(r'[\W_]+', '', inst)
     return result
 
 # Allow custom display names
@@ -125,30 +125,30 @@ for i, entry in df.iterrows():
             if not pd.isna(photo_url):
                 file_id = photo_url.split("id=")[-1] # https://drive.google.com/open?id=1STvUG313HJuftNQdrq4gY0rWIEDHF_3g
                 download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
-                #try:
-                response = requests.get(download_url)
-                response.raise_for_status()
-                image_data = response.content
+                try:
+                    response = requests.get(download_url)
+                    response.raise_for_status()
+                    image_data = response.content
 
-                # Detect image format
-                image = Image.open(BytesIO(image_data))
-                extension = image.format.lower()  # e.g., "jpeg", "png"
-                if not extension:
-                    print(f"Could not detect image type for", fname)
-                else:
-                    # Save file with detected extension
-                    filename = f"saved_photos/{fname}.{extension}"
-                    with open(filename, 'wb') as f:
-                        f.write(image_data)
-                    if extension.lower()=="mpo":
-                        resizePhotos.convert_mpo_to_jpeg(Path(filename) )
-                        extension = "jpg"
+                    # Detect image format
+                    image = Image.open(BytesIO(image_data))
+                    extension = image.format.lower()  # e.g., "jpeg", "png"
+                    if not extension:
+                        print(f"Could not detect image type for", fname)
+                    else:
+                        # Save file with detected extension
                         filename = f"saved_photos/{fname}.{extension}"
-                    resizePhotos.process_image(filename)
-                    shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/featured.{extension}")
-                    got_photo = True
-                #except:
-                #    print("Failed to retrieve image for", fname)
+                        with open(filename, 'wb') as f:
+                            f.write(image_data)
+                        if extension.lower()=="mpo":
+                            resizePhotos.convert_mpo_to_jpeg(Path(filename) )
+                            extension = "jpg"
+                            filename = f"saved_photos/{fname}.{extension}"
+                        resizePhotos.process_image(filename)
+                        shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/featured.{extension}")
+                        got_photo = True
+                except Exception as e:
+                    print(f"Failed to retrieve image for {fname}: {e}")
 
         # If this fails, copy the default photo to their path
         if not got_photo:

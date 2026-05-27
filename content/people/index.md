@@ -10,7 +10,7 @@ data: {
   labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
   datasets: [{
 	label: '# of members',
-	data: [43, 148, 48, 28, 23],
+	data: [43, 149, 48, 28, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [112, 61, 31, 10, 40, 23],
+	data: [112, 61, 32, 10, 40, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -107,10 +107,6 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 
 ## Cornell University
 {{< people limit=2000 title=" " cardView=true where="Type" value="cornelluniversity" >}}
-
-
-## Fermi National Accelerator Laboratory
-{{< people limit=2000 title=" " cardView=true where="Type" value="ferminationalacceleratorlaboratory" >}}
 
 
 ## Fermilab
