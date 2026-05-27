@@ -119,6 +119,14 @@ for i, entry in df.iterrows():
             extension = photos[0].split(".")[-1]
             dest = f"{person_path}featured.{extension}"
             shutil.copy(photos[0], dest)
+            if extension.lower() == "mpo":
+                resizePhotos.convert_mpo_to_jpeg(Path(dest))
+                extension = "jpg"
+                dest = f"{person_path}featured.{extension}"
+            elif extension.lower() == "heif":
+                resizePhotos.convert_heic_to_png(Path(dest))
+                extension = "png"
+                dest = f"{person_path}featured.{extension}"
             resizePhotos.process_image(dest)
             got_photo = True
 
