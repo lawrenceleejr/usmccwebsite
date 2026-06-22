@@ -10,7 +10,7 @@ data: {
   labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
   datasets: [{
 	label: '# of members',
-	data: [44, 149, 48, 28, 23],
+	data: [44, 150, 48, 28, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [112, 61, 33, 10, 40, 23],
+	data: [112, 61, 34, 10, 40, 23],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
