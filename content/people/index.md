@@ -10,7 +10,7 @@ data: {
   labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
   datasets: [{
 	label: '# of members',
-	data: [44, 151, 48, 28, 23],
+	data: [44, 155, 48, 30, 25],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [112, 61, 34, 10, 41, 23],
+	data: [112, 63, 35, 11, 41, 25],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -394,6 +394,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 
 
 ## University of Wisconsin, Madison
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofwisconsinmadison" >}}
+
+
+## University of Wisconsin–Madison
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofwisconsinmadison" >}}
 
 
