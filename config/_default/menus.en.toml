@@ -1,9 +1,9 @@
 # Main navigation — reframed around the collaboration.
 # Parent entries carry an `identifier`; child entries reference it via `parent`.
 
-# ── The Collaboration ─────────────────────────────────────────────
+# ── Collaboration ─────────────────────────────────────────────────
 [[main]]
-name = "The Collaboration"
+name = "Collaboration"
 identifier = "collaboration"
 pageRef = "collaboration"
 weight = 10
@@ -100,9 +100,9 @@ parent = "science"
 pageRef = "misconceptions"
 weight = 36
 
-# ── Meetings & Events ─────────────────────────────────────────────
+# ── Meetings ──────────────────────────────────────────────────────
 [[main]]
-name = "Meetings & Events"
+name = "Meetings"
 identifier = "meetings"
 pageRef = "events"
 weight = 40
@@ -127,11 +127,6 @@ weight = 43
 
 # ── Top-level pages ───────────────────────────────────────────────
 [[main]]
-name = "News"
-pageRef = "press"
-weight = 50
-
-[[main]]
 name = "Resources"
 pageRef = "resources"
 weight = 60
@@ -149,28 +144,34 @@ pageRef = "contact"
 weight = 80
 
 [[main]]
+name = "News"
+parent = "about"
+pageRef = "press"
+weight = 81
+
+[[main]]
 name = "Contact"
 parent = "about"
 pageRef = "contact"
-weight = 81
+weight = 82
 
 [[main]]
 name = "IMCC"
 parent = "about"
 pageRef = "otherorgs/imcc"
-weight = 82
+weight = 83
 
 [[main]]
 name = "National Lab Study Group"
 parent = "about"
 pageRef = "otherorgs/nationallabstudygroup"
-weight = 83
+weight = 84
 
 [[main]]
 name = "Merch"
 parent = "about"
 pageRef = "merch"
-weight = 84
+weight = 85
 
 # ── Social icons ──────────────────────────────────────────────────
 [[main]]
