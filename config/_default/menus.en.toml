@@ -1,100 +1,186 @@
-[[main]]
-none = "none"
+# Main navigation — reframed around the collaboration.
+# Parent entries carry an `identifier`; child entries reference it via `parent`.
 
+# ── Collaboration ─────────────────────────────────────────────────
 [[main]]
-name = "About"
-pageRef = "/_index"
-weight = 1
-
-[[main]]
-name = "Accelerator R&D"
-parent = "About"
-pageRef = "posts/accelerator"
-weight = 2
-
-[[main]]
-name = "Detector R&D"
-parent = "About"
-pageRef = "posts/detector"
-weight = 3
-
-[[main]]
-name = "Physics Case"
-parent = "About"
-pageRef = "posts/physics"
-weight = 4
-
-[[main]]
-name = "Dedicated Software"
-parent = "About"
-pageRef = "posts/reconstruction"
-weight = 5
-
-
-[[main]]
-name = "National Lab Accelerator Study Group"
-parent = "About"
-pageRef = "otherorgs/nationallabstudygroup"
-weight = 6
-
-[[main]]
-name = "IMCC"
-parent = "About"
-pageRef = "otherorgs/imcc"
-weight = 7
-
-[[main]]
-name = "Press"
-pageRef = "press"
+name = "Collaboration"
+identifier = "collaboration"
+pageRef = "collaboration"
 weight = 10
 
 [[main]]
-name = "Events"
-pageRef = "events"
+name = "Mission & Goals"
+parent = "collaboration"
+pageRef = "collaboration/mission"
+weight = 11
+
+[[main]]
+name = "Structure & Governance"
+parent = "collaboration"
+pageRef = "collaboration/governance"
+weight = 12
+
+[[main]]
+name = "Member Institutions"
+parent = "collaboration"
+pageRef = "collaboration/institutions"
+weight = 13
+
+# ── Join Us ───────────────────────────────────────────────────────
+[[main]]
+name = "Join Us"
+identifier = "join"
+pageRef = "join"
 weight = 20
 
 [[main]]
-name = "Resources"
-pageRef = "resources"
+name = "How to Join"
+parent = "join"
+pageRef = "join"
+weight = 21
+
+[[main]]
+name = "Mailing Lists"
+parent = "join"
+pageRef = "join/mailing-lists"
+weight = 22
+
+[[main]]
+name = "Start Here (Newcomers)"
+parent = "join"
+pageRef = "join/start-here"
+weight = 23
+
+# ── Science ───────────────────────────────────────────────────────
+[[main]]
+name = "Science"
+identifier = "science"
+pageRef = "posts/why"
 weight = 30
 
 [[main]]
-name = "Contact"
-pageRef = "contact"
+name = "Why a Muon Collider"
+parent = "science"
+pageRef = "posts/why"
+weight = 31
+
+[[main]]
+name = "Physics & Theory"
+parent = "science"
+pageRef = "posts/physics"
+weight = 32
+
+[[main]]
+name = "Accelerator R&D"
+parent = "science"
+pageRef = "posts/accelerator"
+weight = 33
+
+[[main]]
+name = "Detector R&D"
+parent = "science"
+pageRef = "posts/detector"
+weight = 34
+
+[[main]]
+name = "Software & Computing"
+parent = "science"
+pageRef = "posts/reconstruction"
+weight = 35
+
+[[main]]
+name = "Big Questions"
+parent = "science"
+pageRef = "misconceptions"
+weight = 36
+
+# ── Meetings ──────────────────────────────────────────────────────
+[[main]]
+name = "Meetings"
+identifier = "meetings"
+pageRef = "events"
 weight = 40
+
+[[main]]
+name = "Events"
+parent = "meetings"
+pageRef = "events"
+weight = 41
+
+[[main]]
+name = "Seminars"
+parent = "meetings"
+pageRef = "seminars"
+weight = 42
+
+[[main]]
+name = "Indico"
+parent = "meetings"
+url = "https://indico.muoncollider.us/"
+weight = 43
+
+# ── Top-level pages ───────────────────────────────────────────────
+[[main]]
+name = "Resources"
+pageRef = "resources"
+weight = 60
 
 [[main]]
 name = "People"
 pageRef = "people"
-weight = 50
+weight = 70
+
+# ── About / Related efforts ───────────────────────────────────────
+[[main]]
+name = "About"
+identifier = "about"
+pageRef = "contact"
+weight = 80
+
+[[main]]
+name = "News"
+parent = "about"
+pageRef = "press"
+weight = 81
+
+[[main]]
+name = "Contact"
+parent = "about"
+pageRef = "contact"
+weight = 82
+
+[[main]]
+name = "IMCC"
+parent = "about"
+pageRef = "otherorgs/imcc"
+weight = 83
+
+[[main]]
+name = "National Lab Study Group"
+parent = "about"
+pageRef = "otherorgs/nationallabstudygroup"
+weight = 84
 
 [[main]]
 name = "Merch"
+parent = "about"
 pageRef = "merch"
-weight = 60
+weight = 85
 
-
-
+# ── Social icons ──────────────────────────────────────────────────
 [[main]]
   identifier = "instagram"
   pre = "instagram"
   url = "https://www.instagram.com/muoncollider.us/"
   weight = 9992
 
-
 [[main]]
   identifier = "linkedin"
   pre = "linkedin"
   url = "https://www.linkedin.com/company/muoncollider-us/"
-  weight = 9992
+  weight = 9993
 
-
-
-#[[footer]]
-#none = "none"
-
+# ── Footer ────────────────────────────────────────────────────────
 [[footer]]
 name = "Email us"
 url = "mailto:usmcc-coord@fnal.gov"
-
-

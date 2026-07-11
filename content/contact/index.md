@@ -1,49 +1,32 @@
 ---
-title: 
-#showHero: true 
-#heroStyle: background
-#layoutBackgroundHeaderSpace: false
-#layout: simple
+title: Contact
+layout: simple
 _build:
   list: never   # don’t render child list for this section
 ---
 
+## Get in touch
 
-## USMCC Leadership
-<!-- <div style="margin-top:-3rem;">
-  {{< list limit=6 title=" " cardView=true where="Type" value="leadership" width=3 >}}
-</div> -->
+The best way to reach the collaboration is our coordination email. Whether you'd like to
+join, ask a question, or learn more about the muon collider effort, we're glad to hear from
+you.
 
-<img id="usmcc-org-chart" src="251113_USMCCOrgChart.webp" alt="USMCC Org Chart" style="width:800px; max-width:120%;" />
-<script>
-  (function() {
-    var img = document.getElementById("usmcc-org-chart");
-    function update() {
-      img.src = document.documentElement.classList.contains("dark")
-        ? "251113_USMCCOrgChartInv.webp"
-        : "251113_USMCCOrgChart.webp";
-    }
-    update();
-    new MutationObserver(update).observe(document.documentElement, { attributeFilter: ["class"] });
-  })();
-</script>
+<div class="cc-cta-row">
+  <a class="cc-btn cc-btn-primary" href="mailto:usmcc-coord@fnal.gov">Email the collaboration →</a>
+  <a class="cc-btn cc-btn-secondary" href="/join/">How to join</a>
+</div>
 
-[Download PDF](251113_USMCCOrgChart.pdf)
+Looking for our leadership, the organization chart, or the Leadership Strategy Group?
+You'll find them all on [Structure & Governance](/collaboration/governance/). To meet our
+members, see the [People](/people/) page.
 
+## Muon Collider speakers
 
-Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the muon collider effort or to get involved. See also our [people](/people) page for list of USMCC members.
+For requests for a muon collider speaker at a conference, please reach out to our
+[Speakers Committee](mailto:usmcc-speakers@fnal.gov) (chair: Kevin Black).
 
-In addition to the elected leadership, the Leadership Strategy Group was appointed to help steer the direction of the organization. It includes:
-
-Pushpa Bhat (FNAL), Marcela Carena (Perimeter Institute), Lance Cooley (NHMFL), Sarah Cousineau (ORNL), Nathaniel Craig (UCSB), Sridhara Dasu (UW), Peter Elmer (Princeton), Cameron Geddes (LBNL), Maurice Garcia Sciveres (LBNL), Andre de Gouvea (NW), Tao Han (Pittsburgh), Young-Kee Kim (Chicago), Isobel Ojalvo (Princeton), Mark Palmer (BNL), Chris Quigg (FNAL), Kate Scholberg (Duke), John Seeman (SLAC), Vladimir Shiltsev (NIU), Jinlong Zhang (ANL), Bob Zwaska (FNAL)
-
-You can find an archive of past leadership [here](/contact/leadership_archive/).
-
-## Muon Collider Speakers
-
-For requests for a muon collider speaker at a conference, please reach out to our [Speakers Committee](mailto:usmcc-speakers@fnal.gov) (chair: Kevin Black). 
-
-If you're interested in inviting a colloquium or seminar speaker to your institute, here's a list of US-based speakers you could consider reaching out to:
+If you're interested in inviting a colloquium or seminar speaker to your institute, here's
+a list of US-based speakers you could consider reaching out to:
 * Sergo Jindariani (Fermilab)
 * Nathaniel Craig (UCSB)
 * Tova Holmes (Tennessee)

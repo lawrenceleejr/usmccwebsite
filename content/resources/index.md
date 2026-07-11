@@ -12,7 +12,7 @@ title: Resources
 
 [MuCol](https://mucol.web.cern.ch/) - European Design Study 
 
-[Common misconceptions](/misconceptions) - The facts around some frequently heard objections to muon colliders
+[Big Questions](/misconceptions) - Honest answers to the questions people ask most about muon colliders
 
 ## Overview Videos
 

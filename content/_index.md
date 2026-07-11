@@ -1,38 +1,70 @@
 ---
 title: "US Muon Collider Collaboration"
-description: "US Muon Collider Collaboration (USMCC) Information"
+description: "The US Muon Collider Collaboration (USMCC): a community of nearly 300 researchers at ~80 institutions working to build a muon collider and bring the energy frontier back to US soil."
 showHero: true
 ---
 
-<!--{{< alert cardColor="#0052C5" iconColor="#FFE436" textColor="#ffffff" icon="circle-info" >}}
-Register now for the August US Muon Collider Collaboration meeting [**here**](https://indico.uchicago.edu/event/479/)!
-{{< /alert >}}-->
+<p class="cc-lead">
+The <strong>US Muon Collider Collaboration</strong> (USMCC) is a community of nearly
+<strong>300 scientists and engineers</strong> at around <strong>80 institutions</strong>,
+working together to make a muon collider real — and to bring the energy frontier back to
+US soil.
+</p>
 
-## Why a muon collider? 
+We develop the accelerator, detector, physics, and software case for a 10 TeV muon collider,
+in partnership with the [International Muon Collider Collaboration (IMCC)](/otherorgs/imcc/).
+Our members span national labs, universities, and companies — from students to senior
+scientists — across the country and around the world.
 
-**A muon collider is the only near-future technology to allow exploration of the 10 TeV scale and beyond.**
+<div class="cc-cta-row cc-center">
+  <a class="cc-btn cc-btn-primary" href="/join/">Join the collaboration →</a>
+  <a class="cc-btn cc-btn-secondary" href="/posts/why/">Why a muon collider?</a>
+</div>
 
-Exploration of the energy frontier has led to some of the most fundamental discoveries of the last century. To continue this exploration into the future, a paradigm shift is needed. We cannot simply build larger and larger versions of the same ee and pp machines: constraints from cost, available land, and energy efficiency put a cap on the reach of these machines. 
+<div class="cc-stats">
+  <div><div class="cc-stat-num">~300</div><div class="cc-stat-label">Members</div></div>
+  <div><div class="cc-stat-num">~80</div><div class="cc-stat-label">Institutions</div></div>
+  <div><div class="cc-stat-num">10 TeV</div><div class="cc-stat-label">Energy goal</div></div>
+</div>
 
-A muon collider is an affordable, compact, and energy efficient solution that provides the potential to explore energies well beyond the 10 TeV scale. But to realize this vision in the future, research and development is needed today. 
+## What we're working on
 
-## Why now? 
+The path to a muon collider runs through four deeply connected areas. Each is an open,
+active effort you can join.
 
-**Recent breakthroughs and the need for a global collider future make now the right time to act.**
+<div class="cc-cards">
+  <a class="cc-card" href="/posts/accelerator/"><h4>Accelerator R&amp;D →</h4><p>Targets, magnets, RF, and the ionization cooling that makes a muon beam possible.</p></a>
+  <a class="cc-card" href="/posts/detector/"><h4>Detector R&amp;D →</h4><p>Precision-timing, radiation-hard detectors that see through beam-induced backgrounds.</p></a>
+  <a class="cc-card" href="/posts/physics/"><h4>Physics &amp; Theory →</h4><p>The Higgs, dark matter, and the electroweak scale — the case for 10 TeV and beyond.</p></a>
+  <a class="cc-card" href="/posts/reconstruction/"><h4>Software &amp; Computing →</h4><p>Simulation, reconstruction, and the tools the whole community builds on.</p></a>
+</div>
 
-Over the last decade, major developments in target technology, high field magnets, ionization cooling and precision timing detectors have turned a muon collider from a far-off dream to a tangible possibility. However, realization of such a collider still requires significant international R&D and demonstrator program stretching over the next 2 decades.
+## Why a muon collider?
 
-Current estimates for the duration of the required R&D program aim for technical readiness to construct the machine in approximately 20 years, making a muon collider the fastest path to energies beyond the LHC. However adequate funding is necessary to maintain this plan and prevent loss in expertise and personnel. With dedicated R&D today, we can re-invigorate the US accelerator program, and inspire particle physicists for decades to come.
+**A muon collider is the only near-future technology that can explore the 10 TeV scale and
+beyond.** Electron and proton machines are running into hard limits of cost, land, and
+energy efficiency. Muons offer a way through: an affordable, compact, energy-efficient
+path to the highest energies we've ever probed — potentially on a Fermilab site, on US
+soil.
 
-Piggybacking off of planned upgrades for Fermilab's proton complex, there is an opportunity to build a Fermilab-sited muon collider, bringing the energy frontier back to US soil.
+Recent breakthroughs in targets, high-field magnets, ionization cooling, and precision
+timing have turned the muon collider from a far-off dream into a tangible, buildable
+machine. What it needs now is people and momentum.
 
+<div class="cc-cta-row" style="justify-content:flex-start;">
+  <a class="cc-btn cc-btn-secondary" href="/posts/why/">Read the full science case →</a>
+</div>
 
-<!-- Including posts summaries here -->
-{{< list limit=5 where="Type" value="posts" title="What's next?" >}}
+## Get involved
 
+Getting started takes one email. Here's the path most people take:
 
-## How to get involved?
+<div class="cc-steps">
+  <div class="cc-step"><div class="cc-step-n">1</div><h4>Join a mailing list</h4><p>Sign up to hear about meetings, talks, and opportunities. <a href="/join/mailing-lists/">See the lists →</a></p></div>
+  <div class="cc-step"><div class="cc-step-n">2</div><h4>Come to a meeting</h4><p>Drop in on a seminar or a collaboration meeting to see the effort up close. <a href="/seminars/">Seminars →</a></p></div>
+  <div class="cc-step"><div class="cc-step-n">3</div><h4>Find your people</h4><p>Get in touch with others working in the area that interests you. <a href="/join/">Start here →</a></p></div>
+</div>
 
-**The international muon collider community is a rapidly growing group that enthusiastically welcomes new members.**
+{{< list limit=3 where="Type" value="event_items_upcoming" title="Upcoming events" cardView=false >}}
 
-The best way to get involved is to navigate to our [contact](contact/) page and reach out to the coordination mailing list, the co-chairs, or the person there who's most closely aligned with your interests. 
+{{< list limit=3 where="Type" value="press_items" title="Latest news" cardView=false >}}
