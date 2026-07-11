@@ -11,7 +11,7 @@ interested. Here's how to get going.
   <div class="cc-step"><div class="cc-step-n">1</div><h4>Join the mailing list</h4><p>Get on the coordination list for meetings, seminars, and opportunities. <a href="/join/mailing-lists/">See the lists →</a></p></div>
   <div class="cc-step"><div class="cc-step-n">2</div><h4>Drop in on a meeting</h4><p>Come to a seminar or a collaboration meeting — no invitation needed. <a href="/seminars/">Seminars →</a> · <a href="https://indico.muoncollider.us/">Indico →</a></p></div>
   <div class="cc-step"><div class="cc-step-n">3</div><h4>Get the software</h4><p>Explore the tools and tutorials the community builds on. <a href="/posts/reconstruction/">Software &amp; Computing →</a></p></div>
-  <div class="cc-step"><div class="cc-step-n">4</div><h4>Find a working group</h4><p>Pick the area closest to your interests and introduce yourself. <a href="/collaboration/working-groups/">Working groups →</a></p></div>
+  <div class="cc-step"><div class="cc-step-n">4</div><h4>Find your area</h4><p>Tell us what interests you — accelerator, detector, physics, or software — and we'll point you to the right people. <a href="/join/">Get connected →</a></p></div>
 </div>
 
 ## Get oriented on the science
@@ -31,5 +31,5 @@ You don't have to know it all on day one, but these are great places to build in
 
 <div class="cc-cta-row">
   <a class="cc-btn cc-btn-primary" href="/join/">Join the collaboration →</a>
-  <a class="cc-btn cc-btn-secondary" href="/collaboration/working-groups/">Explore working groups</a>
+  <a class="cc-btn cc-btn-secondary" href="/people/">Meet our members</a>
 </div>

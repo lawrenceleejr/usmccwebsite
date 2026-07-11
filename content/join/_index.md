@@ -3,26 +3,25 @@ title: "Join the Collaboration"
 layout: simple
 ---
 
-**You're welcome here.** The US Muon Collider Collaboration is an open community, and we
-mean it: there are no dues, no minimum commitment, and no requirement that you already be
-an expert. If a muon collider excites you, there's a place for you.
+The US Muon Collider Collaboration is an open community spanning national labs,
+universities, and companies. Joining is free, and you don't need to already be an expert —
+an interest in the muon collider is enough.
 
-Members come from national labs, universities, and companies; from theory, experiment, and
-accelerator physics; and from every career stage — undergraduates through senior
-scientists. Whatever your background, we'd love to have you.
+Members come from theory, experiment, and accelerator physics, and from every career stage —
+undergraduates through senior scientists.
 
 ## What being a member means
 
 - You're part of the conversation — meetings, seminars, and mailing lists.
-- You can join any [working group](/collaboration/working-groups/) and contribute to real R&D, physics, and planning.
+- You can contribute to the R&D, physics, and planning in whatever area fits your interests.
 - You'll be listed (if you'd like) on our [People](/people/) page.
 - You help build the case for the energy frontier's return to US soil.
 
 ## How to join
 
 It takes one message. Email our coordination team and we'll add you to the collaboration
-and the main mailing list, and point you toward the people and working groups closest to
-your interests.
+and the main mailing list, and point you toward the people and activities closest to your
+interests.
 
 <!-- MAINTAINER: when the member-registration Google Form (the one feeding the People
      spreadsheet) has a shareable link, add it here as the primary button, e.g.

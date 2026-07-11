@@ -4,8 +4,8 @@ layout: simple
 ---
 
 The collaboration hosts a regular seminar series and keeps a growing library of recorded
-talks. Everyone is welcome — you don't need to be a member to attend, and newcomers are
-always encouraged to drop in.
+talks. You don't need to be a member to attend — anyone interested is encouraged to drop
+in.
 
 ## Worlds Collide seminar series
 

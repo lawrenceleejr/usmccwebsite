@@ -17,8 +17,8 @@ up-to-date roster of institutions and people, see the <a href="/people/">People<
 
 ## Want your institution on this list?
 
-If you or colleagues at your institution want to get involved, we'd love to welcome you —
-there's no cost and no formal barrier to joining.
+If you or colleagues at your institution want to get involved, get in touch — joining is
+free.
 
 <div class="cc-cta-row">
   <a class="cc-btn cc-btn-primary" href="/join/">Join the collaboration →</a>

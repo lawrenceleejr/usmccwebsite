@@ -5,7 +5,7 @@ layout: simple
 
 Mailing lists are how the collaboration stays connected between meetings — announcements,
 seminar reminders, opportunities, and discussion. Joining a list is the easiest first step
-into the community, and you're welcome on them whether or not you've formally joined yet.
+into the community, and you can subscribe whether or not you've formally joined yet.
 
 ## Our lists
 
@@ -27,9 +27,8 @@ into the community, and you're welcome on them whether or not you've formally jo
 </div>
 
 <div class="cc-note">
-Individual <a href="/collaboration/working-groups/">working groups</a> also run their own
-lists and meeting invitations. Tell the coordination team which areas interest you and
-they'll connect you to the right ones.
+Some research areas also run their own lists and meeting invitations. Tell the coordination
+team which areas interest you and they'll connect you to the right ones.
 </div>
 
 <!-- MAINTAINER: if there are additional lists (e.g. an announce-only list, HEP forum,

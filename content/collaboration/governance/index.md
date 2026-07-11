@@ -4,8 +4,8 @@ layout: simple
 ---
 
 The USMCC is run by and for its members. Day-to-day direction comes from an **elected
-leadership team**, guided by an appointed **Leadership Strategy Group**, with the real work
-carried out in open **working groups**. Our scope and processes are set out in the
+leadership team**, guided by an appointed **Leadership Strategy Group**, and area representatives
+coordinate the technical work. Our scope and processes are set out in the
 collaboration [charter](https://drive.google.com/file/d/1y5Z5OHoUTwrPT8yMk7YV4Ch98EswjqoJ/view?usp=share_link).
 
 ## Leadership
@@ -46,14 +46,14 @@ Cameron Geddes (LBNL), Maurice Garcia Sciveres (LBNL), Andre de Gouvea (NW), Tao
 Quigg (FNAL), Kate Scholberg (Duke), John Seeman (SLAC), Vladimir Shiltsev (NIU), Jinlong
 Zhang (ANL), Bob Zwaska (FNAL).
 
-## Working groups
+## Areas of work
 
-The collaboration's technical work happens in working groups spanning accelerator, detector,
-physics, and software. They're open to all members, and they're the best place to start
-contributing.
+The collaboration's technical effort spans four areas — accelerator, detector, physics, and
+software — each represented in the leadership. To get involved in an area, reach out to the
+[coordination team](mailto:usmcc-coord@fnal.gov) or the relevant representative.
 
 <div class="cc-cta-row">
-  <a class="cc-btn cc-btn-primary" href="/collaboration/working-groups/">Explore the working groups →</a>
+  <a class="cc-btn cc-btn-secondary" href="/posts/why/">Explore the science →</a>
 </div>
 
 ## Charter

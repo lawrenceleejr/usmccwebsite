@@ -13,8 +13,8 @@ US soil.
 
 We develop the accelerator, detector, physics, and software case for a 10 TeV muon collider,
 in partnership with the [International Muon Collider Collaboration (IMCC)](/otherorgs/imcc/).
-**Everyone is welcome here** — undergraduates to senior scientists, any institution, any
-country. If a muon collider excites you, there's a place for you in this collaboration.
+Our members span national labs, universities, and companies — from students to senior
+scientists — across the country and around the world.
 
 <div class="cc-cta-row cc-center">
   <a class="cc-btn cc-btn-primary" href="/join/">Join the collaboration →</a>
@@ -61,8 +61,8 @@ Getting started takes one email. Here's the path most people take:
 
 <div class="cc-steps">
   <div class="cc-step"><div class="cc-step-n">1</div><h4>Join a mailing list</h4><p>Sign up to hear about meetings, talks, and opportunities. <a href="/join/mailing-lists/">See the lists →</a></p></div>
-  <div class="cc-step"><div class="cc-step-n">2</div><h4>Come to a meeting</h4><p>Drop in on a seminar or a collaboration meeting — newcomers are always welcome. <a href="/seminars/">Seminars →</a></p></div>
-  <div class="cc-step"><div class="cc-step-n">3</div><h4>Find your people</h4><p>Connect with the area or working group closest to your interests. <a href="/join/">Start here →</a></p></div>
+  <div class="cc-step"><div class="cc-step-n">2</div><h4>Come to a meeting</h4><p>Drop in on a seminar or a collaboration meeting to see the effort up close. <a href="/seminars/">Seminars →</a></p></div>
+  <div class="cc-step"><div class="cc-step-n">3</div><h4>Find your people</h4><p>Get in touch with others working in the area that interests you. <a href="/join/">Start here →</a></p></div>
 </div>
 
 {{< list limit=3 where="Type" value="event_items_upcoming" title="Upcoming events" cardView=false >}}

@@ -8,15 +8,14 @@ engineers across ~80 institutions — physicists, accelerator experts, engineers
 united by one ambitious goal: to make a muon collider real, and to bring the energy
 frontier back to US soil.
 
-We are an open community. Membership is free, spans every career stage, and welcomes
-anyone excited by the physics — whether you've spent a career on colliders or are just
-discovering muons for the first time.
+Membership is open and free, spanning every career stage — from students to senior
+scientists — at institutions across the US and abroad.
 
 <div class="cc-cards">
   <a class="cc-card" href="/collaboration/mission/"><h4>Mission &amp; Goals →</h4><p>What we're working toward, and why it matters now.</p></a>
   <a class="cc-card" href="/collaboration/governance/"><h4>Structure &amp; Governance →</h4><p>Our elected leadership, how we're organized, and our charter.</p></a>
-  <a class="cc-card" href="/collaboration/working-groups/"><h4>Working Groups →</h4><p>Where the work happens — and where you can plug in.</p></a>
   <a class="cc-card" href="/collaboration/institutions/"><h4>Member Institutions →</h4><p>The labs and universities across the country and the world.</p></a>
+  <a class="cc-card" href="/people/"><h4>People →</h4><p>Meet the members of the collaboration.</p></a>
 </div>
 
 <div class="cc-cta-row">

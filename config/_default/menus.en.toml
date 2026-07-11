@@ -21,16 +21,10 @@ pageRef = "collaboration/governance"
 weight = 12
 
 [[main]]
-name = "Working Groups"
-parent = "collaboration"
-pageRef = "collaboration/working-groups"
-weight = 13
-
-[[main]]
 name = "Member Institutions"
 parent = "collaboration"
 pageRef = "collaboration/institutions"
-weight = 14
+weight = 13
 
 # ── Join Us ───────────────────────────────────────────────────────
 [[main]]

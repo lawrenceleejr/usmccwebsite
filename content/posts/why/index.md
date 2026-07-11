@@ -48,4 +48,4 @@ US soil.
 
 - Explore the science: [Physics & Theory](/posts/physics/) · [Accelerator R&D](/posts/accelerator/) · [Detector R&D](/posts/detector/) · [Software & Computing](/posts/reconstruction/)
 - Have a hard question? We love those — see [Big Questions](/misconceptions/).
-- Ready to get involved? [Join the collaboration](/join/) — everyone is welcome.
+- Ready to get involved? [Join the collaboration](/join/).
