@@ -32,6 +32,116 @@
   /*min-width: 300px;*/
   height: auto;
   /*background-repeat:no-repeat;
-  background-size:cover; 
+  background-size:cover;
   background-position:center;*/
 }
+
+/* ==========================================================================
+   USMCC collaboration components (cc-*)
+   Reusable building blocks for the collaboration-focused pages. Uses the
+   USMCC brand palette (blue #0052C5, yellow #FFE436) with dark-mode overrides
+   via the theme's `html.dark` class. Kept in inline-safe CSS (not Tailwind
+   utilities) so it survives the content pipeline.
+   ========================================================================== */
+:root {
+  --cc-blue: #0052C5;
+  --cc-blue-dark: #0047ab;
+  --cc-yellow: #FFE436;
+  --cc-accent: #0052C5;
+  --cc-border: rgba(128, 128, 128, .3);
+  --cc-panel: rgba(127, 127, 127, .06);
+}
+html.dark {
+  --cc-accent: #7fb0ff;
+  --cc-border: rgba(255, 255, 255, .16);
+  --cc-panel: rgba(255, 255, 255, .05);
+}
+
+.cc-lead { font-size: 1.15rem; line-height: 1.6; }
+
+/* Call-to-action buttons */
+.cc-cta-row { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.75rem 0 .5rem; }
+.cc-cta-row.cc-center { justify-content: center; }
+.cc-btn {
+  display: inline-block; padding: .7rem 1.4rem; border-radius: .55rem;
+  font-weight: 700; text-decoration: none !important; font-size: 1.05rem;
+  transition: transform .08s ease, background .15s ease;
+}
+.cc-btn:hover { transform: translateY(-1px); }
+.cc-btn-primary { background: var(--cc-blue); color: #fff !important; box-shadow: 0 6px 20px rgba(0, 82, 197, .35); }
+.cc-btn-primary:hover { background: var(--cc-blue-dark); }
+.cc-btn-secondary { background: rgba(127, 127, 127, .10); color: inherit !important; border: 1px solid var(--cc-border); }
+html.dark .cc-btn-secondary { background: rgba(255, 255, 255, .06); }
+
+/* Stat strip */
+.cc-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; text-align: center; }
+.cc-stat-num { font-size: 2.1rem; font-weight: 800; color: var(--cc-accent); line-height: 1; }
+.cc-stat-label { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; opacity: .75; margin-top: .4rem; }
+
+/* Card grid */
+.cc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.cc-card {
+  display: block; padding: 1.1rem; border-radius: .6rem; border: 1px solid var(--cc-border);
+  text-decoration: none !important; color: inherit !important; background: var(--cc-panel);
+  transition: border-color .15s, transform .08s;
+}
+.cc-card:hover { border-color: var(--cc-accent); transform: translateY(-2px); }
+.cc-card h4 { margin: .1rem 0 .4rem !important; font-size: 1.05rem; }
+.cc-card p { margin: 0 !important; font-size: .9rem; opacity: .8; }
+
+/* Numbered steps */
+.cc-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; margin: 1.25rem 0; }
+.cc-step { padding: 1.1rem; border-radius: .6rem; border: 1px solid var(--cc-border); background: var(--cc-panel); }
+.cc-step-n {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--cc-yellow);
+  color: #111; font-weight: 800; font-size: .95rem; margin-bottom: .55rem;
+}
+.cc-step h4 { margin: .1rem 0 .35rem !important; font-size: 1rem; }
+.cc-step p { margin: 0 !important; font-size: .9rem; opacity: .85; }
+
+/* Callout / note box */
+.cc-note {
+  border-left: 4px solid var(--cc-accent); background: var(--cc-panel);
+  padding: .9rem 1.1rem; border-radius: .3rem; margin: 1.25rem 0;
+}
+.cc-note.cc-note-yellow { border-left-color: var(--cc-yellow); }
+
+/* Big Questions / FAQ */
+.cc-faq { margin: 1.25rem 0; border: 1px solid var(--cc-border); border-radius: .6rem; overflow: hidden; }
+.cc-faq + .cc-faq { margin-top: .75rem; }
+.cc-faq summary { cursor: pointer; padding: 1rem 1.15rem; font-weight: 700; font-size: 1.08rem; list-style: none; background: var(--cc-panel); }
+.cc-faq summary::-webkit-details-marker { display: none; }
+.cc-faq summary::before { content: "＋"; color: var(--cc-accent); font-weight: 800; margin-right: .6rem; }
+.cc-faq[open] summary::before { content: "－"; }
+.cc-faq .cc-faq-body { padding: .25rem 1.15rem 1.1rem; }
+.cc-faq .cc-faq-body p { margin: .6rem 0 0 !important; }
+
+/* Working-group / info tiles */
+.cc-wg { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.cc-wg-card { padding: 1.15rem; border-radius: .6rem; border: 1px solid var(--cc-border); background: var(--cc-panel); }
+.cc-wg-card h4 { margin: 0 0 .35rem !important; font-size: 1.05rem; }
+.cc-wg-card .cc-wg-meta { font-size: .82rem; opacity: .7; margin: 0 0 .5rem !important; }
+.cc-wg-card p { margin: .35rem 0 0 !important; font-size: .92rem; }
+
+.cc-pill {
+  display: inline-block; padding: .12rem .55rem; border-radius: 999px;
+  background: var(--cc-panel); border: 1px solid var(--cc-border);
+  font-size: .72rem; font-weight: 600; letter-spacing: .03em; margin: 0 .2rem .3rem 0;
+}
+
+/* Member institutions by region / state */
+.cc-region { margin: 1.1rem 0; }
+.cc-region-name { font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; opacity: .7; margin: 0 0 .5rem !important; font-weight: 700; }
+.cc-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+.cc-chip {
+  display: inline-flex; align-items: baseline; gap: .4rem; padding: .3rem .6rem;
+  border-radius: .45rem; border: 1px solid var(--cc-border); background: var(--cc-panel);
+  font-size: .85rem; font-weight: 600; white-space: nowrap;
+}
+.cc-chip .cc-chip-n {
+  font-variant-numeric: tabular-nums; font-size: .72rem; font-weight: 800;
+  color: #fff; background: var(--cc-blue); border-radius: 999px; padding: .02rem .4rem;
+}
+html.dark .cc-chip .cc-chip-n { color: #06122b; background: #7fb0ff; }
+.cc-region-empty { opacity: .5; font-size: .85rem; }

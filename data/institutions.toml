@@ -1,0 +1,347 @@
+# Member institutions of the US Muon Collider Collaboration, with US state (or
+# international flag) used by the {{< membermap >}} shortcode on the Member
+# Institutions page. The authoritative member roster is the People page (generated
+# from the collaboration's Google Sheet); this file drives the geographic summary.
+# To add an institution: append an [[institution]] block. US entries need a `state`
+# (two-letter). International entries set `intl = true` and a `country`.
+
+[[institution]]
+name = "Argonne National Laboratory"
+state = "IL"
+
+[[institution]]
+name = "Arizona State University"
+state = "AZ"
+
+[[institution]]
+name = "Baylor University"
+state = "TX"
+
+[[institution]]
+name = "Boston University"
+state = "MA"
+
+[[institution]]
+name = "Brookhaven National Laboratory"
+state = "NY"
+
+[[institution]]
+name = "Brown University"
+state = "RI"
+
+[[institution]]
+name = "California Institute of Technology"
+state = "CA"
+
+[[institution]]
+name = "Carver Scientific LLC"
+state = "LA"
+
+[[institution]]
+name = "Columbia University"
+state = "NY"
+
+[[institution]]
+name = "Cornell University"
+state = "NY"
+
+[[institution]]
+name = "Fermilab"
+state = "IL"
+
+[[institution]]
+name = "Florida State University"
+state = "FL"
+
+[[institution]]
+name = "George Washington University"
+state = "DC"
+
+[[institution]]
+name = "Georgia State University"
+state = "GA"
+
+[[institution]]
+name = "Georgia Tech"
+state = "GA"
+
+[[institution]]
+name = "Harvard University"
+state = "MA"
+
+[[institution]]
+name = "Idaho State University"
+state = "ID"
+
+[[institution]]
+name = "Illinois Institute of Technology"
+state = "IL"
+
+[[institution]]
+name = "Indiana University"
+state = "IN"
+
+[[institution]]
+name = "Iowa State University"
+state = "IA"
+
+[[institution]]
+name = "Jefferson Lab (JLab)"
+state = "VA"
+
+[[institution]]
+name = "Johns Hopkins University"
+state = "MD"
+
+[[institution]]
+name = "Lafayette College"
+state = "PA"
+
+[[institution]]
+name = "Lawrence Berkeley National Laboratory"
+state = "CA"
+
+[[institution]]
+name = "Lawrence Livermore National Laboratory"
+state = "CA"
+
+[[institution]]
+name = "Massachusetts Institute of Technology"
+state = "MA"
+
+[[institution]]
+name = "Michigan State University"
+state = "MI"
+
+[[institution]]
+name = "Muons, Inc."
+state = "IL"
+
+[[institution]]
+name = "National High Magnetic Field Laboratory"
+state = "FL"
+
+[[institution]]
+name = "Northeastern University"
+state = "MA"
+
+[[institution]]
+name = "Northern Illinois University"
+state = "IL"
+
+[[institution]]
+name = "Oak Ridge National Laboratory"
+state = "TN"
+
+[[institution]]
+name = "Oklahoma State University"
+state = "OK"
+
+[[institution]]
+name = "Particle Beam Lasers, Inc."
+state = "CA"
+
+[[institution]]
+name = "Princeton University"
+state = "NJ"
+
+[[institution]]
+name = "Purdue University"
+state = "IN"
+
+[[institution]]
+name = "Purdue University Northwest"
+state = "IN"
+
+[[institution]]
+name = "Rice University"
+state = "TX"
+
+[[institution]]
+name = "SLAC National Accelerator Laboratory"
+state = "CA"
+
+[[institution]]
+name = "Southern Methodist University"
+state = "TX"
+
+[[institution]]
+name = "Stanford University"
+state = "CA"
+
+[[institution]]
+name = "Stony Brook University"
+state = "NY"
+
+[[institution]]
+name = "Texas A&M University"
+state = "TX"
+
+[[institution]]
+name = "Texas Tech University"
+state = "TX"
+
+[[institution]]
+name = "The Catholic University of America"
+state = "DC"
+
+[[institution]]
+name = "UC Berkeley"
+state = "CA"
+
+[[institution]]
+name = "UC Irvine"
+state = "CA"
+
+[[institution]]
+name = "UC San Diego"
+state = "CA"
+
+[[institution]]
+name = "UC Santa Barbara"
+state = "CA"
+
+[[institution]]
+name = "UC Santa Cruz"
+state = "CA"
+
+[[institution]]
+name = "UCLA"
+state = "CA"
+
+[[institution]]
+name = "University at Buffalo"
+state = "NY"
+
+[[institution]]
+name = "University of Alabama"
+state = "AL"
+
+[[institution]]
+name = "University of Arizona"
+state = "AZ"
+
+[[institution]]
+name = "University of Chicago"
+state = "IL"
+
+[[institution]]
+name = "University of Cincinnati"
+state = "OH"
+
+[[institution]]
+name = "University of Florida"
+state = "FL"
+
+[[institution]]
+name = "University of Hawai'i at Manoa"
+state = "HI"
+
+[[institution]]
+name = "University of Illinois Chicago"
+state = "IL"
+
+[[institution]]
+name = "University of Illinois at Urbana-Champaign"
+state = "IL"
+
+[[institution]]
+name = "University of Iowa"
+state = "IA"
+
+[[institution]]
+name = "University of Kansas"
+state = "KS"
+
+[[institution]]
+name = "University of Michigan"
+state = "MI"
+
+[[institution]]
+name = "University of Minnesota"
+state = "MN"
+
+[[institution]]
+name = "University of Mississippi"
+state = "MS"
+
+[[institution]]
+name = "University of New Mexico"
+state = "NM"
+
+[[institution]]
+name = "University of Notre Dame"
+state = "IN"
+
+[[institution]]
+name = "University of Oklahoma"
+state = "OK"
+
+[[institution]]
+name = "University of Oregon"
+state = "OR"
+
+[[institution]]
+name = "University of Pennsylvania"
+state = "PA"
+
+[[institution]]
+name = "University of Pittsburgh"
+state = "PA"
+
+[[institution]]
+name = "University of South Carolina"
+state = "SC"
+
+[[institution]]
+name = "University of South Dakota"
+state = "SD"
+
+[[institution]]
+name = "University of Tennessee, Knoxville"
+state = "TN"
+
+[[institution]]
+name = "University of Texas at Arlington"
+state = "TX"
+
+[[institution]]
+name = "University of Washington"
+state = "WA"
+
+[[institution]]
+name = "University of Wisconsin–Madison"
+state = "WI"
+
+[[institution]]
+name = "Virginia Tech"
+state = "VA"
+
+[[institution]]
+name = "Wichita State University"
+state = "KS"
+
+[[institution]]
+name = "Yale University"
+state = "CT"
+
+# ── International partners ────────────────────────────────────────
+[[institution]]
+name = "Imperial College London"
+intl = true
+country = "United Kingdom"
+
+[[institution]]
+name = "University of Padua"
+intl = true
+country = "Italy"
+
+[[institution]]
+name = "POSTECH"
+intl = true
+country = "South Korea"
+
+[[institution]]
+name = "Liaoning Normal University"
+intl = true
+country = "China"

@@ -1,0 +1,51 @@
+{{- /* Member institutions summarized by US Census region + state, from
+       data/institutions.toml. Hover a chip to see the institutions in that state. */ -}}
+{{- $insts := .Site.Data.institutions.institution -}}
+{{- $intl := where $insts "intl" true -}}
+{{- $usCount := sub (len $insts) (len $intl) -}}
+{{- $regions := slice
+    (dict "name" "West"      "states" (slice "WA" "OR" "CA" "NV" "ID" "MT" "WY" "UT" "CO" "AZ" "NM" "AK" "HI"))
+    (dict "name" "Midwest"   "states" (slice "ND" "SD" "NE" "KS" "MN" "IA" "MO" "WI" "IL" "IN" "MI" "OH"))
+    (dict "name" "South"     "states" (slice "TX" "OK" "AR" "LA" "MS" "AL" "TN" "KY" "WV" "VA" "MD" "DC" "DE" "NC" "SC" "GA" "FL"))
+    (dict "name" "Northeast" "states" (slice "PA" "NJ" "NY" "CT" "RI" "MA" "VT" "NH" "ME"))
+-}}
+{{- $covered := slice -}}
+{{- range $r := $regions -}}
+  {{- range $st := $r.states -}}
+    {{- if where $insts "state" $st -}}{{- $covered = $covered | append $st -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="cc-stats" style="max-width:520px;">
+  <div><div class="cc-stat-num">{{ $usCount }}</div><div class="cc-stat-label">US institutions</div></div>
+  <div><div class="cc-stat-num">{{ len $covered }}</div><div class="cc-stat-label">States &amp; DC</div></div>
+  <div><div class="cc-stat-num">{{ len $intl }}</div><div class="cc-stat-label">Int'l partners</div></div>
+</div>
+
+{{ range $r := $regions }}
+  {{- $regionHas := false -}}
+  {{- range $st := $r.states -}}{{- if where $insts "state" $st -}}{{- $regionHas = true -}}{{- end -}}{{- end -}}
+  {{ if $regionHas }}
+  <div class="cc-region">
+    <p class="cc-region-name">{{ $r.name }}</p>
+    <div class="cc-chips">
+      {{- range $st := $r.states -}}
+        {{- $m := where $insts "state" $st -}}
+        {{- with $m -}}
+          {{- $names := slice -}}{{- range . -}}{{- $names = $names | append .name -}}{{- end -}}
+          <span class="cc-chip" title="{{ delimit $names ", " }}">{{ $st }} <span class="cc-chip-n">{{ len . }}</span></span>
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </div>
+  {{ end }}
+{{ end }}
+
+{{ with $intl }}
+<div class="cc-region">
+  <p class="cc-region-name">International partners</p>
+  <div class="cc-chips">
+    {{- range . -}}<span class="cc-chip" title="{{ .country }}">{{ .name }}</span>{{- end -}}
+  </div>
+</div>
+{{ end }}
