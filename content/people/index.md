@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [115, 63, 35, 11, 41, 25],
+	data: [116, 63, 35, 11, 40, 25],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -263,6 +263,10 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 
 ## The Catholic University of America
 {{< people limit=2000 title=" " cardView=true where="Type" value="thecatholicuniversityofamerica" >}}
+
+
+## Tufts University
+{{< people limit=2000 title=" " cardView=true where="Type" value="tuftsuniversity" >}}
 
 
 ## UC Berkeley
