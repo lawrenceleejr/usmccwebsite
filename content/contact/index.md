@@ -14,21 +14,21 @@ _build:
   {{< list limit=6 title=" " cardView=true where="Type" value="leadership" width=3 >}}
 </div> -->
 
-<img id="usmcc-org-chart" src="251113_USMCCOrgChart.webp" alt="USMCC Org Chart" style="width:800px; max-width:120%;" />
+<img id="usmcc-org-chart" src="https://lawrenceleejr.github.io/USMCCOrgChart/light.webp" alt="USMCC Org Chart" style="width:800px; max-width:120%;" />
 <script>
   (function() {
     var img = document.getElementById("usmcc-org-chart");
     function update() {
       img.src = document.documentElement.classList.contains("dark")
-        ? "251113_USMCCOrgChartInv.webp"
-        : "251113_USMCCOrgChart.webp";
+        ? "https://lawrenceleejr.github.io/USMCCOrgChart/dark.webp"
+        : "https://lawrenceleejr.github.io/USMCCOrgChart/light.webp";
     }
     update();
     new MutationObserver(update).observe(document.documentElement, { attributeFilter: ["class"] });
   })();
 </script>
 
-[Download PDF](251113_USMCCOrgChart.pdf)
+Download: [PNG](https://lawrenceleejr.github.io/USMCCOrgChart/light.png) | [SVG](https://lawrenceleejr.github.io/USMCCOrgChart/light.svg)
 
 
 Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the muon collider effort or to get involved. See also our [people](/people) page for list of USMCC members.
