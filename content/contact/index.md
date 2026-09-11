@@ -28,7 +28,7 @@ _build:
   })();
 </script>
 
-[Download PDF](251113_USMCCOrgChart.pdf)
+Download: [PNG](https://lawrenceleejr.github.io/USMCCOrgChart/light.png) | [SVG](https://lawrenceleejr.github.io/USMCCOrgChart/light.svg)
 
 
 Send us an [email](mailto:usmcc-coord@fnal.gov) for more information about the muon collider effort or to get involved. See also our [people](/people) page for list of USMCC members.
