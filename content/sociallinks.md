@@ -5,6 +5,7 @@ showHero: false
 ---
 
 ## Events
+* Posted Oct 2026: [Oct 7 2-3PM Eastern – Margaret Lazarus Dean: Selling the Moon: Making the Case for Big Science](https://indico.muoncollider.us/event/137/) [[Zoom]](https://cern.zoom.us/j/69539646642?pwd=lJ7xH7EbMb87K1wJq6MIpI19AJcLV2.1)
 * Posted Sep 19 2026: [Dec 13 2026 – HEP Alumni Reunion Night](https://hepalumni.muoncollider.us)
 * Posted Aug 2026: [Sep 2 2-3PM Eastern – Yangyang Cheng: Romance of the Great Chinese Collider](https://indico.muoncollider.us/event/122/) [[Zoom]](https://cern.zoom.us/j/69539646642?pwd=lJ7xH7EbMb87K1wJq6MIpI19AJcLV2.1)
 * Posted Feb 2026: [Feb 25 2-3PM Eastern – Mark Pruitt: Practicalities of Load Interconnection and Energy Supply](https://indico.muoncollider.us/event/50/) [[Zoom]](https://cern.zoom.us/j/69539646642?pwd=lJ7xH7EbMb87K1wJq6MIpI19AJcLV2.1)
