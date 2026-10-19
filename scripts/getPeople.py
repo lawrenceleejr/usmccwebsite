@@ -37,9 +37,7 @@ target_dir = "../content/people/"
 # Run options
 hard_reset = True
 
-# Database career-stage enum -> label shown on the card; the chart keeps the
-# buckets the page always had (Engineer is shown on the card but counted
-# under Other, like the old spreadsheet's free-text positions).
+# Database career-stage enum -> label shown on the card.
 CAREER_LABELS = {
     "faculty": "Faculty",
     "staff": "Lab Scientist",
@@ -49,7 +47,6 @@ CAREER_LABELS = {
     "engineer": "Engineer",
     "other": "Other",
 }
-CAREER_COUNTED = {"Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc"}
 
 # Database research areas -> short labels for the card and the area chart.
 AREA_LABELS = {
@@ -67,26 +64,18 @@ def getOrcidURL(person):
 
 
 # Get area for web
-def getArea(person, counters):
+def getArea(person):
     values = [a.strip() for a in (person.get("research_areas") or "").split(",") if a.strip()]
     labels = []
     for val in values:
         label = AREA_LABELS.get(val, val)
         if label not in labels:
             labels.append(label)
-    if len(labels) > 1:
-        counters["Multiple"] += 1
-    elif labels and labels[0] in ("Accelerator", "Experiment", "Theory"):
-        counters[labels[0]] += 1
-    else:
-        counters["Other"] += 1
     return ", ".join(labels)
 
 
-def getPosition(person, counters):
-    label = CAREER_LABELS.get(person.get("career_stage"), "Other")
-    counters[label if label in CAREER_COUNTED else "Other"] += 1
-    return label
+def getPosition(person):
+    return CAREER_LABELS.get(person.get("career_stage"), "Other")
 
 
 # Make alphanumeric tags to ID institutes
@@ -140,6 +129,7 @@ def getPhoto(person, fname, person_path):
 
 # Get data and list of institutes and sort alphabetically
 people = requests.get(f"{API_URL}/people/public", timeout=60).json()
+stats = requests.get(f"{API_URL}/people/public/stats", timeout=60).json()
 institutions = sorted({p["institution"] for p in people if p.get("institution")})
 
 # Remove everything if hard_reset
@@ -147,11 +137,30 @@ if hard_reset:
     for f in glob.glob(f"{data_dir}*"):
         shutil.rmtree(f)
 
-# Separate buckets per chart (the old single dict silently merged the two
-# "Other" keys, so both pies shared one combined Other count).
-area_counters = {"Accelerator": 0, "Experiment": 0, "Theory": 0, "Multiple": 0, "Other": 0}
-career_counters = {"Faculty": 0, "Lab Scientist": 0, "Grad Student": 0, "Undergrad": 0,
-                   "Postdoc": 0, "Other": 0}
+# The chart counts come from the anonymous stats endpoint, which covers ALL
+# active members — including those who keep their names off this page — so
+# the pies reflect the whole collaboration, not just the cards below them.
+# (Separate buckets per chart: the old single dict silently merged its two
+# "Other" keys, so both pies shared one combined Other count.)
+by_area = stats["by_research_area"]
+by_stage = stats["by_career_stage"]
+area_counters = {
+    "Accelerator": by_area.get("Accelerator Physics", 0),
+    "Experiment": by_area.get("Experimental Particle Physics", 0),
+    "Theory": by_area.get("Theoretical Particle Physics", 0),
+    "Multiple": by_area.get("Multiple", 0),
+}
+# "Other" answers plus members with no recorded area.
+area_counters["Other"] = stats["total"] - sum(area_counters.values())
+career_counters = {
+    "Faculty": by_stage.get("faculty", 0),
+    "Lab Scientist": by_stage.get("staff", 0),
+    "Grad Student": by_stage.get("grad", 0),
+    "Undergrad": by_stage.get("undergrad", 0),
+    "Postdoc": by_stage.get("postdoc", 0),
+}
+# Engineers and "other" career stages share the chart's Other slice.
+career_counters["Other"] = stats["total"] - sum(career_counters.values())
 
 # Loop over people
 for person in people:
@@ -169,8 +178,8 @@ for person in people:
     getPhoto(person, fname, person_path)
 
     # Create index file with all the person's info
-    position = getPosition(person, career_counters)
-    area = getArea(person, area_counters)
+    position = getPosition(person)
+    area = getArea(person)
     external_url = getOrcidURL(person)
     with open(f"{person_path}index.md", "w") as f:
         f.write("---\n")
