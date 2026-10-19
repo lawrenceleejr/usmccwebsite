@@ -1,74 +1,83 @@
-import pandas as pd
-import shutil
+"""Populate the website's People page from the USMCC membership database.
+
+Fetches the public member export of the collaboration database
+(https://db.muoncollider.us) and writes one Hugo content folder per member
+under content/all_people/ plus the content/people/index.md overview. The
+database serves only members who are active AND consented to being listed
+publicly (and only their public photo), so nobody who opted out can appear
+here — don't work around it by hand-editing the generated files.
+
+Photos come from the database too. A member without a database photo falls
+back to a file in saved_photos/ named after them (FirstLast.jpg/png/...),
+then to the default featured.png.
+
+Run `python getPeople.py` from within the scripts directory.
+"""
+
+import glob
 import os
 import re
-import wget
-import math
-import glob
-import gdown
-from PIL import Image
-from pillow_heif import register_heif_opener
-import resizePhotos
+import shutil
+import sys
+from io import BytesIO
 from pathlib import Path
 
-register_heif_opener()  # Add HEIC/HEIF support to PIL
+import requests
+from PIL import Image
+from pillow_heif import register_heif_opener
 
+import resizePhotos
+
+register_heif_opener()  # Add HEIC/HEIF support to PIL (saved_photos fallbacks)
 
 # Path options
-#url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRA9zzsaExWvt_QlFKUY8mWiSD9lMO_wPtNuybY2Qfc3YfX5gt4x-9dOcZwBJ3d9_pnWgEttGqiD8E3/pub?gid=0&single=true&output=csv"
-#url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSCglOgkctIpKG5I35Ti7EuYg_ENYStsNxqFeLIIUzEnF4zy84618qldL7OCDYApiAhe-nti4cUrveC/pub?output=csv"
-url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTtBLKwDW2dptdumtvgvqG6yYuQzMOVA1H2gN_StaJ0gcI3XGhOYZHlQWu9UF9P1G1vaHz6rdEKko2X/pub?gid=835474486&single=true&output=csv"
+API_URL = os.environ.get("USMCCDB_API", "https://db.muoncollider.us/api/v1")
 data_dir = "../content/all_people/"
 target_dir = "../content/people/"
 
 # Run options
 hard_reset = True
 
-# Get ORCID website url
-def getOrcidURL(entry):
-    orcid = entry['ORCID ID (if available)']
-    if pd.isna(orcid):
-        return "mailto:"+entry['Email']
-    if not "orcid.org" in str(orcid):
-        orcid = "https://orcid.org/"+str(orcid)
-    return orcid
+# Database career-stage enum -> label shown on the card.
+CAREER_LABELS = {
+    "faculty": "Faculty",
+    "staff": "Lab Scientist",
+    "postdoc": "Postdoc",
+    "grad": "Grad Student",
+    "undergrad": "Undergrad",
+    "engineer": "Engineer",
+    "other": "Other",
+}
+
+# Database research areas -> short labels for the card and the area chart.
+AREA_LABELS = {
+    "Experimental Particle Physics": "Experiment",
+    "Theoretical Particle Physics": "Theory",
+    "Accelerator Physics": "Accelerator",
+    "Other": "Other",
+}
+
+
+# Get ORCID website url (members without an ORCID iD get no external link)
+def getOrcidURL(person):
+    orcid = person.get("orcid")
+    return f"https://orcid.org/{orcid}" if orcid else None
+
 
 # Get area for web
-def getArea(entry, counters):
-    form_area = entry['Area(s) of Expertise']
-    output_area = ""
-    multiple = False
-    if len(form_area.split(", "))>1:
-        multiple = True
-        counters["Multiple"] += 1
-    for val in form_area.split(", "):
-        if not output_area == "":
-            output_area += ", "
-        if val == "Experimental Particle Physics":
-            output_area += "Experiment"
-            if not multiple: counters["Experiment"] += 1
-        elif val == "Theoretical Particle Physics":
-            output_area += "Theory"
-            if not multiple: counters["Theory"] += 1
-        elif val == "Accelerator Physics":
-            output_area += "Accelerator"
-            if not multiple: counters["Accelerator"] += 1
-        else:
-            output_area += val
-            if not multiple: counters["Other"] += 1
-    return output_area
+def getArea(person):
+    values = [a.strip() for a in (person.get("research_areas") or "").split(",") if a.strip()]
+    labels = []
+    for val in values:
+        label = AREA_LABELS.get(val, val)
+        if label not in labels:
+            labels.append(label)
+    return ", ".join(labels)
 
-def getPosition(entry, counters):
-    form_position = entry['Position']
-    if form_position == "Graduate Student":
-        counters["Grad Student"] += 1
-        return "Grad Student"
-    if form_position == "Undergraduate Student":
-        counters["Undergrad"] += 1
-        return "Undergrad"
-    try: counters[form_position] += 1
-    except: counters["Other"] += 1
-    return form_position
+
+def getPosition(person):
+    return CAREER_LABELS.get(person.get("career_stage"), "Other")
+
 
 # Make alphanumeric tags to ID institutes
 def getInstTag(inst):
@@ -76,112 +85,118 @@ def getInstTag(inst):
     result = re.sub(r'[\W_]+', '', inst)
     return result
 
-# Allow custom display names
-def getName(entry):
-    name = f"{entry['First Name']} {entry['Last Name']}"
-    if name == "J. Berg": name = "J. Scott Berg"
-    return name
 
-# Get data and list of institutes and sort by size
-#df = pd.read_csv(url)
-#institutions = df['Primary Affiliation'].value_counts().index.tolist()
+# Directory-safe version of a member's name
+def getFname(person):
+    return re.sub(r'[^\w.-]', '', person["name"].replace(" ", ""))
+
+
+def getPhoto(person, fname, person_path):
+    """Put featured.<ext> in the person's folder: the database photo first,
+    then a saved_photos/<fname>.* file, then the default image."""
+    if glob.glob(f"{person_path}featured.*"):
+        return
+
+    # The database serves the photo only while the member is listed; it is
+    # already normalized (WebP, capped size) — re-encode to JPEG for Hugo.
+    if person.get("has_photo"):
+        try:
+            r = requests.get(f"{API_URL}/people/public/{person['id']}/photo", timeout=60)
+            r.raise_for_status()
+            img = Image.open(BytesIO(r.content)).convert("RGB")
+            dest = f"{person_path}featured.jpg"
+            img.save(dest, "JPEG", quality=90)
+            resizePhotos.process_image(dest)
+            return
+        except Exception as e:
+            print(f"Failed to retrieve database photo for {fname}: {e}")
+
+    photos = [p for p in sorted(glob.glob(f"saved_photos/{fname}.*")) if not p.endswith(".tmp")]
+    if photos:
+        extension = photos[0].split(".")[-1]
+        dest = f"{person_path}featured.{extension}"
+        shutil.copy(photos[0], dest)
+        if extension.lower() == "mpo":
+            resizePhotos.convert_mpo_to_jpeg(Path(dest))
+            dest = f"{person_path}featured.jpg"
+        elif extension.lower() in ("heif", "heic"):
+            resizePhotos.convert_heic_to_png(Path(dest))
+            dest = f"{person_path}featured.png"
+        resizePhotos.process_image(dest)
+        return
+
+    shutil.copy("featured.png", f"{person_path}featured.png")
+
 
 # Get data and list of institutes and sort alphabetically
-df = pd.read_csv(url)
-institutions = sorted(df['Primary Affiliation'].dropna().unique().tolist())
+resp = requests.get(f"{API_URL}/people/public", timeout=60)
+resp.raise_for_status()
+people = resp.json()
+resp = requests.get(f"{API_URL}/people/public/stats", timeout=60)
+resp.raise_for_status()
+stats = resp.json()
+# Guard for the automated run: an empty export means a broken or empty
+# database — bail out rather than wiping the whole People page.
+if not people:
+    sys.exit("The database returned no listed members; refusing to regenerate the page.")
+institutions = sorted({p["institution"] for p in people if p.get("institution")})
 
 # Remove everything if hard_reset
 if hard_reset:
     for f in glob.glob(f"{data_dir}*"):
         shutil.rmtree(f)
 
-counters = {"Accelerator":0, "Experiment":0, "Theory":0, "Multiple":0, "Other":0,
-            "Faculty": 0, "Lab Scientist": 0, "Grad Student": 0, "Undergrad": 0, "Postdoc": 0, "Other": 0}
+# The chart counts come from the anonymous stats endpoint, which covers ALL
+# active members — including those who keep their names off this page — so
+# the pies reflect the whole collaboration, not just the cards below them.
+# (Separate buckets per chart: the old single dict silently merged its two
+# "Other" keys, so both pies shared one combined Other count.)
+by_area = stats["by_research_area"]
+by_stage = stats["by_career_stage"]
+area_counters = {
+    "Accelerator": by_area.get("Accelerator Physics", 0),
+    "Experiment": by_area.get("Experimental Particle Physics", 0),
+    "Theory": by_area.get("Theoretical Particle Physics", 0),
+    "Multiple": by_area.get("Multiple", 0),
+}
+# "Other" answers plus members with no recorded area.
+area_counters["Other"] = stats["total"] - sum(area_counters.values())
+career_counters = {
+    "Faculty": by_stage.get("faculty", 0),
+    "Lab Scientist": by_stage.get("staff", 0),
+    "Grad Student": by_stage.get("grad", 0),
+    "Undergrad": by_stage.get("undergrad", 0),
+    "Postdoc": by_stage.get("postdoc", 0),
+}
+# Engineers and "other" career stages share the chart's Other slice.
+career_counters["Other"] = stats["total"] - sum(career_counters.values())
 
 # Loop over people
-for i, entry in df.iterrows():
+for person in people:
 
-    if entry['Public'] == 'Opt out': continue
+    if not person.get("institution"):
+        print(f"Skipping {person['name']}: no current institution in the database")
+        continue
 
     # Put data in paths based on the person's name
-    fname = getName(entry).replace(" ","")
+    fname = getFname(person)
     person_path = f"{data_dir}{fname}/"
     if not os.path.exists(person_path): os.mkdir(person_path)
     print("Adding", fname)
 
-    # Try to access photo from spreadsheet if it's not already there
-    if not os.path.exists(f"{person_path}/featured.*"):
-        got_photo = False
-
-        # Start by just checking the saved photos directory
-        photos = glob.glob(f"saved_photos/{fname}*")
-        if len(photos)>0:
-            extension = photos[0].split(".")[-1]
-            dest = f"{person_path}featured.{extension}"
-            shutil.copy(photos[0], dest)
-            if extension.lower() == "mpo":
-                resizePhotos.convert_mpo_to_jpeg(Path(dest))
-                extension = "jpg"
-                dest = f"{person_path}featured.{extension}"
-            elif extension.lower() == "heif":
-                resizePhotos.convert_heic_to_png(Path(dest))
-                extension = "png"
-                dest = f"{person_path}featured.{extension}"
-            resizePhotos.process_image(dest)
-            got_photo = True
-
-        # If there's nothing there, use the spreadsheet
-        if not got_photo:
-            photo_url = entry['Photo link']
-            if not pd.isna(photo_url):
-                file_id = photo_url.split("id=")[-1] # https://drive.google.com/open?id=1STvUG313HJuftNQdrq4gY0rWIEDHF_3g
-                download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
-                try:
-                    # Download to a temp file using gdown, which handles
-                    # Google Drive confirmation pages for large files
-                    tmp_download = f"saved_photos/{fname}.tmp"
-                    result = gdown.download(id=file_id, output=tmp_download, quiet=True)
-                    if result is None:
-                        raise Exception("gdown returned None (download failed or access denied)")
-
-                    # Detect image format
-                    image = Image.open(tmp_download)
-                    extension = image.format.lower()  # e.g., "jpeg", "png"
-                    image.close()
-                    if not extension:
-                        os.remove(tmp_download)
-                        print(f"Could not detect image type for", fname)
-                    else:
-                        # Rename temp file to proper extension
-                        filename = f"saved_photos/{fname}.{extension}"
-                        os.replace(tmp_download, filename)
-                        if extension.lower()=="mpo":
-                            resizePhotos.convert_mpo_to_jpeg(Path(filename))
-                            extension = "jpg"
-                            filename = f"saved_photos/{fname}.{extension}"
-                        elif extension.lower()=="heif":
-                            resizePhotos.convert_heic_to_png(Path(filename))
-                            extension = "png"
-                            filename = f"saved_photos/{fname}.{extension}"
-                        resizePhotos.process_image(filename)
-                        shutil.copy(f"saved_photos/{fname}.{extension}", f"{data_dir}{fname}/featured.{extension}")
-                        got_photo = True
-                except Exception as e:
-                    print(f"Failed to retrieve image for {fname}: {e}")
-                    if os.path.exists(f"saved_photos/{fname}.tmp"):
-                        os.remove(f"saved_photos/{fname}.tmp")
-
-        # If this fails, copy the default photo to their path
-        if not got_photo:
-            shutil.copy("featured.png", f"{person_path}featured.png")
+    getPhoto(person, fname, person_path)
 
     # Create index file with all the person's info
+    position = getPosition(person)
+    area = getArea(person)
+    external_url = getOrcidURL(person)
     with open(f"{person_path}index.md", "w") as f:
         f.write("---\n")
-        f.write(f"title: {getName(entry)}\n")
-        f.write(f"externalUrl: {getOrcidURL(entry)}\n")
-        f.write(f"summary: {getPosition(entry, counters)}, {getArea(entry, counters)}\n")
-        f.write(f"type: {getInstTag(entry['Primary Affiliation'])}\n")
+        f.write(f"title: {person['name']}\n")
+        if external_url:
+            f.write(f"externalUrl: {external_url}\n")
+        f.write(f"summary: {position}, {area}\n" if area else f"summary: {position}\n")
+        f.write(f"type: {getInstTag(person['institution'])}\n")
         #f.write("showHero: true\n")
         f.write("---\n")
 
@@ -202,7 +217,7 @@ with open(output_file, "w") as f:
     f.write("  labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],\n")
     f.write("  datasets: [{\n")
     f.write("	label: '# of members',\n")
-    f.write(f"	data: [{counters['Accelerator']}, {counters['Experiment']}, {counters['Theory']}, {counters['Multiple']}, {counters['Other']}],\n")
+    f.write(f"	data: [{area_counters['Accelerator']}, {area_counters['Experiment']}, {area_counters['Theory']}, {area_counters['Multiple']}, {area_counters['Other']}],\n")
     f.write("	backgroundColor: [\n")
     f.write("	  'rgba(255, 99, 132, 0.2)',\n")
     f.write("	  'rgba(255, 159, 64, 0.2)',\n")
@@ -234,7 +249,7 @@ with open(output_file, "w") as f:
     f.write('  labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],\n')
     f.write("  datasets: [{\n")
     f.write("	label: '# of members',\n")
-    f.write(f"	data: [{counters['Faculty']}, {counters['Lab Scientist']}, {counters['Grad Student']}, {counters['Undergrad']}, {counters['Postdoc']}, {counters['Other']}],\n")
+    f.write(f"	data: [{career_counters['Faculty']}, {career_counters['Lab Scientist']}, {career_counters['Grad Student']}, {career_counters['Undergrad']}, {career_counters['Postdoc']}, {career_counters['Other']}],\n")
     f.write("	backgroundColor: [\n")
     f.write("	  'rgba(255, 99, 132, 0.2)',\n")
     f.write("	  'rgba(255, 159, 64, 0.2)',\n")
@@ -262,9 +277,6 @@ with open(output_file, "w") as f:
     f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fnal.gov).")
     for inst in institutions:
         f.write("\n\n")
-        #print(inst, "...")
         f.write(f"## {inst}\n")
         f.write(f'{{{{< people limit=2000 title=" " cardView=true where="Type" value="{getInstTag(inst)}" >}}}}\n')
     f.write("\n\nIf you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fnal.gov).")
-
-

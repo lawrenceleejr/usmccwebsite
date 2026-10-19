@@ -1,8 +1,28 @@
-The `getPeople.py` script populates the "People" page of the website. In order to run it, you'll need the python wget module. To install, run `pip install wget`. 
+The `getPeople.py` script populates the "People" page of the website from the
+collaboration membership database (https://db.muoncollider.us). The database's
+public export only includes active members who consented to being listed on
+the public website (and only their public photos), so opt-outs are enforced at
+the source — never hand-edit the generated files to add someone.
 
-This script will add new items/overwrite things in the `content/all_people` directory, and remake the `people/index.md` file. None of these should be manually edited given this fact. 
+Dependencies: `pip install -r requirements.txt`.
 
-To run, just execute `python getPeople.py` from within the `scripts` directory.
+This script will add new items/overwrite things in the `content/all_people`
+directory, and remake the `people/index.md` file. None of these should be
+manually edited given this fact.
+
+Photos come from the database. For a member without a database photo, a file
+in `saved_photos/` named after them (e.g. `JaneDoe.jpg`) is used instead, and
+failing that the default `featured.png`.
+
+To run, just execute `python getPeople.py` from within the `scripts`
+directory. Set `USMCCDB_API` to point the script at a different database
+instance (e.g. a local dev one).
+
+Normally nobody needs to run it by hand: the
+`.github/workflows/update-people.yml` workflow runs it nightly (and whenever
+the database pokes this repository after a membership change), commits the
+regenerated content to `main`, and redeploys the site. It can also be
+started manually from the Actions tab.
 
 ```stl
 solid cube_corner

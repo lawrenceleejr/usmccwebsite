@@ -1,0 +1,67 @@
+# Keep the People page in step with the collaboration membership database
+# (https://db.muoncollider.us, trholmes/USMCCDB issue #173).
+#
+# Runs nightly, on demand from the Actions tab, and whenever the database
+# pokes this repository with a repository_dispatch event of type
+# "membership-updated" (sent by the database backend when a member is
+# approved or their listed info changes — see WEBSITE_REPO /
+# WEBSITE_DISPATCH_TOKEN in the USMCCDB README). It regenerates
+# content/all_people and content/people/index.md with scripts/getPeople.py,
+# pushes the result straight to main, and then kicks the Pages deploy —
+# a push made with the workflow's own token does not trigger the push
+# workflow by itself.
+name: Update People page from the membership database
+
+on:
+  schedule:
+    - cron: "23 5 * * *" # nightly, off the hour
+  workflow_dispatch:
+  repository_dispatch:
+    types: [membership-updated]
+
+permissions:
+  contents: write # push the regenerated content
+  actions: write # kick the hugo.yml deploy afterwards
+
+# One update at a time; a poke arriving mid-run queues the next run rather
+# than racing the push.
+concurrency:
+  group: "update-people"
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+      - name: Regenerate the People page from the database
+        working-directory: scripts
+        run: python getPeople.py
+      - name: Commit and push if anything changed
+        id: push
+        run: |
+          git add -A content/all_people content/people
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No membership changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update People page from the membership database"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Deploy the site
+        if: steps.push.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run hugo.yml --ref main
