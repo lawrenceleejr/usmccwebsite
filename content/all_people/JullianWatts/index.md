@@ -1,6 +1,6 @@
 ---
 title: Jullian Watts
-externalUrl: mailto:Jwatts35@vols.utk.edu
+externalUrl: https://orcid.org/0009-0008-5735-9715
 summary: Undergrad, Experiment
 type: universityoftennesseeknoxville
 ---

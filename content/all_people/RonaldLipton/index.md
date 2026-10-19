@@ -1,6 +1,5 @@
 ---
-title: Ronald Lipton 
-externalUrl: mailto:lipton@fnal.gov
-summary: Lab Emeritus, Experiment
-type: fermilab
+title: Ronald Lipton
+summary: Other, Experiment
+type: ferminationalacceleratorlaboratory
 ---

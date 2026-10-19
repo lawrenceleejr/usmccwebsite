@@ -10,7 +10,7 @@ data: {
   labels: ['Accelerator', 'Experiment', 'Theory', 'Multiple', 'Other'],
   datasets: [{
 	label: '# of members',
-	data: [44, 157, 49, 30, 25],
+	data: [47, 168, 49, 20, 7],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [116, 63, 35, 11, 40, 25],
+	data: [118, 80, 35, 11, 39, 8],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -109,8 +109,12 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="cornelluniversity" >}}
 
 
-## Fermilab
-{{< people limit=2000 title=" " cardView=true where="Type" value="fermilab" >}}
+## East Texas A&M University
+{{< people limit=2000 title=" " cardView=true where="Type" value="easttexasamuniversity" >}}
+
+
+## Fermi National Accelerator Laboratory
+{{< people limit=2000 title=" " cardView=true where="Type" value="ferminationalacceleratorlaboratory" >}}
 
 
 ## Florida State University
@@ -121,12 +125,12 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="georgewashingtonuniversity" >}}
 
 
+## Georgia Institute of Technology
+{{< people limit=2000 title=" " cardView=true where="Type" value="georgiainstituteoftechnology" >}}
+
+
 ## Georgia State University
 {{< people limit=2000 title=" " cardView=true where="Type" value="georgiastateuniversity" >}}
-
-
-## Georgia Tech
-{{< people limit=2000 title=" " cardView=true where="Type" value="georgiatech" >}}
 
 
 ## Harvard University
@@ -151,10 +155,6 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 
 ## Iowa State University
 {{< people limit=2000 title=" " cardView=true where="Type" value="iowastateuniversity" >}}
-
-
-## JLab
-{{< people limit=2000 title=" " cardView=true where="Type" value="jlab" >}}
 
 
 ## Johns Hopkins University
@@ -265,32 +265,12 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="thecatholicuniversityofamerica" >}}
 
 
+## Thomas Jefferson National Accelerator Facility
+{{< people limit=2000 title=" " cardView=true where="Type" value="thomasjeffersonnationalacceleratorfacility" >}}
+
+
 ## Tufts University
 {{< people limit=2000 title=" " cardView=true where="Type" value="tuftsuniversity" >}}
-
-
-## UC Berkeley
-{{< people limit=2000 title=" " cardView=true where="Type" value="ucberkeley" >}}
-
-
-## UC Irvine
-{{< people limit=2000 title=" " cardView=true where="Type" value="ucirvine" >}}
-
-
-## UC San Diego
-{{< people limit=2000 title=" " cardView=true where="Type" value="ucsandiego" >}}
-
-
-## UC Santa Barbara
-{{< people limit=2000 title=" " cardView=true where="Type" value="ucsantabarbara" >}}
-
-
-## UC Santa Cruz
-{{< people limit=2000 title=" " cardView=true where="Type" value="ucsantacruz" >}}
-
-
-## UCLA
-{{< people limit=2000 title=" " cardView=true where="Type" value="ucla" >}}
 
 
 ## University at Buffalo
@@ -305,6 +285,30 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofarizona" >}}
 
 
+## University of California, Berkeley
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofcaliforniaberkeley" >}}
+
+
+## University of California, Irvine
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofcaliforniairvine" >}}
+
+
+## University of California, Los Angeles
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofcalifornialosangeles" >}}
+
+
+## University of California, San Diego
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofcaliforniasandiego" >}}
+
+
+## University of California, Santa Barbara
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofcaliforniasantabarbara" >}}
+
+
+## University of California, Santa Cruz
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofcaliforniasantacruz" >}}
+
+
 ## University of Chicago
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofchicago" >}}
 
@@ -317,8 +321,8 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofflorida" >}}
 
 
-## University of Hawai'i at Manoa
-{{< people limit=2000 title=" " cardView=true where="Type" value="universityofhawaiiatmanoa" >}}
+## University of Hawaiʻi at Mānoa
+{{< people limit=2000 title=" " cardView=true where="Type" value="universityofhawaiʻiatmānoa" >}}
 
 
 ## University of Illinois Chicago
@@ -397,7 +401,7 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofwashington" >}}
 
 
-## University of Wisconsin, Madison
+## University of Wisconsin–Madison
 {{< people limit=2000 title=" " cardView=true where="Type" value="universityofwisconsinmadison" >}}
 
 

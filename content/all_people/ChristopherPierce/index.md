@@ -1,6 +1,5 @@
 ---
-title: Christopher  Pierce
-externalUrl: mailto:chris@chris-pierce.com
+title: Christopher Pierce
 summary: Lab Scientist, Accelerator
 type: universityofchicago
 ---

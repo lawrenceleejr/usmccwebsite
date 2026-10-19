@@ -1,6 +1,5 @@
 ---
 title: Daniel Kaplan
-externalUrl: mailto:kaplan@illinoistech.edu
-summary: Sr. Scientist, Experiment, Accelerator
+summary: Lab Scientist, Experiment, Accelerator
 type: muonsinc
 ---
