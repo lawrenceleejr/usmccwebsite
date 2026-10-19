@@ -18,6 +18,12 @@ To run, just execute `python getPeople.py` from within the `scripts`
 directory. Set `USMCCDB_API` to point the script at a different database
 instance (e.g. a local dev one).
 
+Normally nobody needs to run it by hand: the
+`.github/workflows/update-people.yml` workflow runs it nightly (and whenever
+the database pokes this repository after a membership change), commits the
+regenerated content to `main`, and redeploys the site. It can also be
+started manually from the Actions tab.
+
 ```stl
 solid cube_corner
   facet normal 0.0 -1.0 0.0

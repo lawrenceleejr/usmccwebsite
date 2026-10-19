@@ -18,6 +18,7 @@ import glob
 import os
 import re
 import shutil
+import sys
 from io import BytesIO
 from pathlib import Path
 
@@ -128,8 +129,16 @@ def getPhoto(person, fname, person_path):
 
 
 # Get data and list of institutes and sort alphabetically
-people = requests.get(f"{API_URL}/people/public", timeout=60).json()
-stats = requests.get(f"{API_URL}/people/public/stats", timeout=60).json()
+resp = requests.get(f"{API_URL}/people/public", timeout=60)
+resp.raise_for_status()
+people = resp.json()
+resp = requests.get(f"{API_URL}/people/public/stats", timeout=60)
+resp.raise_for_status()
+stats = resp.json()
+# Guard for the automated run: an empty export means a broken or empty
+# database — bail out rather than wiping the whole People page.
+if not people:
+    sys.exit("The database returned no listed members; refusing to regenerate the page.")
 institutions = sorted({p["institution"] for p in people if p.get("institution")})
 
 # Remove everything if hard_reset
