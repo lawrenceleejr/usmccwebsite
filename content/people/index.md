@@ -41,7 +41,7 @@ data: {
   labels: ["Faculty", "Lab Scientist", "Grad Student", "Undergrad", "Postdoc", "Other"],
   datasets: [{
 	label: '# of members',
-	data: [118, 78, 37, 10, 39, 7],
+	data: [119, 78, 37, 10, 38, 7],
 	backgroundColor: [
 	  'rgba(255, 99, 132, 0.2)',
 	  'rgba(255, 159, 64, 0.2)',
@@ -103,10 +103,6 @@ If you'd like to join the collaboration, [reach out to us](mailto:usmcc-coord@fn
 
 ## Columbia University
 {{< people limit=2000 title=" " cardView=true where="Type" value="columbiauniversity" >}}
-
-
-## Cornell University
-{{< people limit=2000 title=" " cardView=true where="Type" value="cornelluniversity" >}}
 
 
 ## East Texas A&M University
